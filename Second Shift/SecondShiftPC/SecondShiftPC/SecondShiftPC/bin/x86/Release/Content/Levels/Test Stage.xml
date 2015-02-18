@@ -1,0 +1,1145 @@
+<Level SkyColor="100, 234, 255, 255" Contrast="1.011765, 1.019608, 1.019608, 0.9882353">
+  <Object X="0" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="1024" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-1024" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="2048" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-2048" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-3072" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="3072" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-25472" Y="-3712" Z="44000" Name="" Type="SecondShiftMobile.Test.Mountain">
+    <Property Name="Scale" Info="A single float representing scale">40</Property>
+  </Object>
+  <Object X="32256" Y="7936" Z="28000" Name="" Type="SecondShiftMobile.Test.Mountain">
+    <Property Name="Scale" Info="A single float representing scale">24</Property>
+  </Object>
+  <Object X="30208" Y="19840" Z="44000" Name="" Type="SecondShiftMobile.Test.Mountain">
+    <Property Name="Scale" Info="A single float representing scale">25</Property>
+  </Object>
+  <Object X="-4096" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="4096" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="5120" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="6144" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="7168" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="8192" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="9216" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="10240" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-5120" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-6144" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-7168" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-8192" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-9216" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-10240" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-11264" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-12288" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-13312" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-14336" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="11264" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="12288" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="13312" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="14336" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="15360" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="16384" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="-15360" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
+  <Object X="80256" Y="-57984" Z="110000" Name="Sun" Type="SecondShiftMobile.Sun">
+    <Property Name="Scale" Info="A single float representing scale">1500</Property>
+    <Property Name="BloomWidth" Info="The width of the bloom effect">40</Property>
+    <Property Name="BloomIntensity" Info="The intensity of the bloom effect">0.75</Property>
+    <Property Name="ZoomScale" Info="The scale of the zoom effect">3</Property>
+    <Property Name="Speed" Info="The speed of the sun">0, 0, 0</Property>
+  </Object>
+  <Object X="2496" Y="-192" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2496" Y="-320" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2496" Y="-448" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2496" Y="-576" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2496" Y="-704" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-320" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-448" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-576" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-704" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-832" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2496" Y="-832" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-960" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2496" Y="-960" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2624" Y="-960" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2752" Y="-960" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2880" Y="-960" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3008" Y="-960" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3136" Y="-960" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-1088" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-1216" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-1344" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-1472" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2496" Y="-1472" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-1600" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2496" Y="-1600" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2496" Y="-1728" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-1728" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-1856" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2496" Y="-1856" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-1984" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2496" Y="-1984" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2624" Y="-1984" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-2112" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2752" Y="-1984" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2880" Y="-1984" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-2240" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-2368" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-2496" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-2624" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2176" Y="-2752" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3008" Y="-1984" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3136" Y="-1984" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3264" Y="-1984" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3392" Y="-1984" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3520" Y="-1984" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3648" Y="-1984" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3776" Y="-1984" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3264" Y="-960" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3392" Y="-960" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3520" Y="-960" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3648" Y="-960" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3776" Y="-960" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3904" Y="-960" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3904" Y="-1984" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3712" Y="-1856" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3712" Y="-1728" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3712" Y="-1600" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4096" Y="-1664" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4096" Y="-1536" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4096" Y="-1408" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4224" Y="-1664" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4352" Y="-1664" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4480" Y="-1664" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4480" Y="-1792" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4480" Y="-1920" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4480" Y="-2048" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4480" Y="-2176" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4480" Y="-2304" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7889" Y="2" Z="0" Name="" Type="SecondShiftMobile.SmokeEmitter">
+    <Property Name="Emitter Size" Info="The size of the emitter">500, 20, 0</Property>
+    <Property Name="Max Timer" Info="How many frames before a new smoke is created">2</Property>
+    <Property Name="Sun Block Alpha">0.3</Property>
+    <Property Name="Smoke Lifetime">180</Property>
+    <Property Name="Start Scale">1</Property>
+  </Object>
+  <Object X="2816" Y="-1792" Z="5500" Name="TestProp" Type="SecondShiftMobile.Test.TestPropellor">
+    <Property Name="Scale" Info="A single float representing scale">5</Property>
+    <Property Name="Rotation Speed" Info="The speed of rotation">1</Property>
+  </Object>
+  <Object X="-10240" Y="-2816" Z="12250" Name="" Type="SecondShiftMobile.Test.TestPropellor">
+    <Property Name="Scale" Info="A single float representing scale">7</Property>
+    <Property Name="Rotation Speed" Info="The speed of rotation">-3</Property>
+  </Object>
+  <Object X="-2432" Y="-1024" Z="1000" Name="" Type="SecondShiftMobile.Test.TestPropellor">
+    <Property Name="Scale" Info="A single float representing scale">5</Property>
+    <Property Name="Rotation Speed" Info="The speed of rotation">3</Property>
+  </Object>
+  <Object X="-3712" Y="0" Z="0" Name="" Type="SecondShiftMobile.Test.TestPropellor">
+    <Property Name="Scale" Info="A single float representing scale">1</Property>
+    <Property Name="Rotation Speed" Info="The speed of rotation">10</Property>
+  </Object>
+  <Object X="-640" Y="-256" Z="0" Name="Vortex" Type="SecondShiftMobile.Test.TestVortex" />
+  <Object X="4096" Y="-1280" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3712" Y="-1472" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4608" Y="-2304" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4736" Y="-2304" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4864" Y="-2304" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4992" Y="-2304" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5120" Y="-2304" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5248" Y="-2304" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5376" Y="-2304" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5504" Y="-2304" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5632" Y="-2304" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5632" Y="-2432" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5632" Y="-2560" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5632" Y="-2688" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5632" Y="-2816" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5184" Y="-2752" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5056" Y="-2752" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4928" Y="-2752" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4800" Y="-2752" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5632" Y="-2944" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5632" Y="-3072" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5632" Y="-3200" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4288" Y="-3008" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4288" Y="-3136" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4288" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4288" Y="-3392" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4288" Y="-3520" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4672" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4800" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4928" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5056" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5184" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5312" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5440" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5568" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5696" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5824" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5952" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6080" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4032" Y="-2496" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4032" Y="-2624" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4032" Y="-2752" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4288" Y="-3648" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4288" Y="-3776" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4288" Y="-3904" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6528" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6528" Y="-3136" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6528" Y="-3008" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6528" Y="-2880" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6528" Y="-2752" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6528" Y="-2624" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6528" Y="-2496" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6528" Y="-2368" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6400" Y="-2368" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6272" Y="-2368" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6144" Y="-2368" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6016" Y="-2368" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5888" Y="-2368" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5760" Y="-2368" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6656" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6080" Y="-3136" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6080" Y="-3008" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6080" Y="-2880" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6080" Y="-2752" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6784" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6912" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7040" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7168" Y="-3264" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7168" Y="-3392" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7168" Y="-3520" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7296" Y="-3520" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7424" Y="-3520" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7552" Y="-3520" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7552" Y="-3648" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7552" Y="-3776" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7552" Y="-3904" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7552" Y="-4032" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7552" Y="-4160" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7168" Y="-3904" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7040" Y="-3904" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6912" Y="-3904" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6784" Y="-3904" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6656" Y="-3904" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6528" Y="-3904" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6272" Y="-4160" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6272" Y="-4288" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6272" Y="-4416" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6272" Y="-4544" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6272" Y="-4672" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6656" Y="-4352" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6784" Y="-4352" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6912" Y="-4352" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7040" Y="-4352" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7168" Y="-4352" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7552" Y="-4288" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7552" Y="-4416" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7552" Y="-4544" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7552" Y="-4672" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7552" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7552" Y="-4928" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7296" Y="-4352" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7424" Y="-4352" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6272" Y="-4032" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6272" Y="-3904" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6400" Y="-3904" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6272" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6400" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6528" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6656" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6784" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6912" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7040" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="7168" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6144" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6016" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5888" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5760" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5376" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5248" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5120" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4672" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4544" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4096" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3712" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3584" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3456" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3328" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3200" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3072" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2944" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2816" Y="-4800" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2816" Y="-4928" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2816" Y="-5056" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2816" Y="-5184" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2816" Y="-5312" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2816" Y="-5440" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="2816" Y="-5568" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3200" Y="-5184" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3328" Y="-5184" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3456" Y="-5184" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3456" Y="-5312" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3456" Y="-5440" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3584" Y="-5440" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3712" Y="-5440" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3712" Y="-5568" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3712" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3968" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4096" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4224" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="4352" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="3840" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="5120" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.MovingFloor">
+    <Property Name="Scale" Info="Sets the scale of the floor object">4, 1</Property>
+    <Property Name="Target Speed" Info="Sets the speed of the moving floor when it reaches its boundary">70, 0, 0</Property>
+  </Object>
+  <Object X="5888" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6016" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6144" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6272" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="6400" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
+  <Object X="13" Y="790" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="3806" Y="-1107" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="2464" Y="-33" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="-6464" Y="-101" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="-5349" Y="-155" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="-4172" Y="-128" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="3016" Y="-1104" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="4850" Y="-74" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="-2932" Y="-181" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="3081" Y="-69" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="3501" Y="-60" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="3982" Y="-60" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="4348" Y="-60" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="-3387" Y="-155" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="-4796" Y="-190" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="-6803" Y="-146" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="2668" Y="-2127" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="3180" Y="-2130" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="5148" Y="-2469" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="5711" Y="-3380" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="5983" Y="-4958" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="2988" Y="-4992" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="3559" Y="-1077" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="3188" Y="-1093" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="3547" Y="-2144" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="4963" Y="-2914" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="5795" Y="-2522" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="5852" Y="-2522" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="5934" Y="-2515" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="6050" Y="-2515" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="6174" Y="-2515" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="6260" Y="-2515" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="6329" Y="-2515" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="6966" Y="-3427" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="6471" Y="-4122" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="4936" Y="-3469" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="8704" Y="-3712" Z="8500" Name="" Type="SecondShiftMobile.Test.TestPropellor">
+    <Property Name="Scale" Info="A single float representing scale">5</Property>
+    <Property Name="Rotation Speed" Info="The speed of rotation">1</Property>
+  </Object>
+  <Object X="-98651" Y="-28266" Z="15599" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">299.4539</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">18.20703, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-60420" Y="-15002" Z="74955" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">254.1582</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">18.35875, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="65006" Y="-17017" Z="19784" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">259.339</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">15.89279, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-73156" Y="-26472" Z="65668" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">258.0293</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">16.41539, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-89922" Y="-17781" Z="40971" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">206.3462</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">12.41189, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-18012" Y="-17708" Z="75235" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">275.9727</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">15.34609, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="99763" Y="-27554" Z="77275" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">224.2805</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">15.94636, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="25385" Y="-23653" Z="34079" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">278.3495</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">7.739878, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="42937" Y="-29240" Z="85606" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">294.6203</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">18.1812, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-52769" Y="-29046" Z="12409" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">211.1773</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">7.22158, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="32170" Y="-18534" Z="24156" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">294.3199</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">8.507331, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="64259" Y="-23104" Z="99888" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">250.0413</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">12.05795, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-96529" Y="-19130" Z="96579" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">285.1843</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">18.37646, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="97611" Y="-20804" Z="87931" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">286.3633</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">6.488868, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="11466" Y="-22458" Z="85153" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">239.7634</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">5.695074, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-79795" Y="-20180" Z="45813" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">218.4715</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">8.869637, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-5298" Y="-17306" Z="65175" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">261.1621</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">5.433307, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="52632" Y="-25195" Z="82387" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">200.8983</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">18.62689, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-82675" Y="-23671" Z="79042" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">231.2965</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">7.479595, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-12130" Y="-29810" Z="98940" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">205.4439</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">18.36038, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="69830" Y="-16057" Z="24682" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">201.2515</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">13.8616, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-67282" Y="-21009" Z="78368" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">289.6861</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">6.992021, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-4814" Y="-17135" Z="83263" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">224.2437</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">19.95534, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="72715" Y="-24934" Z="41533" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">282.2956</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">6.929013, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-38326" Y="-23740" Z="87123" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">295.5174</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">5.189515, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="95840" Y="-25951" Z="56986" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">223.2328</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">14.10485, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-77269" Y="-20357" Z="40914" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">229.4023</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">11.13237, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-19403" Y="-29859" Z="64049" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">202.0848</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">17.97949, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-27490" Y="-28800" Z="91670" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">287.6182</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">11.48796, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="88849" Y="-26461" Z="57222" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">231.5942</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">9.525956, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="55414" Y="-24554" Z="24874" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">292.5838</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">13.73484, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-46708" Y="-18204" Z="28716" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">299.988</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">14.17354, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-13308" Y="-28178" Z="57459" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">228.9871</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">5.28721, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-76241" Y="-26983" Z="56801" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">283.3612</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">13.91061, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="74587" Y="-15925" Z="39657" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">295.7656</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">16.4908, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-22332" Y="-25128" Z="98266" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">252.2643</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">6.025803, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-56976" Y="-18081" Z="28552" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">293.0598</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">17.44874, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-4667" Y="-17877" Z="47588" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">271.17</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">7.13548, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-62123" Y="-26740" Z="64060" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">240.9279</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">11.47764, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-3198" Y="-20890" Z="65581" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">285.7034</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">9.706089, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-70927" Y="-18660" Z="72197" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">272.1901</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">11.43189, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="43070" Y="-19611" Z="28685" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">215.9785</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">7.909759, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="18242" Y="-18492" Z="71678" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">293.1494</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">10.94675, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-54395" Y="-25086" Z="63705" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">245.9955</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">13.13724, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="85386" Y="-20718" Z="82748" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">269.1247</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">11.06991, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-81947" Y="-21915" Z="92822" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">252.5813</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">9.230675, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="99127" Y="-15865" Z="21133" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">220.8904</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">18.84539, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="94210" Y="-22715" Z="53580" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">250.1805</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">6.718466, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-66159" Y="-29763" Z="33207" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">251.7717</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">13.26726, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="91303" Y="-16460" Z="70225" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">201.2828</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">8.057322, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="62320" Y="-26939" Z="24185" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">231.4552</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">10.80212, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="52825" Y="-21536" Z="99985" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">231.7241</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">10.07792, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-49140" Y="-20808" Z="71362" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">287.774</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">7.975231, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="6709" Y="-16637" Z="52877" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">200.8468</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">11.38093, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="42734" Y="-17822" Z="18543" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">234.539</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">10.59918, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="88538" Y="-16850" Z="36154" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">214.0096</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">11.72212, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="98582" Y="-26878" Z="91667" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">232.1992</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">12.05663, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-60067" Y="-28500" Z="82824" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">282.2096</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">7.383503, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="7062" Y="-22717" Z="25029" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">216.3277</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">17.90398, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="56398" Y="-19536" Z="44211" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">231.9368</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">5.264074, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="69473" Y="-24313" Z="69463" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">258.7433</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">12.35227, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="24686" Y="-25515" Z="83100" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">294.1273</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">11.66174, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="28151" Y="-17177" Z="87376" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">286.9099</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">10.18422, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-7515" Y="-22196" Z="42383" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">240.7298</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">19.98032, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="26699" Y="-19499" Z="68889" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">284.9567</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">18.35127, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-60168" Y="-15317" Z="93848" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">248.5125</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">13.86928, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="28052" Y="-26148" Z="97411" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">212.2491</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">14.01163, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-25604" Y="-16967" Z="38798" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">283.1841</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">17.70517, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-277" Y="-16317" Z="88109" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">237.798</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">12.77214, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-21965" Y="-24821" Z="36810" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">281.7662</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">10.96761, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-39558" Y="-29139" Z="97554" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">232.068</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">10.76159, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="9473" Y="-29499" Z="83002" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">269.7349</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">9.364924, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="20450" Y="-26541" Z="39439" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">234.9987</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">17.05783, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="79503" Y="-17608" Z="76352" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">226.8324</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">19.60452, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-33748" Y="-17396" Z="57517" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">256.0287</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">12.50115, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="9136" Y="-21481" Z="34870" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">233.1424</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">12.49871, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="8876" Y="-25849" Z="20258" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">208.7284</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">9.336203, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="39528" Y="-26556" Z="68550" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">273.8385</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">5.801111, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-18926" Y="-19800" Z="66037" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">254.0846</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">8.671403, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="45841" Y="-26410" Z="56610" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">257.4125</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">14.30941, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-56746" Y="-28762" Z="12661" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">284.4027</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">5.998727, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-71518" Y="-21219" Z="47128" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">282.0604</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">17.57635, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-76949" Y="-25354" Z="53174" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">219.7435</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">16.19919, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="75792" Y="-24831" Z="31583" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">206.0907</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">6.593153, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-74579" Y="-22850" Z="99897" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">221.4917</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">13.52398, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-97752" Y="-23057" Z="98841" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">231.5526</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">16.56302, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="56994" Y="-28713" Z="73199" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">271.0797</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">9.254722, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="25371" Y="-25405" Z="34296" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">202.0703</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">7.20012, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-43399" Y="-20368" Z="84695" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">289.9962</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">19.07232, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="43020" Y="-27604" Z="48268" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">279.4233</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">10.48694, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-85242" Y="-22813" Z="51128" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">246.7915</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">12.40288, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="38583" Y="-28779" Z="83318" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">227.5762</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">5.83019, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="21049" Y="-21412" Z="18731" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">204.9735</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">5.80175, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-59793" Y="-29820" Z="79202" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">291.3787</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">6.796309, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-62950" Y="-20781" Z="29720" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">291.4232</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">17.34808, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="53846" Y="-25400" Z="18901" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">227.6762</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">17.79744, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-65813" Y="-16679" Z="27360" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">294.9731</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">15.45618, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="-47182" Y="-21858" Z="31087" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">221.7271</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">13.86096, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="41639" Y="-28185" Z="99477" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">296.5356</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">13.12143, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="71098" Y="-18912" Z="80219" Name="" Type="SecondShiftMobile.Cloud">
+    <Property Name="Scale" Info="A single float representing scale">284.6512</Property>
+    <Property Name="Speed" Info="The speed of the cloud object">16.05681, 0, 0</Property>
+    <Property Name="Left" Info="A single float representing left">-100000</Property>
+    <Property Name="Right" Info="A single float representing right">100000</Property>
+    <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
+    <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
+  </Object>
+  <Object X="419" Y="-93" Z="0" Name="" Type="SecondShiftMobile.Test.Ball" />
+  <Object X="5114" Y="-2506" Z="0" Name="" Type="SecondShiftMobile.Test.Ball" />
+  <Object X="239" Y="-35" Z="0" Name="" Type="SecondShiftMobile.Players.Carrot" CameraTarget="true" />
+</Level>

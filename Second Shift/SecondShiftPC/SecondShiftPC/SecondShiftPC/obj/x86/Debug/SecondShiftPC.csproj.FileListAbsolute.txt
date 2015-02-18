@@ -1,0 +1,702 @@
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.csprojResolveAssemblyReference.cache
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\ClockHand.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cloud1.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cloud3.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Fall.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\grass.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\hit02.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Jump.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Light.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Light2.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Moon.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Pentagon.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\PressButton.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Recover.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sky.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Smoke.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestGrass.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestPropellor.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestWall.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Tree.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Fall.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Jump.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run00.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run01.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run02.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run03.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run04.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run05.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run06.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Stand.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Wall.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Shaders.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\SpriteFont1.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.exe
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.pdb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.exe
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.pdb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Flares\Flare.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Flares\Flare2.xnb
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Flares\lensflare.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Joystick.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Logo.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos00.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos01.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos02.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos03.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos04.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos05.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos06.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos07.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos08.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos09.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos10.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos11.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos12.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\thing.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Mountain2.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Fairy Tail Sad.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\WallJump.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\Jump.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\meleemiss1.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\meleemiss2.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\meleemiss3.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\Explosion.xnb
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Fairy Tail Sad.wma
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Hello World.xml
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.BuildForm.resources
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.csproj.GenerateResource.Cache
+C:\Users\Chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.PropertyBox.resources
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cloud3.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\grass.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Jump.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Light.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Light2.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Moon.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Pentagon.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sky.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Smoke.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestGrass.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestPropellor.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestWall.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Tree.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Fall.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Jump.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run00.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run01.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run02.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run03.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run04.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run05.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run06.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Stand.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Wall.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Flares\Flare.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Flares\Flare2.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Flares\lensflare.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Joystick.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Logo.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos00.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos01.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos02.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos03.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos04.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos05.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos06.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos07.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos08.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos09.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos10.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos11.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos12.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\thing.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Mountain2.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\ClockHand.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\TimeBall.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Attack\hit00.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Attack\hit01.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Attack\hit02.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Attack\hit03.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Run\run00.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Run\run01.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Run\run02.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Run\run03.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Stand.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\healthIcon.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\timeIcon.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\SmallLight.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Light3.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sun.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestLightPole.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TextLine.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Alessa.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Dyne.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Grey.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Guard1.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Guard2.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\QuestionMark.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\SpriteFont2.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Fairy Tail Sad.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Bet Your Life On It.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Difficult.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Luffy Versus Ratchet Round 1.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\WallJump.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\Jump.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\meleemiss1.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\meleemiss2.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\meleemiss3.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\Explosion.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\SlowDown.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\SpeedUp.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\mediumpunch.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\strongkick.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\strongpunch.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\weakpunch.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\weakkick.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Shaders.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Fairy Tail Sad.wma
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Bet Your Life On It.wma
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Difficult.wma
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Luffy Versus Ratchet Round 1.wma
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Night Level.xml
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Test Stage.xml
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Hello World.xml
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\TestScene.xml
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.exe
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.pdb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.csprojResolveAssemblyReference.cache
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.BuildForm.resources
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.CloudControl.resources
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.ColorControl.resources
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.CutsceneBuilder.resources
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.PropertyBox.resources
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.csproj.GenerateResource.Cache
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.exe
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.pdb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\ExplosionMap.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\I'm Here, Too.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\I'm Here, Too.wma
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\TestScene 2.xml
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\TestScene 3.xml
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Stand.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Braveheart00.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Braveheart01.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Braveheart02.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Braveheart03.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Braveheart04.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Braveheart05.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Braveheart06.xnb
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Braveheart07.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cloud3.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\grass.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Jump.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Light.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Light2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Moon.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Pentagon.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sky.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Smoke.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestGrass.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestPropellor.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestWall.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Tree.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Fall.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Jump.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run05.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run06.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Wall.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Flares\Flare.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Flares\Flare2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Flares\lensflare.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Joystick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Logo.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos05.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos06.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos07.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos08.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos09.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos10.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos11.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos12.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\thing.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Mountain2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\ClockHand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\TimeBall.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Attack\hit00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Attack\hit01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Attack\hit02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Attack\hit03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Run\run00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Run\run01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Run\run02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Run\run03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\healthIcon.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\timeIcon.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\SmallLight.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Light3.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sun.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestLightPole.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TextLine.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Alessa.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Dyne.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Grey.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Guard1.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Guard2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\QuestionMark.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\ExplosionMap.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Building1.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Building2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Building3.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Building4.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Rail.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\RailGlass.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Train.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Paper.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\WhiteBlock.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cloud4.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Rytard Missle.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Rytard Ship.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Shard.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Gun\Bullet.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Dash.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Jump.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Fall\Fall00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Fall\Fall01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Fall\Fall02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run05.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run06.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run07.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run08.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run09.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo05.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo06.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo07.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo08.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo09.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo10.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo11.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo12.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo13.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo14.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo15.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo16.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo17.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo18.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run05.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run06.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run07.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run08.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Combo\Combo00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Combo\Combo01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Combo\Combo02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Combo\Combo03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Combo\Combo04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Batman.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Joker.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Snow\Mountain.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Run00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Run01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Run02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Run03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Run04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Run05.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Grass\Tree.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Objects\Ball.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Grass\Flat Grass.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Grass\Tree2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Grass\Windmill Blades.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Grass\Windmill.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\SpriteFont2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Fonts\UIDefault.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Fonts\UITitle.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Fairy Tail Sad.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Bet Your Life On It.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Difficult.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Luffy Versus Ratchet Round 1.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\I'm Here, Too.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Mother Sea.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Oden Store.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\WallJump.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\Jump.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\meleemiss1.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\meleemiss2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\meleemiss3.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\Explosion.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\SlowDown.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\SpeedUp.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\mediumpunch.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\strongkick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\strongpunch.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\weakpunch.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\weakkick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\Train.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\charge.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\beamfire.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Shaders.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Miscellaneous\About.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Fairy Tail Sad.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Bet Your Life On It.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Difficult.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Luffy Versus Ratchet Round 1.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\I'm Here, Too.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Mother Sea.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Oden Store.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\TestScene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\TestScene 2.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\TestScene 3.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Hello World.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Night Level.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Test Stage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\CityScene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\TestCity.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\TestStage 3.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\TestScene 4.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Rocket Test.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Rocket Scene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\BatmanCity.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\BatmanScene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Braveheart Scene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Braveheart Stage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Homing Missle Test.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Homing Missle Test.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Polygon Floor Test.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Flat Floor Scene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Flat Floor Stage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.exe.config
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.exe.manifest
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.application
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.exe
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.pdb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\System.IO.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\System.Runtime.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\System.Threading.Tasks.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\System.IO.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\System.Runtime.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\System.Threading.Tasks.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.csproj.App.config
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.BuildForm.resources
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.CloudControl.resources
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.ColorControl.resources
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.CutsceneBuilder.resources
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.PropertyBox.resources
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.csproj.GenerateResource.Cache
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.exe.manifest
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.application
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.exe
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.pdb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cloud3.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\grass.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Jump.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Light.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Light2.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Moon.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Pentagon.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sky.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Smoke.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestGrass.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestPropellor.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestWall.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Tree.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Fall.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Jump.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run00.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run01.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run02.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run03.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run04.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run05.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Run\run06.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Stand.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Wall.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Flares\Flare.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Flares\Flare2.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Flares\lensflare.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Joystick.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Logo.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos00.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos01.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos02.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos03.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos04.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos05.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos06.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos07.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos08.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos09.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos10.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos11.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\Combo\Combos12.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\thing.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Mountain2.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\ClockHand.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Grey\TimeBall.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Attack\hit00.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Attack\hit01.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Attack\hit02.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Attack\hit03.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Run\run00.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Run\run01.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Run\run02.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Run\run03.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Stand.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\healthIcon.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\timeIcon.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\SmallLight.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Light3.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sun.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TestLightPole.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\TextLine.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Alessa.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Dyne.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Grey.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Guard1.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Guard2.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\QuestionMark.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\ExplosionMap.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Stand.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Building1.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Building2.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Building3.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Building4.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Rail.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\RailGlass.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Train.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Paper.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\WhiteBlock.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cloud4.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Rytard Missle.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Rytard Ship.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Shard.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Gun\Bullet.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Guard\Dash.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Jump.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Stand.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Fall\Fall00.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Fall\Fall01.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Fall\Fall02.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run00.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run01.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run02.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run03.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run04.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run05.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run06.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run07.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run08.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Run\Run09.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo00.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo01.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo02.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo03.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo04.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo05.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo06.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo07.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo08.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo09.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo10.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo11.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo12.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo13.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo14.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo15.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo16.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo17.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Batman\Combo\Combo18.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Stand.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run00.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run01.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run02.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run03.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run04.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run05.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run06.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run07.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Run\Run08.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Combo\Combo00.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Combo\Combo01.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Combo\Combo02.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Combo\Combo03.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Joker\Combo\Combo04.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Batman.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Faces\Joker.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Snow\Mountain.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Run00.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Run01.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Run02.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Run03.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Run04.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Braveheart\Run\Run05.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Grass\Tree.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Objects\Ball.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Grass\Flat Grass.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Grass\Tree2.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Grass\Windmill Blades.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\Grass\Windmill.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\SpriteFont2.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Fonts\UIDefault.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Fonts\UITitle.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Fairy Tail Sad.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Bet Your Life On It.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Difficult.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Luffy Versus Ratchet Round 1.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\I'm Here, Too.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Mother Sea.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Oden Store.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\WallJump.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\Jump.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\meleemiss1.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\meleemiss2.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\meleemiss3.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\Explosion.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\SlowDown.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\SpeedUp.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\mediumpunch.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\strongkick.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\strongpunch.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\weakpunch.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\weakkick.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\Train.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\charge.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\beamfire.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Shaders.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Miscellaneous\About.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Fairy Tail Sad.wma
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Bet Your Life On It.wma
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Difficult.wma
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Luffy Versus Ratchet Round 1.wma
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\I'm Here, Too.wma
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Mother Sea.wma
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Oden Store.wma
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\TestScene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\TestScene 2.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\TestScene 3.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Hello World.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Night Level.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Test Stage.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\TestCity.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\BatmanCity.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Braveheart Stage.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Homing Missle Test.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Homing Missle Test.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Polygon Floor Test.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Flat Floor Scene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Flat Floor Stage.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\CityScene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\TestStage 3.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\TestScene 4.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Rocket Test.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Rocket Scene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\BatmanScene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Braveheart Scene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.exe.config
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.exe.manifest
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.application
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.exe
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\SecondShiftPC.pdb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\System.IO.dll
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\System.Runtime.dll
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\System.Threading.Tasks.dll
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\System.IO.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\System.Runtime.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\System.Threading.Tasks.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.csproj.App.config
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.BuildForm.resources
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.CloudControl.resources
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.ColorControl.resources
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.CutsceneBuilder.resources
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.PropertyBox.resources
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.csproj.GenerateResource.Cache
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.exe.manifest
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.application
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.exe
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.pdb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\run.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\stand.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\flip.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\punch.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\punchup.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\kickdown.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\stance.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftPC.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\windmill.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\run.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\flip.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\punch.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\punchup.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\kickdown.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\stance.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\RunSprite_Trans.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\Standing.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\windmill.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\Combo.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\FightingStance.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\DashPunch.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\Dash.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Buildings.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\UpAttack.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\BackAttack.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Sanji to Usopp.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Sanji to Usopp.wma
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\RunSprite_Trans.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\Standing.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\Combo.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\FightingStance.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\DashPunch.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\Dash.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Environment\City\Buildings.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\UpAttack.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\BackAttack.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Sanji to Usopp.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Sanji to Usopp.wma

@@ -1,0 +1,101 @@
+<Cutscene Class="SecondShiftMobile.Cutscenes.Scenes.TestScene2">
+  <Action AutoExecute="true" Type="LoadLevel" ClearObjects="true" Name="">
+    <Time />
+    <LevelName>Test Stage</LevelName>
+  </Action>
+  <Action AutoExecute="true" Type="SetBlur" Name="">
+    <Time />
+    <Blur>0</Blur>
+    <Speed>1</Speed>
+    <StartBlur />
+  </Action>
+  <Action AutoExecute="true" Type="SetObjectProperty" Name="" Static="true">
+    <Time />
+    <ObjectName>Global</ObjectName>
+    <PropertyStrings>Camera.View = (obj)Grey.Pos;</PropertyStrings>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <Time />
+    <Volume>1</Volume>
+    <Frames>1</Frames>
+    <VolumeType>MediaPlayer</VolumeType>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <Time />
+    <VolumeType>SoundEffect</VolumeType>
+    <Volume />
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicState" SongName="I'm Here, Too" Name="">
+    <Time />
+    <State>Play</State>
+    <Loop>DontLoop</Loop>
+  </Action>
+  <Action AutoExecute="true" Type="SetGameSpeed" Name="">
+    <Time />
+    <Target />
+    <TransitionSpeed>1</TransitionSpeed>
+    <InitialSpeed>1</InitialSpeed>
+  </Action>
+  <Action AutoExecute="true" Visible="false" Type="SetDialogVisibility" Name="">
+    <Time />
+  </Action>
+  <Action AutoExecute="true" Type="SetGameSpeed" Name="">
+    <Time>1600</Time>
+    <Target>0.2</Target>
+    <TransitionSpeed>0.01</TransitionSpeed>
+    <InitialSpeed />
+  </Action>
+  <Action AutoExecute="true" Type="SetBlur" Name="">
+    <Time>1600</Time>
+    <Blur>0.02</Blur>
+    <Speed>0.01</Speed>
+    <StartBlur />
+  </Action>
+  <Action AutoExecute="true" Type="Event" Name="Explosion">
+    <Time>1605</Time>
+  </Action>
+  <Action AutoExecute="true" Type="Event" Name="Kill Explosion">
+    <Time>2600</Time>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <Time />
+    <Volume>1</Volume>
+    <Frames />
+    <VolumeType>MediaPlayer</VolumeType>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <Time />
+    <VolumeType>SoundEffect</VolumeType>
+    <Volume>0.5</Volume>
+    <Frames>60</Frames>
+  </Action>
+  <Action AutoExecute="true" Visible="true" Type="SetDialogVisibility" Name="">
+    <Time />
+  </Action>
+  <Action AutoExecute="true" Type="SetGameSpeed" Name="">
+    <Time>1950</Time>
+    <Target />
+    <TransitionSpeed>0.02</TransitionSpeed>
+    <InitialSpeed />
+  </Action>
+  <Action AutoExecute="true" Type="SetBlur" Name="">
+    <Time />
+    <Blur />
+    <Speed>0.01</Speed>
+    <StartBlur />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <Time />
+    <VolumeType>SoundEffect</VolumeType>
+    <Volume />
+    <Frames>60</Frames>
+  </Action>
+  <Action AutoExecute="false" Type="Dialog" Character="" Name="" Face="">
+    <Time />
+    <Text>Testing testing 1, 2, 3</Text>
+  </Action>
+  <Action AutoExecute="true" Visible="false" Type="SetDialogVisibility" Name="">
+    <Time>3000</Time>
+  </Action>
+</Cutscene>

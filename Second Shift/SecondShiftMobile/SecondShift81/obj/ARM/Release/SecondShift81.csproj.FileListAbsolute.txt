@@ -1,0 +1,50 @@
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Assets\ApplicationIcon.png
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Assets\Tiles\IconicTileSmall.png
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Cutscenes\BatmanScene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Cutscenes\Braveheart Scene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Cutscenes\CityScene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Cutscenes\Homing Missle Test.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Cutscenes\Rocket Scene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Cutscenes\TestScene 2.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Cutscenes\TestScene 3.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Cutscenes\TestScene 4.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Cutscenes\TestScene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Levels\BatmanCity.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Levels\Braveheart Stage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Levels\Hello World.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Levels\Homing Missle Test.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Levels\Night Level.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Levels\Rocket Test.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Levels\Test Stage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Levels\TestCity.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Content\Levels\TestStage 3.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\SecondShift81.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\SecondShift81.pdb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\AppManifest.xaml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\Properties\WMAppManifest.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\SecondShift81_Release_ARM.xap
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\MonoGame.Framework.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\SharpDX.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\SharpDX.Direct3D11.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\SharpDX.XAudio2.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\SharpDX.DXGI.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\SharpDX.WP8.winmd
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\MonoGame.Framework.pdb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\SharpDX.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\SharpDX.Direct3D11.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\SharpDX.XAudio2.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\SharpDX.DXGI.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\bin\WindowsPhone\ARM\Release\SharpDX.WP8.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\obj\ARM\Release\SecondShift81.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\obj\ARM\Release\App.g.cs
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\obj\ARM\Release\GamePage.g.cs
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\obj\ARM\Release\SecondShift81.g.resources
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\obj\ARM\Release\SecondShift81.Resources.AppResources.resources
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\obj\ARM\Release\SecondShift81.csproj.GenerateResource.Cache
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\obj\ARM\Release\SecondShift81.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\obj\ARM\Release\SecondShift81.pdb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShift81\obj\ARM\Release\XapCacheFile.xml

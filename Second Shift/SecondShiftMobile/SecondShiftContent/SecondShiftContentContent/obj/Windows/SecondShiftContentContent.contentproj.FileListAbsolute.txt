@@ -1,0 +1,2 @@
+C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftContent\SecondShiftContentContent\obj\Windows\SecondShiftContentContent.contentprojResolveAssemblyReference.cache
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftContent\SecondShiftContentContent\obj\Windows\SecondShiftContentContent.contentprojResolveAssemblyReference.cache

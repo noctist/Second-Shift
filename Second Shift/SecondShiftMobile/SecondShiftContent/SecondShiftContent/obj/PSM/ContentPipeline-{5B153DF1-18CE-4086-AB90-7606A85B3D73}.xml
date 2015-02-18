@@ -1,0 +1,1646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Characters\Grey\Stand.png</Source>
+      <Name>Characters\Grey\Stand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Stand.xnb</Output>
+      <Time>2013-10-10T20:24:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>grass.png</Source>
+      <Name>grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\grass.xnb</Output>
+      <Time>2013-10-19T16:30:27-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Pentagon.png</Source>
+      <Name>Pentagon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Pentagon.xnb</Output>
+      <Time>2013-10-19T19:35:17-04:00</Time>
+    </Item>
+    <Item>
+      <Source>TestWall.png</Source>
+      <Name>TestWall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\TestWall.xnb</Output>
+      <Time>2013-10-19T19:36:29-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sky.png</Source>
+      <Name>Sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sky.xnb</Output>
+      <Time>2013-12-02T22:54:33-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TestPropellor.png</Source>
+      <Name>TestPropellor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\TestPropellor.xnb</Output>
+      <Time>2013-10-20T22:44:34-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Cloud3.png</Source>
+      <Name>Cloud3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cloud3.xnb</Output>
+      <Time>2013-10-21T01:06:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Tree.png</Source>
+      <Name>Tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Tree.xnb</Output>
+      <Time>2013-10-21T21:21:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Moon.png</Source>
+      <Name>Moon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Moon.xnb</Output>
+      <Time>2013-10-21T21:36:53-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ClockHand.png</Source>
+      <Name>ClockHand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\ClockHand.xnb</Output>
+      <Time>2014-04-20T00:50:12.8692404-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Run\run00.png</Source>
+      <Name>Characters\Grey\Run\run00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Run\run00.xnb</Output>
+      <Time>2013-10-27T22:28:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Run\run01.png</Source>
+      <Name>Characters\Grey\Run\run01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Run\run01.xnb</Output>
+      <Time>2013-10-27T22:28:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Run\run02.png</Source>
+      <Name>Characters\Grey\Run\run02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Run\run02.xnb</Output>
+      <Time>2013-10-27T22:28:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Run\run03.png</Source>
+      <Name>Characters\Grey\Run\run03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Run\run03.xnb</Output>
+      <Time>2013-10-27T22:28:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Run\run04.png</Source>
+      <Name>Characters\Grey\Run\run04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Run\run04.xnb</Output>
+      <Time>2013-10-27T22:28:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Run\run05.png</Source>
+      <Name>Characters\Grey\Run\run05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Run\run05.xnb</Output>
+      <Time>2013-10-27T22:28:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Run\run06.png</Source>
+      <Name>Characters\Grey\Run\run06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Run\run06.xnb</Output>
+      <Time>2013-10-27T22:28:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Jump.png</Source>
+      <Name>Characters\Grey\Jump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Jump.xnb</Output>
+      <Time>2013-10-28T01:52:11-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Fall.png</Source>
+      <Name>Characters\Grey\Fall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Fall.xnb</Output>
+      <Time>2013-10-28T01:52:17-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Wall.png</Source>
+      <Name>Characters\Grey\Wall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Wall.xnb</Output>
+      <Time>2013-11-26T21:15:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Light.png</Source>
+      <Name>Light</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Light.xnb</Output>
+      <Time>2013-10-28T23:34:32-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Light2.png</Source>
+      <Name>Light2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Light2.xnb</Output>
+      <Time>2013-11-30T20:06:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Smoke.png</Source>
+      <Name>Smoke</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Smoke.xnb</Output>
+      <Time>2013-10-28T23:40:18-04:00</Time>
+    </Item>
+    <Item>
+      <Source>TestGrass.png</Source>
+      <Name>TestGrass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\TestGrass.xnb</Output>
+      <Time>2013-10-29T01:07:40-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Flares\Flare.png</Source>
+      <Name>Flares\Flare</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Flares\Flare.xnb</Output>
+      <Time>2013-11-10T01:41:53-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Flares\Flare2.png</Source>
+      <Name>Flares\Flare2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Flares\Flare2.xnb</Output>
+      <Time>2013-11-10T01:41:53-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Flares\lensflare.png</Source>
+      <Name>Flares\lensflare</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Flares\lensflare.xnb</Output>
+      <Time>2013-11-10T01:41:53-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Joystick.png</Source>
+      <Name>Joystick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Joystick.xnb</Output>
+      <Time>2013-11-10T20:50:25-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Logo.png</Source>
+      <Name>Logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Logo.xnb</Output>
+      <Time>2013-11-10T20:10:50-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Combo\Combos00.png</Source>
+      <Name>Characters\Grey\Combo\Combos00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Combo\Combos00.xnb</Output>
+      <Time>2013-11-11T15:25:03-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Combo\Combos01.png</Source>
+      <Name>Characters\Grey\Combo\Combos01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Combo\Combos01.xnb</Output>
+      <Time>2013-11-11T15:25:03-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Combo\Combos02.png</Source>
+      <Name>Characters\Grey\Combo\Combos02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Combo\Combos02.xnb</Output>
+      <Time>2013-11-11T15:25:03-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Combo\Combos03.png</Source>
+      <Name>Characters\Grey\Combo\Combos03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Combo\Combos03.xnb</Output>
+      <Time>2013-11-11T15:25:03-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Combo\Combos04.png</Source>
+      <Name>Characters\Grey\Combo\Combos04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Combo\Combos04.xnb</Output>
+      <Time>2013-11-11T15:25:03-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Combo\Combos05.png</Source>
+      <Name>Characters\Grey\Combo\Combos05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Combo\Combos05.xnb</Output>
+      <Time>2013-11-11T15:25:03-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Combo\Combos06.png</Source>
+      <Name>Characters\Grey\Combo\Combos06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Combo\Combos06.xnb</Output>
+      <Time>2013-11-11T15:25:03-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Combo\Combos07.png</Source>
+      <Name>Characters\Grey\Combo\Combos07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Combo\Combos07.xnb</Output>
+      <Time>2013-11-11T15:25:03-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Combo\Combos08.png</Source>
+      <Name>Characters\Grey\Combo\Combos08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Combo\Combos08.xnb</Output>
+      <Time>2013-11-11T15:25:03-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Combo\Combos09.png</Source>
+      <Name>Characters\Grey\Combo\Combos09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Combo\Combos09.xnb</Output>
+      <Time>2013-11-11T15:25:03-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Combo\Combos10.png</Source>
+      <Name>Characters\Grey\Combo\Combos10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Combo\Combos10.xnb</Output>
+      <Time>2013-11-11T15:25:03-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Combo\Combos11.png</Source>
+      <Name>Characters\Grey\Combo\Combos11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Combo\Combos11.xnb</Output>
+      <Time>2013-11-11T15:25:03-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\Combo\Combos12.png</Source>
+      <Name>Characters\Grey\Combo\Combos12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\Combo\Combos12.xnb</Output>
+      <Time>2013-11-11T15:25:03-05:00</Time>
+    </Item>
+    <Item>
+      <Source>thing.png</Source>
+      <Name>thing</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\thing.xnb</Output>
+      <Time>2013-11-16T00:04:36-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Mountain2.png</Source>
+      <Name>Mountain2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Mountain2.xnb</Output>
+      <Time>2013-11-16T00:05:19-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Grey\TimeBall.png</Source>
+      <Name>Characters\Grey\TimeBall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Grey\TimeBall.xnb</Output>
+      <Time>2013-11-25T16:34:13-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Guard\Attack\hit00.png</Source>
+      <Name>Characters\Enemies\Guard\Attack\hit00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Guard\Attack\hit00.xnb</Output>
+      <Time>2013-11-30T20:36:07-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Guard\Attack\hit01.png</Source>
+      <Name>Characters\Enemies\Guard\Attack\hit01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Guard\Attack\hit01.xnb</Output>
+      <Time>2013-11-30T20:36:07-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Guard\Attack\hit02.png</Source>
+      <Name>Characters\Enemies\Guard\Attack\hit02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Guard\Attack\hit02.xnb</Output>
+      <Time>2013-11-30T20:36:07-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Guard\Attack\hit03.png</Source>
+      <Name>Characters\Enemies\Guard\Attack\hit03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Guard\Attack\hit03.xnb</Output>
+      <Time>2013-11-30T20:36:07-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Guard\Run\run00.png</Source>
+      <Name>Characters\Enemies\Guard\Run\run00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Guard\Run\run00.xnb</Output>
+      <Time>2013-11-30T20:36:07-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Guard\Run\run01.png</Source>
+      <Name>Characters\Enemies\Guard\Run\run01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Guard\Run\run01.xnb</Output>
+      <Time>2013-11-30T20:36:07-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Guard\Run\run02.png</Source>
+      <Name>Characters\Enemies\Guard\Run\run02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Guard\Run\run02.xnb</Output>
+      <Time>2013-11-30T20:36:07-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Guard\Run\run03.png</Source>
+      <Name>Characters\Enemies\Guard\Run\run03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Guard\Run\run03.xnb</Output>
+      <Time>2013-11-30T20:36:07-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Guard\Stand.png</Source>
+      <Name>Characters\Enemies\Guard\Stand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Guard\Stand.xnb</Output>
+      <Time>2013-11-30T20:36:07-05:00</Time>
+    </Item>
+    <Item>
+      <Source>healthIcon.png</Source>
+      <Name>healthIcon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\healthIcon.xnb</Output>
+      <Time>2013-11-30T21:51:50-05:00</Time>
+    </Item>
+    <Item>
+      <Source>timeIcon.png</Source>
+      <Name>timeIcon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\timeIcon.xnb</Output>
+      <Time>2013-11-30T21:51:50-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallLight.png</Source>
+      <Name>SmallLight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\SmallLight.xnb</Output>
+      <Time>2013-11-30T22:57:01-05:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPCContent\Sun.png</Source>
+      <Name>Sun</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sun.xnb</Output>
+      <Time>2014-08-18T00:36:42.6653509-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPCContent\Light3.png</Source>
+      <Name>Light3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Light3.xnb</Output>
+      <Time>2013-12-07T16:31:16-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TestLightPole.png</Source>
+      <Name>TestLightPole</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\TestLightPole.xnb</Output>
+      <Time>2014-01-26T20:04:20.8258182-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TextLine.png</Source>
+      <Name>TextLine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\TextLine.xnb</Output>
+      <Time>2014-01-29T21:50:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Cutscenes\Faces\Alessa.png</Source>
+      <Name>Cutscenes\Faces\Alessa</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cutscenes\Faces\Alessa.xnb</Output>
+      <Time>2014-01-29T23:08:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Cutscenes\Faces\Dyne.png</Source>
+      <Name>Cutscenes\Faces\Dyne</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cutscenes\Faces\Dyne.xnb</Output>
+      <Time>2014-01-29T23:08:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Cutscenes\Faces\Grey.png</Source>
+      <Name>Cutscenes\Faces\Grey</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cutscenes\Faces\Grey.xnb</Output>
+      <Time>2014-01-29T23:08:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Cutscenes\Faces\Guard1.png</Source>
+      <Name>Cutscenes\Faces\Guard1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cutscenes\Faces\Guard1.xnb</Output>
+      <Time>2014-01-29T23:08:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Cutscenes\Faces\Guard2.png</Source>
+      <Name>Cutscenes\Faces\Guard2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cutscenes\Faces\Guard2.xnb</Output>
+      <Time>2014-01-29T23:08:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Cutscenes\Faces\QuestionMark.png</Source>
+      <Name>Cutscenes\Faces\QuestionMark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cutscenes\Faces\QuestionMark.xnb</Output>
+      <Time>2014-01-29T23:08:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPCContent\ExplosionMap.png</Source>
+      <Name>ExplosionMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\ExplosionMap.xnb</Output>
+      <Time>2014-02-01T18:22:37.3775812-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Environment\City\Building1.png</Source>
+      <Name>Environment\City\Building1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Environment\City\Building1.xnb</Output>
+      <Time>2014-03-23T20:49:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Environment\City\Building2.png</Source>
+      <Name>Environment\City\Building2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Environment\City\Building2.xnb</Output>
+      <Time>2014-03-23T20:49:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Environment\City\Building3.png</Source>
+      <Name>Environment\City\Building3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Environment\City\Building3.xnb</Output>
+      <Time>2014-03-23T20:49:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Environment\City\Building4.png</Source>
+      <Name>Environment\City\Building4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Environment\City\Building4.xnb</Output>
+      <Time>2014-03-23T20:49:10-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Environment\City\Rail.png</Source>
+      <Name>Environment\City\Rail</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Environment\City\Rail.xnb</Output>
+      <Time>2014-03-24T04:29:33-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Environment\City\RailGlass.png</Source>
+      <Name>Environment\City\RailGlass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Environment\City\RailGlass.xnb</Output>
+      <Time>2014-03-24T04:29:33-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Environment\City\Train.png</Source>
+      <Name>Environment\City\Train</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Environment\City\Train.xnb</Output>
+      <Time>2014-03-24T04:29:33-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Environment\Paper.png</Source>
+      <Name>Environment\Paper</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Environment\Paper.xnb</Output>
+      <Time>2014-03-24T04:45:25-04:00</Time>
+    </Item>
+    <Item>
+      <Source>WhiteBlock.jpg</Source>
+      <Name>WhiteBlock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\WhiteBlock.xnb</Output>
+      <Time>2014-03-27T02:17:28.6294757-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Cloud4.png</Source>
+      <Name>Cloud4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cloud4.xnb</Output>
+      <Time>2014-03-30T00:53:40-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Rytard Missle.png</Source>
+      <Name>Rytard Missle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Rytard Missle.xnb</Output>
+      <Time>2014-05-15T00:26:45.4034514-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Rytard Ship.png</Source>
+      <Name>Rytard Ship</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Rytard Ship.xnb</Output>
+      <Time>2014-05-15T00:26:45.400522-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shard.png</Source>
+      <Name>Shard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Shard.xnb</Output>
+      <Time>2014-05-15T03:17:22-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPCContent\Characters\Enemies\Guard\Dash.png</Source>
+      <Name>Characters\Enemies\Guard\Dash</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Guard\Dash.xnb</Output>
+      <Time>2014-05-17T03:08:50-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Combo\Combo00.png</Source>
+      <Name>Characters\Enemies\Joker\Combo\Combo00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Combo\Combo00.xnb</Output>
+      <Time>2014-05-20T03:43:53.5083054-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Combo\Combo01.png</Source>
+      <Name>Characters\Enemies\Joker\Combo\Combo01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Combo\Combo01.xnb</Output>
+      <Time>2014-05-20T03:43:53.5122121-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Combo\Combo02.png</Source>
+      <Name>Characters\Enemies\Joker\Combo\Combo02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Combo\Combo02.xnb</Output>
+      <Time>2014-05-20T03:43:53.5141657-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Combo\Combo03.png</Source>
+      <Name>Characters\Enemies\Joker\Combo\Combo03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Combo\Combo03.xnb</Output>
+      <Time>2014-05-20T03:43:53.5161181-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Combo\Combo04.png</Source>
+      <Name>Characters\Enemies\Joker\Combo\Combo04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Combo\Combo04.xnb</Output>
+      <Time>2014-05-20T03:43:53.5200248-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Run\Run00.png</Source>
+      <Name>Characters\Enemies\Joker\Run\Run00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Run\Run00.xnb</Output>
+      <Time>2014-05-20T03:43:53.5903415-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Run\Run01.png</Source>
+      <Name>Characters\Enemies\Joker\Run\Run01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Run\Run01.xnb</Output>
+      <Time>2014-05-20T03:43:53.5932695-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Run\Run02.png</Source>
+      <Name>Characters\Enemies\Joker\Run\Run02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Run\Run02.xnb</Output>
+      <Time>2014-05-20T03:43:53.5971765-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Run\Run03.png</Source>
+      <Name>Characters\Enemies\Joker\Run\Run03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Run\Run03.xnb</Output>
+      <Time>2014-05-20T03:43:53.6147551-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Run\Run04.png</Source>
+      <Name>Characters\Enemies\Joker\Run\Run04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Run\Run04.xnb</Output>
+      <Time>2014-05-20T03:43:53.6186622-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Run\Run05.png</Source>
+      <Name>Characters\Enemies\Joker\Run\Run05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Run\Run05.xnb</Output>
+      <Time>2014-05-20T03:43:53.6215908-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Run\Run06.png</Source>
+      <Name>Characters\Enemies\Joker\Run\Run06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Run\Run06.xnb</Output>
+      <Time>2014-05-20T03:43:53.6245213-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Run\Run07.png</Source>
+      <Name>Characters\Enemies\Joker\Run\Run07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Run\Run07.xnb</Output>
+      <Time>2014-05-20T03:43:53.6284295-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Run\Run08.png</Source>
+      <Name>Characters\Enemies\Joker\Run\Run08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Run\Run08.xnb</Output>
+      <Time>2014-05-20T03:43:53.632334-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Joker\Stand.png</Source>
+      <Name>Characters\Enemies\Joker\Stand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Joker\Stand.xnb</Output>
+      <Time>2014-05-20T03:43:53.6743283-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo00.png</Source>
+      <Name>Characters\Batman\Combo\Combo00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo00.xnb</Output>
+      <Time>2014-05-20T03:44:05.0136425-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo01.png</Source>
+      <Name>Characters\Batman\Combo\Combo01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo01.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo02.png</Source>
+      <Name>Characters\Batman\Combo\Combo02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo02.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo03.png</Source>
+      <Name>Characters\Batman\Combo\Combo03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo03.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo04.png</Source>
+      <Name>Characters\Batman\Combo\Combo04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo04.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo05.png</Source>
+      <Name>Characters\Batman\Combo\Combo05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo05.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo06.png</Source>
+      <Name>Characters\Batman\Combo\Combo06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo06.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo07.png</Source>
+      <Name>Characters\Batman\Combo\Combo07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo07.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo08.png</Source>
+      <Name>Characters\Batman\Combo\Combo08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo08.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo09.png</Source>
+      <Name>Characters\Batman\Combo\Combo09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo09.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo10.png</Source>
+      <Name>Characters\Batman\Combo\Combo10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo10.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo11.png</Source>
+      <Name>Characters\Batman\Combo\Combo11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo11.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo12.png</Source>
+      <Name>Characters\Batman\Combo\Combo12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo12.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo13.png</Source>
+      <Name>Characters\Batman\Combo\Combo13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo13.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo14.png</Source>
+      <Name>Characters\Batman\Combo\Combo14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo14.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo15.png</Source>
+      <Name>Characters\Batman\Combo\Combo15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo15.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo16.png</Source>
+      <Name>Characters\Batman\Combo\Combo16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo16.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo17.png</Source>
+      <Name>Characters\Batman\Combo\Combo17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo17.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Combo\Combo18.png</Source>
+      <Name>Characters\Batman\Combo\Combo18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Combo\Combo18.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Fall\Fall00.png</Source>
+      <Name>Characters\Batman\Fall\Fall00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Fall\Fall00.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Fall\Fall01.png</Source>
+      <Name>Characters\Batman\Fall\Fall01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Fall\Fall01.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Fall\Fall02.png</Source>
+      <Name>Characters\Batman\Fall\Fall02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Fall\Fall02.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Jump.png</Source>
+      <Name>Characters\Batman\Jump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Jump.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Run\Run00.png</Source>
+      <Name>Characters\Batman\Run\Run00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Run\Run00.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Run\Run01.png</Source>
+      <Name>Characters\Batman\Run\Run01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Run\Run01.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Run\Run02.png</Source>
+      <Name>Characters\Batman\Run\Run02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Run\Run02.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Run\Run03.png</Source>
+      <Name>Characters\Batman\Run\Run03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Run\Run03.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Run\Run04.png</Source>
+      <Name>Characters\Batman\Run\Run04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Run\Run04.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Run\Run05.png</Source>
+      <Name>Characters\Batman\Run\Run05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Run\Run05.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Run\Run06.png</Source>
+      <Name>Characters\Batman\Run\Run06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Run\Run06.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Run\Run07.png</Source>
+      <Name>Characters\Batman\Run\Run07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Run\Run07.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Run\Run08.png</Source>
+      <Name>Characters\Batman\Run\Run08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Run\Run08.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Run\Run09.png</Source>
+      <Name>Characters\Batman\Run\Run09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Run\Run09.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Batman\Stand.png</Source>
+      <Name>Characters\Batman\Stand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Batman\Stand.xnb</Output>
+      <Time>2014-05-20T03:44:05-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Cutscenes\Faces\Batman.png</Source>
+      <Name>Cutscenes\Faces\Batman</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cutscenes\Faces\Batman.xnb</Output>
+      <Time>2014-05-20T03:46:07-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Cutscenes\Faces\Joker.png</Source>
+      <Name>Cutscenes\Faces\Joker</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cutscenes\Faces\Joker.xnb</Output>
+      <Time>2014-05-20T03:46:07-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Environment\Grass\Tree.png</Source>
+      <Name>Environment\Grass\Tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Environment\Grass\Tree.xnb</Output>
+      <Time>2014-05-26T02:08:15.2875055-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Environment\Snow\Mountain.png</Source>
+      <Name>Environment\Snow\Mountain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="TextureFormat">DxtCompressed</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Environment\Snow\Mountain.xnb</Output>
+      <Time>2014-05-26T02:08:15-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Braveheart\Run\Run00.png</Source>
+      <Name>Characters\Braveheart\Run\Run00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Braveheart\Run\Run00.xnb</Output>
+      <Time>2014-05-26T02:08:45.7545176-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Braveheart\Run\Run01.png</Source>
+      <Name>Characters\Braveheart\Run\Run01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Braveheart\Run\Run01.xnb</Output>
+      <Time>2014-05-26T02:08:45.7867456-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Braveheart\Run\Run02.png</Source>
+      <Name>Characters\Braveheart\Run\Run02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Braveheart\Run\Run02.xnb</Output>
+      <Time>2014-05-26T02:08:45.790652-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Braveheart\Run\Run03.png</Source>
+      <Name>Characters\Braveheart\Run\Run03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Braveheart\Run\Run03.xnb</Output>
+      <Time>2014-05-26T02:08:45.794559-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Braveheart\Run\Run04.png</Source>
+      <Name>Characters\Braveheart\Run\Run04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Braveheart\Run\Run04.xnb</Output>
+      <Time>2014-05-26T02:08:45.7984639-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Braveheart\Run\Run05.png</Source>
+      <Name>Characters\Braveheart\Run\Run05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Braveheart\Run\Run05.xnb</Output>
+      <Time>2014-05-26T02:08:45.8023714-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Braveheart\Stand.png</Source>
+      <Name>Characters\Braveheart\Stand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Braveheart\Stand.xnb</Output>
+      <Time>2014-05-26T02:08:45.8062773-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\SpriteFont1.xnb</Output>
+      <Time>2013-10-20T22:58:25.910381-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPCContent\Fonts\UIDefault.spritefont</Source>
+      <Name>Fonts\UIDefault</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Fonts\UIDefault.xnb</Output>
+      <Time>2014-06-04T04:35:30.5177745-04:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPCContent\Fonts\UITitle.spritefont</Source>
+      <Name>Fonts\UITitle</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Fonts\UITitle.xnb</Output>
+      <Time>2014-05-29T04:01:22.0854091-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont2.spritefont</Source>
+      <Name>SpriteFont2</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\SpriteFont2.xnb</Output>
+      <Time>2014-01-29T21:28:21.906796-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Music\Fairy Tail Sad.mp3</Source>
+      <Name>Sound\Music\Fairy Tail Sad</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>MGSongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Fairy Tail Sad.xnb</Output>
+      <Extra>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Fairy Tail Sad.wma</Extra>
+      <Time>2013-11-11T20:46:45.1010022-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Music\Bet Your Life On It.mp3</Source>
+      <Name>Sound\Music\Bet Your Life On It</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>MGSongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Bet Your Life On It.xnb</Output>
+      <Extra>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Bet Your Life On It.wma</Extra>
+      <Time>2013-12-15T14:28:35.065095-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Music\Difficult.mp3</Source>
+      <Name>Sound\Music\Difficult</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>MGSongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Difficult.xnb</Output>
+      <Extra>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Difficult.wma</Extra>
+      <Time>2013-12-15T14:28:35.0465402-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Music\Luffy Versus Ratchet Round 1.mp3</Source>
+      <Name>Sound\Music\Luffy Versus Ratchet Round 1</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>MGSongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Luffy Versus Ratchet Round 1.xnb</Output>
+      <Extra>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Luffy Versus Ratchet Round 1.wma</Extra>
+      <Time>2014-01-26T21:00:23.5812971-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Music\I'm Here, Too.mp3</Source>
+      <Name>Sound\Music\I'm Here, Too</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>MGSongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\I'm Here, Too.xnb</Output>
+      <Extra>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\I'm Here, Too.wma</Extra>
+      <Time>2014-02-02T19:34:40.3960301-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Music\Mother Sea.mp3</Source>
+      <Name>Sound\Music\Mother Sea</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Mother Sea.xnb</Output>
+      <Extra>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Mother Sea.wma</Extra>
+      <Time>2014-03-27T00:26:31.0435932-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\WallJump.wav</Source>
+      <Name>Sound\Effects\WallJump</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\WallJump.xnb</Output>
+      <Time>2013-11-11T21:14:26.928028-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\Jump.wav</Source>
+      <Name>Sound\Effects\Jump</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\Jump.xnb</Output>
+      <Time>2013-11-11T21:09:04.8230278-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\meleemiss1.wav</Source>
+      <Name>Sound\Effects\meleemiss1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\meleemiss1.xnb</Output>
+      <Time>2013-11-11T21:22:50.5834941-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\meleemiss2.wav</Source>
+      <Name>Sound\Effects\meleemiss2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\meleemiss2.xnb</Output>
+      <Time>2013-11-11T21:22:50.5854469-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\meleemiss3.wav</Source>
+      <Name>Sound\Effects\meleemiss3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\meleemiss3.xnb</Output>
+      <Time>2013-11-11T21:22:50.5815406-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\Explosion.wav</Source>
+      <Name>Sound\Effects\Explosion</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\Explosion.xnb</Output>
+      <Time>2013-11-11T21:28:54.3045117-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\SlowDown.wav</Source>
+      <Name>Sound\Effects\SlowDown</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\SlowDown.xnb</Output>
+      <Time>2013-11-25T20:33:10.6795148-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\SpeedUp.wav</Source>
+      <Name>Sound\Effects\SpeedUp</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\SpeedUp.xnb</Output>
+      <Time>2013-11-25T20:33:10.6775616-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\mediumpunch.wav</Source>
+      <Name>Sound\Effects\mediumpunch</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\mediumpunch.xnb</Output>
+      <Time>2013-11-26T18:35:15.5483892-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\strongkick.wav</Source>
+      <Name>Sound\Effects\strongkick</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\strongkick.xnb</Output>
+      <Time>2013-11-26T18:35:15.5435051-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\strongpunch.wav</Source>
+      <Name>Sound\Effects\strongpunch</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\strongpunch.xnb</Output>
+      <Time>2013-11-26T18:35:15.5454594-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\weakpunch.wav</Source>
+      <Name>Sound\Effects\weakpunch</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\weakpunch.xnb</Output>
+      <Time>2013-11-26T18:35:15.5464353-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\weakkick.wav</Source>
+      <Name>Sound\Effects\weakkick</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\weakkick.xnb</Output>
+      <Time>2013-11-30T23:25:42.0499829-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\Train.wav</Source>
+      <Name>Sound\Effects\Train</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\Train.xnb</Output>
+      <Time>2014-03-24T04:30:00.9642332-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\charge.wav</Source>
+      <Name>Sound\Effects\charge</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\charge.xnb</Output>
+      <Time>2014-05-17T01:17:34.602538-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\beamfire.wav</Source>
+      <Name>Sound\Effects\beamfire</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\beamfire.xnb</Output>
+      <Time>2014-05-17T01:20:44.0487693-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shaders.fx</Source>
+      <Name>Shaders</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>MGEffectProcessor</Processor>
+      <Parameters>
+        <Data Key="DebugMode">Debug</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Shaders.xnb</Output>
+      <Time>2014-08-20T00:03:52.002998-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{5B153DF1-18CE-4086-AB90-7606A85B3D73}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>PSM</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftContent\SecondShiftContentContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftContent\SecondShiftContent\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftContent\SecondShiftContent\obj\PSM\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\Chris\Dropbox\Second Shift\MonoGame-develop\MonoGame.ContentPipeline\ContentProcessors\bin\Release\MonoGameContentProcessors.dll</Key>
+        <Value>2014-08-19T21:56:00.4611922-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2012-09-06T17:52:54-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2012-09-06T17:52:54-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2012-09-06T17:52:54-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2012-09-06T17:52:54-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2012-09-06T17:52:54-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2012-09-06T17:52:54-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-11-17T16:40:34.7206364-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

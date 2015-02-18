@@ -1,0 +1,32 @@
+<Cutscene Class="SecondShiftMobile.Cutscenes.Cutscene">
+  <Action AutoExecute="true" Type="SetCameraDelta" Name="">
+    <Time />
+    <TargetDelta />
+    <Frames />
+    <StartingDelta />
+    <StartPower />
+    <EndPower />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume">
+    <VolumeType>MediaPlayer</VolumeType>
+    <Time />
+    <Volume />
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <VolumeType>SoundEffect</VolumeType>
+    <Time />
+    <Volume />
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Type="LoadLevel" ClearObjects="true" Name="">
+    <Time />
+    <LevelName>Homing Missle Test</LevelName>
+  </Action>
+  <Action AutoExecute="true" Type="SetBlur" Name="">
+    <Time />
+    <Blur />
+    <Speed>1</Speed>
+    <StartBlur />
+  </Action>
+</Cutscene>

@@ -1,0 +1,35 @@
+﻿<xapCache source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Debug\SecondShiftMobile_Debug_x86.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="10/21/2013 12:19:48 AM">
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\obj\x86\Debug\SecondShiftMobile.dll" archivePath="SecondShiftMobile.dll" lastWriteTime="10/21/2013 12:19:47 AM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Content\Jump.xnb" archivePath="Content\Jump.xnb" lastWriteTime="10/10/2013 11:30:37 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="12/23/2012 2:11:54 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="12/23/2012 2:11:56 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="12/23/2012 2:11:56 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="12/23/2012 2:11:56 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="12/23/2012 2:11:56 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Content\Cloud1.xnb" archivePath="Content\Cloud1.xnb" lastWriteTime="10/20/2013 11:40:09 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Content\Fall.xnb" archivePath="Content\Fall.xnb" lastWriteTime="10/10/2013 11:30:37 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Content\grass.xnb" archivePath="Content\grass.xnb" lastWriteTime="10/19/2013 4:30:36 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Content\Pentagon.xnb" archivePath="Content\Pentagon.xnb" lastWriteTime="10/19/2013 7:38:07 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Content\Shaders.xnb" archivePath="Content\Shaders.xnb" lastWriteTime="10/19/2013 7:30:38 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Content\Sky.xnb" archivePath="Content\Sky.xnb" lastWriteTime="10/20/2013 9:34:18 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Content\SpriteFont1.xnb" archivePath="Content\SpriteFont1.xnb" lastWriteTime="10/20/2013 10:58:27 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Content\Stand.xnb" archivePath="Content\Stand.xnb" lastWriteTime="10/10/2013 11:30:37 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Content\TestPropellor.xnb" archivePath="Content\TestPropellor.xnb" lastWriteTime="10/20/2013 10:44:46 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\Content\TestWall.xnb" archivePath="Content\TestWall.xnb" lastWriteTime="10/19/2013 7:38:07 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/10/2013 8:24:25 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="12/23/2012 2:11:54 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="12/23/2012 2:11:56 PM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Debug\Content\SpriteFont1.xnb" archivePath="Content\SpriteFont1.xnb" lastWriteTime="10/20/2013 10:58:27 PM" />
+  <file source="C:\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsPhone\x86\MonoGame.Framework.dll" archivePath="MonoGame.Framework.dll" lastWriteTime="2/25/2013 11:43:32 AM" />
+  <file source="C:\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsPhone\x86\SharpDX.Direct3D11.dll" archivePath="SharpDX.Direct3D11.dll" lastWriteTime="12/28/2012 11:17:34 AM" />
+  <file source="C:\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsPhone\x86\SharpDX.dll" archivePath="SharpDX.dll" lastWriteTime="12/28/2012 11:17:34 AM" />
+  <file source="C:\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsPhone\x86\SharpDX.XAudio2.dll" archivePath="SharpDX.XAudio2.dll" lastWriteTime="12/28/2012 11:17:34 AM" />
+  <file source="C:\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsPhone\x86\SharpDX.MediaFoundation.dll" archivePath="SharpDX.MediaFoundation.dll" lastWriteTime="12/28/2012 11:17:34 AM" />
+  <file source="C:\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsPhone\x86\SharpDX.DXGI.dll" archivePath="SharpDX.DXGI.dll" lastWriteTime="12/28/2012 11:17:34 AM" />
+  <file source="C:\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsPhone\x86\SharpDX.Direct3D11.xml" archivePath="SharpDX.Direct3D11.xml" lastWriteTime="12/28/2012 11:17:34 AM" />
+  <file source="C:\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsPhone\x86\SharpDX.xml" archivePath="SharpDX.xml" lastWriteTime="12/28/2012 11:17:34 AM" />
+  <file source="C:\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsPhone\x86\SharpDX.XAudio2.xml" archivePath="SharpDX.XAudio2.xml" lastWriteTime="12/28/2012 11:17:34 AM" />
+  <file source="C:\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsPhone\x86\SharpDX.MediaFoundation.xml" archivePath="SharpDX.MediaFoundation.xml" lastWriteTime="12/28/2012 11:17:34 AM" />
+  <file source="C:\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsPhone\x86\SharpDX.DXGI.xml" archivePath="SharpDX.DXGI.xml" lastWriteTime="12/28/2012 11:17:34 AM" />
+  <file source="C:\Users\Chris\documents\visual studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/10/2013 8:24:26 PM" />
+</xapCache>

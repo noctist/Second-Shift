@@ -1,0 +1,259 @@
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Jump.xnb
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Assets\ApplicationIcon.png
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Assets\Tiles\IconicTileSmall.png
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Fall.xnb
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Stand.xnb
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SecondShiftMobile.dll
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SecondShiftMobile.pdb
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\AppManifest.xaml
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Properties\WMAppManifest.xml
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SecondShiftMobile_Release_x86.xap
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\MonoGame.Framework.dll
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.Direct3D11.dll
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.dll
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.XAudio2.dll
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.MediaFoundation.dll
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.DXGI.dll
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.Direct3D11.xml
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.xml
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.XAudio2.xml
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.MediaFoundation.xml
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.DXGI.xml
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\SecondShiftMobile.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\App.g.cs
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\GamePage.g.cs
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\SecondShiftMobile.g.resources
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\SecondShiftMobile.Resources.AppResources.resources
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\SecondShiftMobile.csproj.GenerateResource.Cache
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\SecondShiftMobile.dll
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\SecondShiftMobile.pdb
+C:\Users\Chris\Documents\Visual Studio 2012\Projects\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\XapCacheFile.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\SecondShiftMobile.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\App.g.cs
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\GamePage.g.cs
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\SecondShiftMobile.g.resources
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\SecondShiftMobile.Resources.AppResources.resources
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\SecondShiftMobile.csproj.GenerateResource.Cache
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\SecondShiftMobile.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\SecondShiftMobile.pdb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Assets\ApplicationIcon.png
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Assets\Tiles\IconicTileSmall.png
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo05.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo06.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo07.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo08.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo09.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo10.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo11.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo12.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo13.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo14.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo15.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo16.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo17.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Combo\Combo18.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Fall\Fall00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Fall\Fall01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Fall\Fall02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Jump.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Run\Run00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Run\Run01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Run\Run02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Run\Run03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Run\Run04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Run\Run05.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Run\Run06.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Run\Run07.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Run\Run08.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Run\Run09.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Batman\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Braveheart\Run\Run00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Braveheart\Run\Run01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Braveheart\Run\Run02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Braveheart\Run\Run03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Braveheart\Run\Run04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Braveheart\Run\Run05.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Braveheart\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Guard\Attack\hit00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Guard\Attack\hit01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Guard\Attack\hit02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Guard\Attack\hit03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Guard\Dash.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Guard\Run\run00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Guard\Run\run01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Guard\Run\run02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Guard\Run\run03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Guard\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Combo\Combo00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Combo\Combo01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Combo\Combo02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Combo\Combo03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Combo\Combo04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Run\Run00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Run\Run01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Run\Run02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Run\Run03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Run\Run04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Run\Run05.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Run\Run06.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Run\Run07.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Run\Run08.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Enemies\Joker\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Combo\Combos00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Combo\Combos01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Combo\Combos02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Combo\Combos03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Combo\Combos04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Combo\Combos05.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Combo\Combos06.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Combo\Combos07.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Combo\Combos08.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Combo\Combos09.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Combo\Combos10.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Combo\Combos11.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Combo\Combos12.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Fall.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Jump.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Run\run00.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Run\run01.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Run\run02.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Run\run03.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Run\run04.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Run\run05.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Run\run06.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\TimeBall.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Characters\Grey\Wall.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\ClockHand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cloud3.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cloud4.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\BatmanScene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\Braveheart Scene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\CityScene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\Faces\Alessa.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\Faces\Batman.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\Faces\Dyne.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\Faces\Grey.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\Faces\Guard1.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\Faces\Guard2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\Faces\Joker.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\Faces\QuestionMark.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\Homing Missle Test.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\Rocket Scene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\TestScene 2.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\TestScene 3.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\TestScene 4.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Cutscenes\TestScene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Environment\City\Building1.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Environment\City\Building2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Environment\City\Building3.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Environment\City\Building4.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Environment\City\Rail.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Environment\City\RailGlass.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Environment\City\Train.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Environment\Grass\Tree.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Environment\Paper.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Environment\Snow\Mountain.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\ExplosionMap.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Flares\Flare.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Flares\Flare2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Flares\lensflare.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Fonts\UIDefault.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Fonts\UITitle.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\grass.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\healthIcon.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Joystick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Levels\BatmanCity.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Levels\Braveheart Stage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Levels\Hello World.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Levels\Homing Missle Test.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Levels\Night Level.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Levels\Rocket Test.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Levels\Test Stage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Levels\TestCity.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Levels\TestStage 3.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Light.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Light2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Light3.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Logo.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Moon.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Mountain2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Pentagon.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Rytard Missle.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Rytard Ship.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Shaders.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Shard.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sky.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\SmallLight.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Smoke.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\beamfire.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\charge.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\Explosion.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\Jump.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\mediumpunch.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\meleemiss1.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\meleemiss2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\meleemiss3.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\SlowDown.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\SpeedUp.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\strongkick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\strongpunch.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\Train.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\WallJump.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\weakkick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Effects\weakpunch.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Music\Bet Your Life On It.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Music\Bet Your Life On It.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Music\Difficult.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Music\Difficult.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Music\Fairy Tail Sad.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Music\Fairy Tail Sad.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Music\I'm Here, Too.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Music\I'm Here, Too.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Music\Luffy Versus Ratchet Round 1.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Music\Luffy Versus Ratchet Round 1.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Music\Mother Sea.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sound\Music\Mother Sea.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\SpriteFont1.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\SpriteFont2.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Sun.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\TestGrass.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\TestLightPole.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\TestPropellor.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\TestWall.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\TextLine.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\thing.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\timeIcon.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\Tree.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Content\WhiteBlock.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SecondShiftMobile.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SecondShiftMobile.pdb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\AppManifest.xaml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\Properties\WMAppManifest.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SecondShiftMobile_Release_x86.xap
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\MonoGame.Framework.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.Direct3D11.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.XAudio2.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.DXGI.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.WP8.winmd
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\MonoGame.Framework.pdb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.Direct3D11.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.XAudio2.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.DXGI.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\x86\Release\SharpDX.WP8.dll
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\obj\x86\Release\XapCacheFile.xml

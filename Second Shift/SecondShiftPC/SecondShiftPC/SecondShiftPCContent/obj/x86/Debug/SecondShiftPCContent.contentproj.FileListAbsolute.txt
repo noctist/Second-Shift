@@ -1,0 +1,4 @@
+c:\users\chris\documents\visual studio 2010\Projects\SecondShiftPC\SecondShiftPC\SecondShiftPCContent\obj\x86\Debug\SecondShiftPCContent.contentprojResolveAssemblyReference.cache
+C:\SD Card\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPCContent\obj\x86\Debug\SecondShiftPCContent.contentprojResolveAssemblyReference.cache
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPCContent\obj\x86\Debug\SecondShiftPCContent.contentprojResolveAssemblyReference.cache
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPCContent\obj\x86\Debug\SecondShiftPCContent.contentprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="System.String">This is the Second Shift Engine. This is not representative of the final game, and is simply made for testing.
+  
+You can test this app out by selecting different scenes, and changing the graphical quality in the options.
+  
+To move the character, just move your thumb around on the left side of the screen.
+To jump, tap the right side of the screen. Wall jump by jumping while sliding down a wall.
+To attack, swipe on the right side of the screen.
+  
+Note that this engine is still a work in progress, and you are likely to see severe performance issues. It will probably be made into a real game sometime in 2015 or 2016.
+  </Asset>
+</XnaContent>

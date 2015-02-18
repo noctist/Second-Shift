@@ -1,0 +1,74 @@
+<Cutscene>
+  <Action AutoExecute="true" Type="ChangeTimerState" Name="" Paused="true">
+    <Time />
+  </Action>
+  <Action AutoExecute="true" Type="SetGameSpeed" Name="">
+    <Time />
+    <Target />
+    <TransitionSpeed>1</TransitionSpeed>
+    <InitialSpeed>1</InitialSpeed>
+  </Action>
+  <Action AutoExecute="true" Type="LoadLevel" ClearObjects="true" Name="">
+    <Time />
+    <LevelName>Night Level</LevelName>
+  </Action>
+  <Action AutoExecute="true" Type="SetObjectProperty" Name="">
+    <Time />
+    <ObjectName>Grey</ObjectName>
+    <PropertyStrings></PropertyStrings>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <Time />
+    <Volume />
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicState" SongName="Difficult" Name="">
+    <Time />
+    <State>Play</State>
+    <Loop>Loop</Loop>
+  </Action>
+  <Action AutoExecute="false" Type="Dialog" Character="Dyne" Name="" Face="">
+    <Time />
+    <Text>It's been a long time, Grey. How's it going? How's the family doing? I like words. Words are cool. Do you like words? Cause I know I do!</Text>
+  </Action>
+  <Action AutoExecute="false" Type="Dialog" Character="Grey" Name="" Face="">
+    <Time />
+    <Text>Dyne...</Text>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <Time />
+    <Volume>0</Volume>
+    <Frames>60</Frames>
+  </Action>
+  <Action AutoExecute="true" Type="SetGameSpeed" Name="">
+    <Time />
+    <Target>0.1</Target>
+    <TransitionSpeed>0.01</TransitionSpeed>
+    <InitialSpeed>NaN</InitialSpeed>
+  </Action>
+  <Action AutoExecute="false" Type="Dialog" Character="Dyne" Name="" Face="">
+    <Time />
+    <Text>Dude, I'm so high right now.</Text>
+  </Action>
+  <Action AutoExecute="false" Type="Dialog" Character="Grey" Name="" Face="">
+    <Time />
+    <Text>I don't even know where I am, man.</Text>
+  </Action>
+  <Action AutoExecute="false" Type="Dialog" Character="Dyne" Name="" Face="">
+    <Time />
+    <Text>Did you just see that shiny giraffe? It's soooo majestic.</Text>
+  </Action>
+  <Action AutoExecute="false" Type="Dialog" Character="Grey" Name="" Face="">
+    <Time />
+    <Text>I knooooooow!</Text>
+  </Action>
+  <Action AutoExecute="true" Visible="false" Type="SetDialogVisibility" Name="">
+    <Time />
+  </Action>
+  <Action AutoExecute="true" Type="SetGameSpeed" Name="">
+    <Time />
+    <Target />
+    <TransitionSpeed>0.05</TransitionSpeed>
+    <InitialSpeed />
+  </Action>
+</Cutscene>

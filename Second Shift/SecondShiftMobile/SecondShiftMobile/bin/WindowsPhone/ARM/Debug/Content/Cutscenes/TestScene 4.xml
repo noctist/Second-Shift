@@ -1,0 +1,53 @@
+<Cutscene Class="SecondShiftMobile.Cutscenes.Scenes.TestScene2">
+  <Action AutoExecute="true" Type="SetScreenFade" Name="">
+    <Time />
+    <FadeType>FadeIn</FadeType>
+    <Frames>1</Frames>
+  </Action>
+  <Action AutoExecute="true" Type="LoadLevel" ClearObjects="true" Name="">
+    <Time />
+    <LevelName>TestStage 3</LevelName>
+  </Action>
+  <Action AutoExecute="true" Type="SetScreenFade" Name="">
+    <Time />
+    <FadeType>FadeIn</FadeType>
+    <Frames>60</Frames>
+  </Action>
+  <Action AutoExecute="true" Type="ResetCamera" Name="">
+    <Time />
+  </Action>
+  <Action AutoExecute="true" Type="SetLookDirection" Name="" Animated="false">
+    <Time />
+    <LookDirection>0, -0.5</LookDirection>
+    <FrameDuration>600</FrameDuration>
+    <EndPower>3</EndPower>
+    <StartPower />
+  </Action>
+  <Action AutoExecute="true" Type="SetLookDirection" Name="" Animated="true">
+    <Time />
+    <LookDirection>0, 0</LookDirection>
+    <FrameDuration>600</FrameDuration>
+    <EndPower>5</EndPower>
+    <StartPower />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicState" SongName="Bet Your Life On It" Name="">
+    <Time />
+    <State>Play</State>
+    <Loop>Loop</Loop>
+  </Action>
+  <Action AutoExecute="true" Type="SetBlur" Name="">
+    <Time />
+    <Blur>0</Blur>
+    <Speed>0.01</Speed>
+    <StartBlur />
+  </Action>
+  <Action AutoExecute="true" Type="SetBlurDepth" Name="">
+    <Time />
+    <Depth>2000</Depth>
+    <DepthSpeed />
+    <StartDepth />
+    <DepthRange>5000</DepthRange>
+    <DepthRangeSpeed>1</DepthRangeSpeed>
+    <StartDepthRange />
+  </Action>
+</Cutscene>

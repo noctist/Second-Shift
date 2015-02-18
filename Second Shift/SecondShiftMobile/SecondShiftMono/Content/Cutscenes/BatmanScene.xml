@@ -1,0 +1,74 @@
+<Cutscene Class="SecondShiftMobile.Cutscenes.Scenes.BatmanScene">
+  <Action AutoExecute="true" Type="LoadLevel" ClearObjects="true" Name="LoadCity">
+    <Time />
+    <LevelName>BatmanCity</LevelName>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicState" SongName="" Name="">
+    <Time />
+    <State>Stop</State>
+    <Loop>DontChange</Loop>
+  </Action>
+  <Action AutoExecute="true" Type="SetBlurDepth" Name="">
+    <Time />
+    <Depth>300</Depth>
+    <DepthSpeed />
+    <StartDepth />
+    <DepthRange>200</DepthRange>
+    <DepthRangeSpeed />
+    <StartDepthRange />
+  </Action>
+  <Action AutoExecute="true" Type="SetBlur" Name="">
+    <Time />
+    <Blur>0</Blur>
+    <Speed>1</Speed>
+    <StartBlur />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <Time />
+    <VolumeType>MediaPlayer</VolumeType>
+    <Volume>0.7</Volume>
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Visible="true" Type="SetDialogVisibility" Name="">
+    <Time />
+  </Action>
+  <Action AutoExecute="false" Type="Dialog" Character="Batman" Name="" Face="">
+    <Time>1</Time>
+    <Text>I'm Batman.</Text>
+  </Action>
+  <Action AutoExecute="true" Visible="false" Type="SetDialogVisibility" Name="">
+    <Time>299</Time>
+  </Action>
+  <Action AutoExecute="true" Type="ChangeTimerState" Name="" Paused="true">
+    <Time>300</Time>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicState" SongName="Luffy Versus Ratchet Round 1" Name="">
+    <Time>301</Time>
+    <State>Play</State>
+    <Loop>Loop</Loop>
+  </Action>
+  <Action AutoExecute="true" Type="SetBlur" Name="">
+    <Time />
+    <Blur>0.01</Blur>
+    <Speed>0.01</Speed>
+    <StartBlur />
+  </Action>
+  <Action AutoExecute="true" Visible="true" Type="SetDialogVisibility" Name="">
+    <Time>310</Time>
+  </Action>
+  <Action AutoExecute="false" Type="Dialog" Character="Joker" Name="" Face="">
+    <Time>310</Time>
+    <Text>Bats! Ya made it!</Text>
+  </Action>
+  <Action AutoExecute="false" Type="Dialog" Character="Batman" Name="" Face="">
+    <Time>600</Time>
+    <Text>Yeah. I'm Batman.</Text>
+  </Action>
+  <Action AutoExecute="false" Type="Dialog" Character="Joker" Name="" Face="">
+    <Time>900</Time>
+    <Text>Let's have some fun, whadd'ya say!?</Text>
+  </Action>
+  <Action AutoExecute="true" Visible="false" Type="SetDialogVisibility" Name="">
+    <Time>1200</Time>
+  </Action>
+</Cutscene>

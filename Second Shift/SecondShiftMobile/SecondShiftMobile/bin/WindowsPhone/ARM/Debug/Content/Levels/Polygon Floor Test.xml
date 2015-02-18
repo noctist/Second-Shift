@@ -1,0 +1,4 @@
+<Level SkyColor="135, 206, 235, 255" Contrast="0.9960784, 0.9960784, 0.9960784, 0.4941176">
+  <Object X="0" Y="0" Z="0" Name="" Type="SecondShiftMobile.Test.TestPolygonFloor" />
+  <Object X="257" Y="-2104" Z="0" Name="Grey" Type="SecondShiftMobile.Grey" CameraTarget="true" />
+</Level>

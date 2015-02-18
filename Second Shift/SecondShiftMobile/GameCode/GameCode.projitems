@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>e58a7358-3ecb-40b2-9bd1-6aa572728c0b</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SecondShiftMobile</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviours\Behaviour.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviours\Bounce.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviours\DirectionToRotation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviours\DisappearBehaviour.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviours\GravityBehaviour.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviours\LeafBehaviour.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviours\SpeedDissipation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Camera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cloud.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CombatObj.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomContent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cutscene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cutscenes\Scenes\BatmanScene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cutscenes\Scenes\FlatFloorScene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cutscenes\Scenes\RocketScene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cutscenes\Scenes\TestScenes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DecisionMaker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Disappear.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Effects.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EffectsDrawer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\Element.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\Wind.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Elements\Winds\SphereWind.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enemies\Guard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enemies\HomingMissle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enemies\Joker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enemy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Environments\City\Buildings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Environments\FoliageEmitter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Environments\Grass\Windmill.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Environments\Snow\SnowMountain.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Environments\Grass\Tree.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Explosion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Floor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Game1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Global.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GravityObj.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LensFlare.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LevelBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Light.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LightBloom.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LocalizedStrings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MyMath.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Networking\NetworkManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Networking\SocketManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Networking\SocketMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Obj.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlatformerObj.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Player.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Players\Batman.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Players\Braveheart.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Players\Carrot.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Players\Grey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PolygonObj.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PolygonRect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Smoke.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SmokeEmitter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SSEVertex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sun.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\Ball.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\FlatFloor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\TestClasses.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\TestGrass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\TestPolygonFloor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\TestPolygonGrass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextureAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Touch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TouchScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Animations\Animation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Animations\AnimationManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Animations\CameraLookDirectionAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Animations\FloatAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Animations\IAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Animations\ThicknessAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Animations\Vector2Animation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\MouseEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Panel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\PauseMenu.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\PausePanels\CutscenePicker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\PausePanels\OptionsPanel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\ScrollViewer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Size.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\StackPanel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\TextBlock.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\TextPicker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Thickness.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\UIElement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VirtualJoystick.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoundManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XMLHelper.cs" />
+  </ItemGroup>
+</Project>

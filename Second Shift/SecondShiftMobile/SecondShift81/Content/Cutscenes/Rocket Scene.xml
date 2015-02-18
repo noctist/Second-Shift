@@ -1,0 +1,133 @@
+<Cutscene Class="SecondShiftMobile.Cutscenes.Scenes.RocketScene">
+  <Action AutoExecute="true" Type="SetScreenFade" Name="">
+    <Time />
+    <FadeType>FadeOut</FadeType>
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Type="SetGameSpeed" Name="">
+    <Time />
+    <Target />
+    <TransitionSpeed>1</TransitionSpeed>
+    <InitialSpeed />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <Time />
+    <VolumeType>MediaPlayer</VolumeType>
+    <Volume />
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <Time />
+    <VolumeType>SoundEffect</VolumeType>
+    <Volume />
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Type="SetCameraDelta" Name="">
+    <Time />
+    <TargetDelta />
+    <Frames />
+    <StartingDelta />
+    <StartPower />
+    <EndPower />
+  </Action>
+  <Action AutoExecute="true" Type="LoadLevel" ClearObjects="true" Name="">
+    <Time />
+    <LevelName>Rocket Test</LevelName>
+  </Action>
+  <Action AutoExecute="true" Type="SetObjectProperty" Name="">
+    <Time />
+    <ObjectName>emitter</ObjectName>
+    <PropertyStrings>Seed = 0; Step = 8; TexturePath = Shard; TextureColor = 0,200,0; TextureScale = 0.2, 0.2; 
+MaxLifetime = 120; 
+StartSpeed = 0, 0, -1; EndSpeed = 10, 0, 3;</PropertyStrings>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicState" SongName="" Name="">
+    <Time />
+    <State>Stop</State>
+    <Loop>DontChange</Loop>
+  </Action>
+  <Action AutoExecute="true" Type="SetBlur" Name="">
+    <Time />
+    <Blur>0.01</Blur>
+    <Speed>1</Speed>
+    <StartBlur />
+  </Action>
+  <Action AutoExecute="true" Type="SetBlurDepth" Name="">
+    <Time />
+    <Depth>2000</Depth>
+    <DepthSpeed />
+    <StartDepth />
+    <DepthRange>4000</DepthRange>
+    <DepthRangeSpeed />
+    <StartDepthRange />
+  </Action>
+  <Action AutoExecute="true" Type="SetScreenFade" Name="">
+    <Time />
+    <FadeType>FadeIn</FadeType>
+    <Frames>240</Frames>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicState" SongName="Difficult" Name="">
+    <Time>100</Time>
+    <State>Play</State>
+    <Loop>DontChange</Loop>
+  </Action>
+  <Action AutoExecute="true" Type="Event" Name="Launch">
+    <Time>600</Time>
+  </Action>
+  <Action AutoExecute="true" Type="SetBlur" Name="">
+    <Time />
+    <Blur />
+    <Speed>0.01</Speed>
+    <StartBlur />
+  </Action>
+  <Action AutoExecute="true" Type="SetCameraDelta" Name="">
+    <Time />
+    <TargetDelta>0, -200, -300</TargetDelta>
+    <Frames>500</Frames>
+    <StartingDelta />
+    <StartPower>2</StartPower>
+    <EndPower>2</EndPower>
+  </Action>
+  <Action AutoExecute="true" Type="Event" Name="Explode">
+    <Time>1380</Time>
+  </Action>
+  <Action AutoExecute="false" Type="Dialog" Character="Grey" Name="" Face="">
+    <Time>1380</Time>
+    <Text>What the hell!</Text>
+  </Action>
+  <Action AutoExecute="true" Visible="true" Type="SetDialogVisibility" Name="">
+    <Time />
+  </Action>
+  <Action AutoExecute="true" Type="SetGameSpeed" Name="">
+    <Time />
+    <Target>0.05</Target>
+    <TransitionSpeed>0.01</TransitionSpeed>
+    <InitialSpeed />
+  </Action>
+  <Action AutoExecute="true" Type="SetCameraDelta" Name="">
+    <Time>1700</Time>
+    <TargetDelta />
+    <Frames>300</Frames>
+    <StartingDelta />
+    <StartPower>3</StartPower>
+    <EndPower>3</EndPower>
+  </Action>
+  <Action AutoExecute="true" Type="SetGameSpeed" Name="">
+    <Time>1800</Time>
+    <Target />
+    <TransitionSpeed>0.02</TransitionSpeed>
+    <InitialSpeed />
+  </Action>
+  <Action AutoExecute="true" Type="ChangeTimerState" Name="" Paused="true">
+    <Time />
+  </Action>
+  <Action AutoExecute="true" Type="SetBlur" Name="">
+    <Time />
+    <Blur>0.01</Blur>
+    <Speed>0.01</Speed>
+    <StartBlur />
+  </Action>
+  <Action AutoExecute="true" Visible="false" Type="SetDialogVisibility" Name="">
+    <Time />
+  </Action>
+</Cutscene>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D79942FC-B26C-4489-859E-5C13AAB5A4AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SecondShiftMobile</RootNamespace>
+    <AssemblyName>SecondShiftPC</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\WindowsGL\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\WindowsGL\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\SecondShiftMobile\Camera.cs">
+      <Link>Camera.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\Cloud.cs">
+      <Link>Cloud.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\CombatObj.cs">
+      <Link>CombatObj.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\Controls.cs">
+      <Link>Controls.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\Disappear.cs">
+      <Link>Disappear.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\Effects.cs">
+      <Link>Effects.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\Floor.cs">
+      <Link>Floor.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\Game1.cs">
+      <Link>Game1.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\GameExtensions.cs">
+      <Link>GameExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\Global.cs">
+      <Link>Global.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\GravityObj.cs">
+      <Link>GravityObj.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\Helper.cs">
+      <Link>Helper.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\Light.cs">
+      <Link>Light.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\MyMath.cs">
+      <Link>MyMath.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\Obj.cs">
+      <Link>Obj.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\PlatformerObj.cs">
+      <Link>PlatformerObj.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\Player.cs">
+      <Link>Player.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\Players\Grey.cs">
+      <Link>Players\Grey.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\PolygonRect.cs">
+      <Link>PolygonRect.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\Smoke.cs">
+      <Link>Smoke.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\SmokeEmitter.cs">
+      <Link>SmokeEmitter.cs</Link>
+    </Compile>
+    <Compile Include="..\SecondShiftMobile\TouchScreen.cs">
+      <Link>TouchScreen.cs</Link>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="Lidgren.Network">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\Lidgren.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Sdl">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\Tao.Sdl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\..\..\..\..\..\Program Files %28x86%29\MonoGame\v3.0\Assemblies\WindowsGL\SDL.dll">
+      <Link>SDL.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Content\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\MonoGame-develop\MonoGame.Framework\MonoGame.Framework.Windows.csproj">
+      <Project>{7de47032-a904-4c29-bd22-2d235e8d91ba}</Project>
+      <Name>MonoGame.Framework.Windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

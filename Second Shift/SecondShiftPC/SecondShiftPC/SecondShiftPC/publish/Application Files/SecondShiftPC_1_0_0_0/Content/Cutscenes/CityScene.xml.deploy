@@ -1,0 +1,101 @@
+<Cutscene Class="SecondShiftMobile.Cutscenes.Cutscene">
+  <Action AutoExecute="true" Type="SetScreenFade" Name="">
+    <Time />
+    <FadeType>FadeOut</FadeType>
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Type="LoadLevel" ClearObjects="true" Name="">
+    <Time />
+    <LevelName>TestCity</LevelName>
+  </Action>
+  <Action AutoExecute="true" Type="SetObjectProperty" Name="">
+    <Time />
+    <ObjectName>Player</ObjectName>
+    <PropertyStrings>Controllable = false;</PropertyStrings>
+  </Action>
+  <Action AutoExecute="true" Type="SetObjectProperty" Name="" Static="true">
+    <Time />
+    <ObjectName>Global</ObjectName>
+    <PropertyStrings>Effects.FogIntensity = 0; Effects.FogIntensityTarget =0; Effects.FogSpeed = 0.01</PropertyStrings>
+  </Action>
+  <Action AutoExecute="true" Type="SetObjectProperty" Name="">
+    <Time />
+    <ObjectName>Emitter</ObjectName>
+    <PropertyStrings>StartScale = 6; SmokeSpeed = 4, -8, 0; Lifetime = 240;</PropertyStrings>
+  </Action>
+  <Action AutoExecute="true" Type="SetObjectProperty" Name="">
+    <Time />
+    <ObjectName>Foliage</ObjectName>
+    <PropertyStrings>Seed = 12;</PropertyStrings>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <Time />
+    <VolumeType>SoundEffect</VolumeType>
+    <Volume>0</Volume>
+    <Frames>0</Frames>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <Time />
+    <VolumeType>SoundEffect</VolumeType>
+    <Volume />
+    <Frames>100</Frames>
+  </Action>
+  <Action AutoExecute="true" Type="SetBlurDepth" Name="">
+    <Time />
+    <Depth>2000</Depth>
+    <DepthSpeed>1</DepthSpeed>
+    <StartDepth>NaN</StartDepth>
+    <DepthRange>2000</DepthRange>
+    <DepthRangeSpeed>1</DepthRangeSpeed>
+    <StartDepthRange>100</StartDepthRange>
+  </Action>
+  <Action AutoExecute="true" Type="SetBlur" Name="">
+    <Time />
+    <Blur>0.01</Blur>
+    <Speed>1</Speed>
+    <StartBlur />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicState" SongName="Mother Sea" Name="">
+    <Time />
+    <State>Play</State>
+    <Loop>Loop</Loop>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <Time />
+    <VolumeType>MediaPlayer</VolumeType>
+    <Volume>1</Volume>
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Visible="false" Type="SetDialogVisibility" Name="">
+    <Time />
+  </Action>
+  <Action AutoExecute="true" Type="SetCameraDelta" Name="" SetStartingDelta="true" CenterCameraFirst="true">
+    <Time />
+    <TargetDelta>0, 0, -200</TargetDelta>
+    <Frames>1000</Frames>
+    <StartingDelta>0, 0, 700</StartingDelta>
+    <StartPower>2</StartPower>
+    <EndPower>3</EndPower>
+  </Action>
+  <Action AutoExecute="true" Type="SetScreenFade" Name="">
+    <Time>60</Time>
+    <FadeType>FadeIn</FadeType>
+    <Frames>240</Frames>
+  </Action>
+  <Action AutoExecute="true" Type="SetBlur" Name="">
+    <Time>580</Time>
+    <Blur>0</Blur>
+    <Speed>0.05</Speed>
+    <StartBlur>0</StartBlur>
+  </Action>
+  <Action AutoExecute="true" Type="SetObjectProperty" Name="" Static="true">
+    <Time />
+    <ObjectName>Global</ObjectName>
+    <PropertyStrings></PropertyStrings>
+  </Action>
+  <Action AutoExecute="true" Type="SetObjectProperty" Name="">
+    <Time>760</Time>
+    <ObjectName>Player</ObjectName>
+    <PropertyStrings>Controllable = true;</PropertyStrings>
+  </Action>
+</Cutscene>
