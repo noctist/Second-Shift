@@ -27,9 +27,9 @@ namespace SecondShiftMobile.Players
                 Framespeed = 0.3f,
                 Animation = Doc.LoadAnimation("Characters/Batman/Combo", "Combo", 0, 18)
             };
-            normalCombo.Attacks.Add(new Attack(0, 5, 3) { Power = 10, AttackSound = "meleemiss2", HitSound = "mediumpunch", HitBox = new Microsoft.Xna.Framework.Rectangle(74, 80, 24, 10) });
-            normalCombo.Attacks.Add(new Attack(6, 10, 7) { Power = 15, AttackSound = "meleemiss1", HitSound = "weakpunch", HitBox = new Microsoft.Xna.Framework.Rectangle(72, 81, 26, 9) });
-            normalCombo.Attacks.Add(new Attack(11, 18, 16) { Power = 100, AttackSound = "meleemiss3", HitSound = "strongkick", KnockBack = true, HitBox = new Microsoft.Xna.Framework.Rectangle(82, 78, 22, 9) });
+            normalCombo.Attacks.Add(new Attack(0, 5, 3) { Power = 10, AttackSound = "meleemiss2", HitSound = "mediumpunch", HitBox = new Microsoft.Xna.Framework.Rectangle(74, 80, 24, 10), EffectType = AttackEffectType.Sharp });
+            normalCombo.Attacks.Add(new Attack(6, 10, 7) { Power = 15, AttackSound = "meleemiss1", HitSound = "weakpunch", HitBox = new Microsoft.Xna.Framework.Rectangle(72, 81, 26, 9), EffectType = AttackEffectType.Sharp });
+            normalCombo.Attacks.Add(new Attack(11, 18, 16) { Power = 100,KnockBackAmount = 40, AttackSound = "meleemiss3", HitSound = "strongkick", HitPauseLength = 150, HitBox = new Microsoft.Xna.Framework.Rectangle(82, 78, 22, 9), EffectType = AttackEffectType.Sharp });
             Combos.Add(normalCombo);
             
         }

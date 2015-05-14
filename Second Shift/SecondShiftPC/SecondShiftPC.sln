@@ -1,11 +1,16 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondShiftPC", "SecondShiftPC\SecondShiftPC\SecondShiftPC.csproj", "{31BCCA4F-D733-44EF-BEE5-0E861AFFEDCF}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "SecondShiftPCContent", "SecondShiftPC\SecondShiftPCContent\SecondShiftPCContent.contentproj", "{FED77965-1C57-4D71-BCE2-EBCE0AE024CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondShiftPCContent", "SecondShiftPC\SecondShiftPCContent\SecondShiftPCContent.contentproj", "{FED77965-1C57-4D71-BCE2-EBCE0AE024CD}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\SecondShiftMobile\GameCode\GameCode.projitems*{31bcca4f-d733-44ef-bee5-0e861affedcf}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86

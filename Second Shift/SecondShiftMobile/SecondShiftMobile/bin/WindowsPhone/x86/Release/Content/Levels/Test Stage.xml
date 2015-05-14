@@ -42,6 +42,10 @@
   <Object X="-15360" Y="896" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" />
   <Object X="80256" Y="-57984" Z="110000" Name="Sun" Type="SecondShiftMobile.Sun">
     <Property Name="Scale" Info="A single float representing scale">1500</Property>
+    <Property Name="BloomWidth" Info="The width of the bloom effect">40</Property>
+    <Property Name="BloomIntensity" Info="The intensity of the bloom effect">0.75</Property>
+    <Property Name="ZoomScale" Info="The scale of the zoom effect">3</Property>
+    <Property Name="Speed" Info="The speed of the sun">0, 0, 0</Property>
   </Object>
   <Object X="2496" Y="-192" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
   <Object X="2496" Y="-320" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
@@ -115,6 +119,8 @@
     <Property Name="Emitter Size" Info="The size of the emitter">500, 20, 0</Property>
     <Property Name="Max Timer" Info="How many frames before a new smoke is created">2</Property>
     <Property Name="Sun Block Alpha">0.3</Property>
+    <Property Name="Smoke Lifetime">180</Property>
+    <Property Name="Start Scale">1</Property>
   </Object>
   <Object X="2816" Y="-1792" Z="5500" Name="TestProp" Type="SecondShiftMobile.Test.TestPropellor">
     <Property Name="Scale" Info="A single float representing scale">5</Property>
@@ -293,7 +299,7 @@
   <Object X="6144" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
   <Object X="6272" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
   <Object X="6400" Y="-5696" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
-  <Object X="1784" Y="-38" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
+  <Object X="13" Y="790" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
   <Object X="3806" Y="-1107" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
   <Object X="2464" Y="-33" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
   <Object X="-6464" Y="-101" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
@@ -333,7 +339,6 @@
     <Property Name="Scale" Info="A single float representing scale">5</Property>
     <Property Name="Rotation Speed" Info="The speed of rotation">1</Property>
   </Object>
-  <Object X="273" Y="-47382" Z="0" Name="Grey" Type="SecondShiftMobile.Grey" CameraTarget="true" />
   <Object X="-98651" Y="-28266" Z="15599" Name="" Type="SecondShiftMobile.Cloud">
     <Property Name="Scale" Info="A single float representing scale">299.4539</Property>
     <Property Name="Speed" Info="The speed of the cloud object">18.20703, 0, 0</Property>
@@ -1134,4 +1139,7 @@
     <Property Name="Alpha" Info="The alpha value of the cloud">0.75</Property>
     <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
   </Object>
+  <Object X="419" Y="-93" Z="0" Name="" Type="SecondShiftMobile.Test.Ball" />
+  <Object X="5114" Y="-2506" Z="0" Name="" Type="SecondShiftMobile.Test.Ball" />
+  <Object X="239" Y="-35" Z="0" Name="" Type="SecondShiftMobile.Players.Carrot" CameraTarget="true" />
 </Level>

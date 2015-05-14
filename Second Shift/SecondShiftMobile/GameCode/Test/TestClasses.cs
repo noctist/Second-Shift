@@ -425,10 +425,10 @@ namespace SecondShiftMobile.Test
                         Remove();
                 }
             }
-            public override bool Attacked(Attack attack, Obj obj, Rectangle AttackBox, Rectangle intersection)
+            protected override bool AttackedOverride(Attack attack, Obj obj, Rectangle AttackBox, Rectangle intersection)
             {
                 Remove();
-                return base.Attacked(attack, obj, AttackBox, intersection);
+                return base.AttackedOverride(attack, obj, AttackBox, intersection);
             }
             public override void Draw()
             {
@@ -634,7 +634,7 @@ namespace SecondShiftMobile.Test
         {
             Scale = new Vector2(5);
             Bevel = true;
-            BevelGlow = 1;
+            BevelGlow = 3;
             BevelDeltaMultiplier = new Vector2(2);
         }
         public override void LateUpdate()
@@ -667,6 +667,7 @@ namespace SecondShiftMobile.Test
         public LaunchRocket(Game1 Doc, float X, float Y, float Z)
             : base(Doc, Doc.LoadTex("Rytard Missle"), X, Y, Z)
         {
+            Texture.Height = Texture.Width = 100;
             Origin = new Vector2(13, 51);
             Scale = new Vector2(40);
             Rotation.Z = -90;

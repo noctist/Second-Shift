@@ -18,7 +18,7 @@ namespace SecondShiftMobile.Behaviours
             {
                 o.Speed *= speedMult;
             }
-            base.Update(o);
+            //base.Update(o);
         }
     }
 }

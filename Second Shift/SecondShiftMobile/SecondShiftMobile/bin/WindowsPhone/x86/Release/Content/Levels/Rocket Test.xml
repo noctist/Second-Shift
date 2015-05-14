@@ -136,6 +136,10 @@
   <Object X="5586" Y="40" Z="0" Name="" Type="SecondShiftMobile.Enemies.Guard" />
   <Object X="49920" Y="-33920" Z="80000" Name="" Type="SecondShiftMobile.Sun">
     <Property Name="Scale" Info="A single float representing scale">500</Property>
+    <Property Name="BloomWidth" Info="The width of the bloom effect">40</Property>
+    <Property Name="BloomIntensity" Info="The intensity of the bloom effect">2</Property>
+    <Property Name="ZoomScale" Info="The scale of the zoom effect">3</Property>
+    <Property Name="Speed" Info="The speed of the sun">0, 0, 0</Property>
   </Object>
   <Object X="31573" Y="-27526" Z="82549" Name="" Type="SecondShiftMobile.Cloud">
     <Property Name="Scale" Info="A single float representing scale">141.9887</Property>
@@ -777,4 +781,5 @@
     <Property Name="Alpha" Info="The alpha value of the cloud">1</Property>
     <Property Name="Color" Info="The color of the cloud">255, 255, 255, 255</Property>
   </Object>
+  <Object X="2466" Y="-162" Z="0" Name="" Type="SecondShiftMobile.Enemies.Joker" />
 </Level>

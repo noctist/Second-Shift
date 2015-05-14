@@ -734,3 +734,41 @@ C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\
 C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Carrot\BackAttack.xnb
 C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Sanji to Usopp.xnb
 C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Sanji to Usopp.wma
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Carrot\UpAttack.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Carrot\BackAttack.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Sanji to Usopp.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Music\Sanji to Usopp.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Levels\Network Stage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cutscenes\Network Scene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Levels\Network Stage.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cutscenes\Network Scene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\ScreenOverlay.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Carrot\AirKick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\ScreenOverlay.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Carrot\AirKick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Samurai\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Samurai\Run.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Samurai\Stab.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\HitEffects\Blunt.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Samurai\Dash.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Samurai\DashStab.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Match\NormalCombo.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Match\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\mediumkick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\swordhit.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\spin.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Levels\MatchStage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cutscenes\MatchScene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Samurai\Stand.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Samurai\Run.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Samurai\Stab.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\HitEffects\Blunt.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Samurai\Dash.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Enemies\Samurai\DashStab.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Match\NormalCombo.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Characters\Match\Stand.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\mediumkick.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\swordhit.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Sound\Effects\spin.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Levels\MatchStage.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\Content\Cutscenes\MatchScene.xml

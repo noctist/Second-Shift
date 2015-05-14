@@ -1,0 +1,26 @@
+<Cutscene Class="SecondShiftMobile.Cutscenes.Cutscene">
+  <Action AutoExecute="true" Type="SetCameraDelta" Name="">
+    <Time />
+    <TargetDelta />
+    <Frames />
+    <StartingDelta />
+    <StartPower />
+    <EndPower />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume">
+    <VolumeType>MediaPlayer</VolumeType>
+    <Time />
+    <Volume />
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume">
+    <VolumeType>SoundEffect</VolumeType>
+    <Time />
+    <Volume />
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Type="LoadLevel" ClearObjects="true" Name="">
+    <Time />
+    <LevelName>MatchStage</LevelName>
+  </Action>
+</Cutscene>

@@ -70,11 +70,14 @@ namespace SecondShiftMobile
         public Shake Shake;
         private Shake speedShake;
         List<Shake> shakes = new List<Shake>();
-        public Vector2 CameraSize = new Vector2(960, 540);
+        public Vector2 CameraSize;
         public readonly Vector3 HelperPos = new Vector3(0, 0, 90);
         
         public Camera()
         {
+            CameraSize = new Vector2();
+            CameraSize.X = 1164;
+            CameraSize.Y = CameraSize.X * (9f / 16f);
             truePosTarget = Vector3.Zero;
             Position = Vector3.Zero;
             shakePos = Vector2.Zero;
@@ -237,8 +240,16 @@ namespace SecondShiftMobile
         }
         public Shake(Camera cam, float size, float speed, float dissapationSpeed)
         {
-            shakeaccx = MyMath.RandomRange(-1f, 1f);
-            shakeaccy = MyMath.RandomRange(-1f, 1f);
+            int xs = rand.Next(0, 100);
+            if (xs < 50)
+                xs = -1;
+            else xs = 1;
+            int ys = rand.Next(0, 100);
+            if (ys < 50)
+                ys = -1;
+            else ys = 1;
+            shakeaccx = MyMath.RandomRange(0f, 1f) * xs;
+            shakeaccy = MyMath.RandomRange(0f, 1f) * ys;
             dissSpeed = dissapationSpeed;
             shakespeed = speed;
             shakesize = size;

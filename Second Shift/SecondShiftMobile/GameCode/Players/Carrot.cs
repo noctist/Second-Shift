@@ -8,7 +8,7 @@ namespace SecondShiftMobile.Players
 {
     public class Carrot : Player
     {
-        Combo normalCombo, upCombo, downAirCombo, dashCombo, upAttack, backGroundCombo;
+        Combo normalCombo, upCombo, downAirCombo, dashCombo, upAttack, backGroundCombo, airCombo;
         TextureFrame standSprite, stanceSprite;
         float fighting = 0;
         public Carrot(Game1 Doc, float X, float Y, float Z)
@@ -29,7 +29,7 @@ namespace SecondShiftMobile.Players
                 t.Width = 506;
             }
             DashGroundAnimation = Doc.LoadAtlasAnimation("Characters/Carrot/Dash", Vector2.Zero, new Vector2(506, 415), 4, TextureDirection.Horizontal);
-            BoundingRectangle = new Rectangle(179, 60, 230, 0);
+            BoundingRectangle = new Rectangle(179, 170, 230, 0);
             WallStickCenter = 50;
             normalCombo = new Combo()
             {
@@ -38,16 +38,16 @@ namespace SecondShiftMobile.Players
             };
             var punchRec = new Rectangle(250, 230, 120, 100);
             normalCombo.Attacks.Add(
-                new Attack(0, 8, 4) { Power = 10, HitBox = punchRec, HitPause = false, AttackSound = "meleemiss1", HitSound = "weakpunch",
+                new Attack(0, 8, 4) { Power = 10, HitBox = punchRec, AttackSound = "meleemiss1", HitSound = "weakpunch",
                 MoveSpeed = new Vector3(6, 0, 0)}
                 );
             normalCombo.Attacks.Add(
-                new Attack(9, 17, 14) { Power = 15, HitBox = punchRec, HitPause = false, AttackSound = "meleemiss2", HitSound = "weakkick",
+                new Attack(9, 17, 14) { Power = 15, HitBox = punchRec, AttackSound = "meleemiss2", HitSound = "weakkick",
                 MoveSpeed = new Vector3(6, 0, 0)}
                 );
             normalCombo.Attacks.Add(
-                new Attack(18, 39, 22) { Power = 25, HitBox = new Rectangle(250, 280, 170, 100), AttackSound = "meleemiss3", HitSound = "mediumpunch", KnockBack = true, Direction = -20, 
-                    MoveSpeed = new Vector3(7, 0, 0) }
+                new Attack(18, 39, 22) { Power = 25, HitBox = new Rectangle(250, 280, 170, 100), AttackSound = "meleemiss3", HitSound = "mediumpunch",  Direction = -20, 
+                    MoveSpeed = new Vector3(7, 0, 0), EffectType = AttackEffectType.Blunt, KnockBackAmount = 20 }
                 );
             upCombo = new Combo()
             {
@@ -62,12 +62,12 @@ namespace SecondShiftMobile.Players
                 HitBox = new Rectangle(250, 150, 120, 150),
                 //MoveSpeed = new Vector3(5, -15, 0),
                 Power = 27,
-                KnockBack = true,
                 Direction = -75,
                 HitSound = "strongpunch",
                 AttackSound = "meleemiss1",
                 WaitTime = 120,
-                TimeOut = 120
+                TimeOut = 120,
+                KnockBackAmount = 25
             }
             );
 
@@ -82,12 +82,10 @@ namespace SecondShiftMobile.Players
                 HitBox = new Rectangle(250, 250, 120, 150),
                 MoveSpeed = new Vector3(15, 10, 0),
                 Power = 30,
-                KnockBack = true,
                 Direction = 45,
                 HitSound = "strongkick",
                 AttackSound = "meleemiss2",
                 WaitTime = 60,
-                
             }
             );
             foreach (var t in downAirCombo.Animation)
@@ -105,15 +103,14 @@ namespace SecondShiftMobile.Players
             {
                 HitOnAllFrames = true,
                 HitBox = punchRec,
-                Power = 20,
-                HitPause = true,
+                Power = 20, HitPauseLength = 20,
                 KnockBackAmount = 30,
-                KnockBack = true,
                 Direction = 10,
                 HitSound = "strongpunch",
                 AttackSound = "meleemiss2",
                 WaitTime = 60,
-                TimeOut = 90
+                TimeOut = 90,
+                EffectType = AttackEffectType.Sharp
             }
             );
             backGroundCombo = new Combo()
@@ -126,20 +123,44 @@ namespace SecondShiftMobile.Players
             {
                 AttackSound = "meleemiss2",
                 HitSound = "weakkick",
-                Power = 20, HitPause = true, PauseLength = 10,
-                KnockBack = true, KnockBackAmount = 10,
+                Power = 20, HitPauseLength = 10,
+                KnockBackAmount = 10,
                 MoveSpeed = new Vector3(-8, 0, 0),
-                HitBox = new Rectangle(60, 240, 125, 50)
+                HitBox = new Rectangle(60, 240, 125, 50),
+                EffectType = AttackEffectType.Sharp
             });
             backGroundCombo.Attacks.Add(new Attack(14, 31, 17)
             {
-                Power = 25, HitPause = true, PauseLength = 30,
-                KnockBack = true, KnockBackAmount = 35,
+                Power = 25, HitPauseLength = 30,
+                KnockBackAmount = 35,
                 AttackSound = "meleemiss3",
                 HitSound = "strongkick",
                 HitBox = new Rectangle(270, 230, 120, 100),
-                MoveSpeed = new Vector3(10, 0, 0)
+                MoveSpeed = new Vector3(10, 0, 0),
+                EffectType = AttackEffectType.Sharp
             });
+
+            airCombo = new Combo()
+            {
+                Animation = doc.LoadAtlasAnimation("Characters/Carrot/AirKick", Vector2.Zero, new Vector2(506, 415), 16, TextureDirection.Horizontal),
+                Framespeed = 0.6f,
+                RunSpeedMultiplier = 0.4f
+            };
+            airCombo.Attacks.Add(new Attack(0, 5, 2) {
+                HitBox = new Rectangle(220, 200, 120, 100),
+                HitOnAllFrames = true,
+                AttackSound = "meleemiss3",
+                HitSound = "strongkick",
+                WaitTime = 5,
+                HitPauseLength = 20,
+                Power = 20,
+                KnockBackAmount = 20,
+                Direction = -15,
+                MoveSpeed = new Vector3(10, -2, 0), GravityMult = 0.8f,
+                EffectType = AttackEffectType.Sharp
+            });
+
+            AddCombo(backGroundCombo, upCombo, downAirCombo, normalCombo, dashCombo, airCombo);
         }
         protected override void NextAttackOverride()
         {
@@ -149,15 +170,15 @@ namespace SecondShiftMobile.Players
                 speed2 += Math.Max(Math.Min(speed, speed - speed2), 0);
             }*/
         }
-        protected override void AttackLanded(Obj obj, Attack attack, Rectangle attackBoundingBox, Rectangle attackIntersection)
+        protected override void AttackLandedOverride(Obj obj, Attack attack, Rectangle attackBoundingBox, Rectangle attackIntersection)
         {
             fighting = 200;
-            base.AttackLanded(obj, attack, attackBoundingBox, attackIntersection);
+            base.AttackLandedOverride(obj, attack, attackBoundingBox, attackIntersection);
         }
-        public override bool Attacked(Attack attack, Obj obj, Rectangle AttackBox, Rectangle intersection)
+        protected override bool AttackedOverride(Attack attack, Obj obj, Rectangle AttackBox, Rectangle intersection)
         {
             fighting = 200;
-            return base.Attacked(attack, obj, AttackBox, intersection);
+            return base.AttackedOverride(attack, obj, AttackBox, intersection);
         }
         public override void Update()
         {
@@ -196,7 +217,7 @@ namespace SecondShiftMobile.Players
         {
             if (OnTheGround)
             {
-                if (CurrentCombo == downAirCombo || CurrentCombo == upCombo)
+                if (CurrentCombo == downAirCombo || CurrentCombo == upCombo || CurrentCombo == airCombo)
                 {
                     EndAttack();
                 }
@@ -219,6 +240,14 @@ namespace SecondShiftMobile.Players
             switch (direction)
             {
                 default:
+                    if (!OnTheGround)
+                    {
+                        if (ChangeCurrentCombo(airCombo, false))
+                        {
+                            NextAttack();
+                        }
+                    }
+                    else
                     if (Dashing && !Attacking)
                     {
                         ChangeCurrentCombo(dashCombo, false);

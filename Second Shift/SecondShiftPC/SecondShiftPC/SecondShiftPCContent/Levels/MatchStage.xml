@@ -1,0 +1,21 @@
+<Level SkyColor="135,206,235,255" Contrast="0.9882353,0.9882353,0.9882353,0.4862745">
+  <Object X="0" Y="1024" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" NetworkId="bcdfd916" />
+  <Object X="1024" Y="1024" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" NetworkId="3a00a6c3" />
+  <Object X="-1024" Y="1024" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" NetworkId="2c1889b4" />
+  <Object X="-2048" Y="1024" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" NetworkId="cd91bbf3" />
+  <Object X="2048" Y="1024" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" NetworkId="80ab3f61" />
+  <Object X="3072" Y="1024" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" NetworkId="64d0cd6d" />
+  <Object X="-3072" Y="1024" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" NetworkId="facb7f76" />
+  <Object X="4096" Y="1024" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" NetworkId="f588d5a1" />
+  <Object X="-4096" Y="1024" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" NetworkId="1f6971dc" />
+  <Object X="5120" Y="1024" Z="0" Name="" Type="SecondShiftMobile.Test.LargeGrass" NetworkId="c181d590" />
+  <Object X="20" Y="50" Z="0" Name="" Type="SecondShiftMobile.Players.Match" NetworkId="c2083653" CameraTarget="true" />
+  <Object X="733" Y="57" Z="0" Name="" Type="SecondShiftMobile.Enemies.Samurai" NetworkId="7d24d99f" />
+  <Object X="-416" Y="62" Z="0" Name="" Type="SecondShiftMobile.Enemies.Samurai" NetworkId="57427ff8" />
+  <Object X="-1324" Y="57" Z="0" Name="" Type="SecondShiftMobile.Enemies.Samurai" NetworkId="477548eb" />
+  <Object X="1128" Y="63" Z="0" Name="" Type="SecondShiftMobile.Enemies.Samurai" NetworkId="8668a3ee" />
+  <Object X="1739" Y="43" Z="0" Name="" Type="SecondShiftMobile.Enemies.Samurai" NetworkId="9ec85f24" />
+  <Object X="2500" Y="51" Z="0" Name="" Type="SecondShiftMobile.Enemies.Samurai" NetworkId="4676fd72" />
+  <Object X="3000" Y="48" Z="0" Name="" Type="SecondShiftMobile.Enemies.Samurai" NetworkId="bfaf69a4" />
+  <Object X="-2635" Y="40" Z="0" Name="" Type="SecondShiftMobile.Enemies.Samurai" NetworkId="885ad829" />
+</Level>

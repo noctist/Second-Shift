@@ -33,11 +33,12 @@ namespace SecondShiftMobile.Enemies
                 HitSound = "strongpunch",
                 WaitTime = 60,
                 HitBox = new Rectangle(82, 80, 24, 10),
-                KnockBack = true
+                EffectType = AttackEffectType.Sharp
             }); 
             
             ChangeCurrentCombo(normalCombo);
             DeactivateOffscreen = false;
+            AddCombo(normalCombo);
             //Active = false;
         }
         protected override void SetFramespeed()

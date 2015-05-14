@@ -9,10 +9,11 @@ namespace SecondShiftMobile
 {
     public class GravityObj : Obj
     {
+        public const float NormalGravity = 0.7f;
         /// <summary>
         /// The acceleration the object will fall at
         /// </summary>
-        public float Gravity = 0;
+        public float Gravity = 1;
 
         /// <summary>
         /// This sets whether or not to use gravity
@@ -28,11 +29,16 @@ namespace SecondShiftMobile
         {
             if (AllowGravity)
             {
-                Speed.Y += Gravity * PlaySpeed;
+                Speed.Y += NormalGravity * GetGravity() * PlaySpeed;
             }
 
             //Helper.Write(gravity);
             base.EarlyUpdate();
+        }
+
+        public virtual float GetGravity()
+        {
+            return Gravity;
         }
     }
 }

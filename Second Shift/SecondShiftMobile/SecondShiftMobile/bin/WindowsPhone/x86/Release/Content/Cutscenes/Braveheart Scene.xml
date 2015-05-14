@@ -3,6 +3,13 @@
     <Time />
     <LevelName>Braveheart Stage</LevelName>
   </Action>
+  <Action AutoExecute="true" Type="SetLookDirection" Name="">
+    <Time />
+    <LookDirection>0, 0.5</LookDirection>
+    <FrameDuration>10</FrameDuration>
+    <EndPower />
+    <StartPower />
+  </Action>
   <Action AutoExecute="true" Type="SetScreenFade" Name="">
     <Time />
     <FadeType>FadeOut</FadeType>
@@ -60,5 +67,12 @@
     <Time>45</Time>
     <FadeType>FadeIn</FadeType>
     <Frames>60</Frames>
+  </Action>
+  <Action AutoExecute="true" Type="SetLookDirection" Name="">
+    <Time />
+    <LookDirection />
+    <FrameDuration>480</FrameDuration>
+    <EndPower>3</EndPower>
+    <StartPower />
   </Action>
 </Cutscene>

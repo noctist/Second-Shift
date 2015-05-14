@@ -341,7 +341,7 @@ namespace SecondShiftMobile.UI
         public virtual void Draw(Rectangle DrawRect, GraphicsDevice device, GraphicsDeviceManager graphics, SpriteBatch spriteBatch, float opacity = 1)
         {
             screenRectangle = DrawRect;
-            spriteBatch.Draw(Textures.WhiteBlock, DrawRect, BackgroundColor * Opacity * opacity);
+            spriteBatch.Draw(Textures.WhiteBlock, new Rectangle(DrawRect.X + (int)Margin.Left, DrawRect.Y + (int)Margin.Top, DrawRect.Width - (int)Margin.Right, DrawRect.Height - (int)Margin.Bottom), BackgroundColor * Opacity * opacity);
         }
         public virtual void Changed(string Property)
         {

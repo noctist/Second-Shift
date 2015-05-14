@@ -1,0 +1,41 @@
+<Cutscene Class="SecondShiftMobile.Cutscenes.Cutscene">
+  <Action AutoExecute="true" Type="SetScreenFade" Name="">
+    <Time />
+    <FadeType>FadeOut</FadeType>
+    <Frames>0</Frames>
+  </Action>
+  <Action AutoExecute="true" Type="SetCameraDelta" Name="">
+    <Time />
+    <TargetDelta />
+    <Frames />
+    <StartingDelta />
+    <StartPower />
+    <EndPower />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume" Name="">
+    <VolumeType>MediaPlayer</VolumeType>
+    <Time />
+    <Volume>0.75</Volume>
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicVolume">
+    <VolumeType>SoundEffect</VolumeType>
+    <Time />
+    <Volume />
+    <Frames />
+  </Action>
+  <Action AutoExecute="true" Type="LoadLevel" ClearObjects="true" Name="">
+    <Time />
+    <LevelName>Network Stage</LevelName>
+  </Action>
+  <Action AutoExecute="true" Type="SetMusicState" SongName="Luffy Versus Ratchet Round 1" Name="">
+    <Time />
+    <State>Play</State>
+    <Loop>DontChange</Loop>
+  </Action>
+  <Action AutoExecute="true" Type="SetScreenFade" Name="">
+    <Time />
+    <FadeType>FadeIn</FadeType>
+    <Frames>120</Frames>
+  </Action>
+</Cutscene>

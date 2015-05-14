@@ -10,6 +10,7 @@ using Microsoft.Phone.Shell;
 using Microsoft.Xna.Framework;
 using MonoGame.Framework.WindowsPhone;
 using SecondShiftMobile;
+using System.Threading.Tasks;
 
 namespace SecondShiftMobile
 {
@@ -17,6 +18,7 @@ namespace SecondShiftMobile
     {
         private Game1 _game;
 
+        TaskCompletionSource<string> tcs;
         // Constructor
         public GamePage()
         {
@@ -26,6 +28,35 @@ namespace SecondShiftMobile
 
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
+        }
+
+        public Task<string> EnterText()
+        {
+            textGrid.Visibility = System.Windows.Visibility.Visible;
+            tcs = new TaskCompletionSource<string>();
+            textBox.Focus();
+            return tcs.Task;
+        }
+
+        private void textBox_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if (e.Key == System.Windows.Input.Key.Enter)
+            {
+                if (!string.IsNullOrWhiteSpace(textBox.Text))
+                {
+                    textGrid.Visibility = System.Windows.Visibility.Collapsed;
+                    tcs.TrySetResult(textBox.Text.Trim());
+                }
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(textBox.Text))
+            {
+                textGrid.Visibility = System.Windows.Visibility.Collapsed;
+                tcs.TrySetResult(textBox.Text.Trim());
+            }
         }
 
         // Sample code for building a localized ApplicationBar

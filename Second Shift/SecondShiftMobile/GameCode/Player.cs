@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 #if PC
 using Microsoft.Xna.Framework.Input;
 #endif
+using SecondShiftMobile.Networking;
 namespace SecondShiftMobile
 {
     public enum ControlDirection { None, Up, Down, Forward, Back }
@@ -15,8 +16,8 @@ namespace SecondShiftMobile
     {
         bool checkDashLeft = false, checkDashRight = false;
         protected float RunFramespeedMultiplier = 0.03f;
-        protected float JumpSpeed = 20;
-        protected float WallJumpSpeed = 20;
+        protected float JumpSpeed = 15;
+        protected float WallJumpSpeed = 17;
         protected float WallJumpXSpeed = 15;
         protected float DashSpeed = 25;
         bool specialAttack;
@@ -55,15 +56,18 @@ namespace SecondShiftMobile
                 }
             }
         }
+        bool spawned = false;
+        bool spawnConfirmed = false;
         public Player(Game1 Doc, TextureFrame Tex, float x, float y, float z)
             : base(Doc, Tex, x, y, z)
         {
+            IsNetworkCapable = true;
             Attackable = true;
-            Gravity = 0.8f;
             Depth = -1;
             Global.HUDObj = this;
             AttackColor = new Color(255, 150, 0);
             Bevel = true;
+            
         }
         protected virtual void SpecialAttackChanged()
         {
@@ -73,12 +77,13 @@ namespace SecondShiftMobile
                 hudTimer = 0;
             }
         }
+        
         public virtual void EndSpecialAttack()
         {
             SpecialAttack = false;
         }
         public virtual void AttackButtonHit(ControlDirection direction)
-        {
+        {   
             NextAttack();
         }
         public virtual void JumpButtonHit()
@@ -89,9 +94,45 @@ namespace SecondShiftMobile
             }
             else Jump(JumpSpeed);
         }
+        public override void PeerConnected()
+        {
+            sendSpawn();
+        }
+        public override void ReceiveSocketMessage(SocketMessage sm)
+        {
+            if (sm.Info.BaseAddress == "ConfirmSpawn")
+            {
+                spawnConfirmed = true;
+            }
+            else if (sm.Info.BaseAddress == "Explode")
+            {
+                Explode();
+            }
+            base.ReceiveSocketMessage(sm);
+        }
+        void sendSpawn(bool overrideConfirm = false)
+        {
+            if (!IsNetworkControlled && (!spawnConfirmed || overrideConfirm))
+            {
+                if (!spawned)
+                    NewNetworkId();
+                spawned = true;
+                NetworkManager.SpawnPlayer(this);
+            }
+        }
         public override void EarlyUpdate()
         {
-            if (Controllable)
+            if (!spawned && !IsNetworkControlled)
+            {
+                NewNetworkId();
+                spawned = true;
+                NetworkManager.SpawnPlayer(this);
+            }
+            if (ShouldDoNetworkUpdate(120))
+            {
+                sendSpawn();
+            }
+            if (Controllable && !IsNetworkControlled)
             {
                 #region Controls
 #if MONO
@@ -386,20 +427,26 @@ namespace SecondShiftMobile
             
             base.EarlyUpdate();
         }
-        public override bool Attacked(Attack attack, Obj obj, Rectangle AttackBox, Rectangle intersection)
+        protected override bool AttackedOverride(Attack attack, Obj obj, Rectangle AttackBox, Rectangle intersection)
         {
             showHUD = true;
             hudTimer = 0;
-            return base.Attacked(attack, obj, AttackBox, intersection);
+            return base.AttackedOverride(attack, obj, AttackBox, intersection);
         }
-        protected override void AttackLanded(Obj obj, Attack attack, Rectangle attackBoundingBox, Rectangle attackIntersection)
+        protected override void AttackLandedOverride(Obj obj, Attack attack, Rectangle attackBoundingBox, Rectangle attackIntersection)
         {
             showHUD = true;
             hudTimer = 0;
-            base.AttackLanded(obj, attack, attackBoundingBox, attackIntersection);
+            base.AttackLandedOverride(obj, attack, attackBoundingBox, attackIntersection);
         }
         void Explode()
         {
+            if (!IsNetworkControlled)
+            {
+                SocketMessage sm = new SocketMessage() { NetworkId = NetworkID };
+                sm.Info.BaseAddress = "Explode";
+                sm.Send();
+            }
             new Explosion(doc, Pos.X, Pos.Y - 300, 2000, 25, 0.01f, 300, 0.5f, 300, 20);
             //var o = new Exploder(doc, Pos.X, Pos.Y - 300, Pos.Z) { Speed = new Vector3(0, 0, 9) };
             //SmokeEmitter s = new SmokeEmitter(doc, Pos.X, Pos.Y, Pos.Z) { Target = o };
@@ -412,7 +459,7 @@ namespace SecondShiftMobile
                 switch (State)
                 {
                     case PlatformerState.Running:
-                        Framespeed = speed2 * RunFramespeedMultiplier;
+                        Framespeed = Math.Abs(GetMoveSpeed().X) * RunFramespeedMultiplier;
                         break;
                     default:
                         Framespeed = 1;
@@ -477,5 +524,14 @@ namespace SecondShiftMobile
             //doc.spriteBatch.Draw(Textures.HealthIcon, new Rectangle(12, 24, (int)MyMath.Between(0, 75, health / maxHealth), 75), new Rectangle(0, 0, (int)MyMath.Between(0, 100, health / maxHealth), 100), Color.White);
         }
 
+    }
+
+    public class PlayerSpawner : Obj
+    {
+        public PlayerSpawner(Game1 Doc, float X, float Y, float Z)
+            :base(Doc, Textures.Light2, X, Y, Z)
+        {
+
+        }
     }
 }

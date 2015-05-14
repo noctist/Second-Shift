@@ -5,17 +5,13 @@ using System.Text;
 
 namespace SecondShiftMobile.Behaviours
 {
-    public class Behaviour
+    public abstract class Behaviour
     {
         public Behaviour()
         {
 
         }
-        public virtual void Update(Obj o)
-        {
-
-        }
-
+        public abstract void Update(Obj o);
         public virtual Vector3 Speed(Obj o, Vector3 speed)
         {
             return speed;

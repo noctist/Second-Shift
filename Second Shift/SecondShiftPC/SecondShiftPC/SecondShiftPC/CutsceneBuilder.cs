@@ -277,6 +277,17 @@ namespace SecondShiftMobile
         public ContractTextBox(CutsceneAction ca, ActionContract con)
         {
             Text = StageObjectPropertyConverter.SetValue(con.GetValue(ca));
+            if (con.AutoCompleteStrings != null && con.AutoCompleteStrings.Count > 0)
+            {
+                var coll = new AutoCompleteStringCollection();
+                foreach (var s in con.AutoCompleteStrings)
+                {
+                    coll.Add(s);
+                }
+                AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+                AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+                AutoCompleteCustomSource = coll;
+            }
             contract = con;
             action = ca;
             Width = 400;
@@ -285,27 +296,36 @@ namespace SecondShiftMobile
                 this.ResizeRedraw = true;
                 this.
                 Multiline = true;
-                
             }
             //this.AcceptsReturn = true;
             //this.WordWrap = true;
         }
         protected override void OnTextChanged(EventArgs e)
         {
-            using (System.Drawing.Graphics g = CreateGraphics())
+            try
             {
-                int height = 0;
-                //foreach (var line in Lines)
+                if (AutoCompleteCustomSource == null)
                 {
-                    SizeF size = g.MeasureString(Text, Font, Width, new StringFormat());
-                    for (int i = 0; i < size.Width; i+=Height)
+                    using (System.Drawing.Graphics g = CreateGraphics())
                     {
-                        
+                        int height = 0;
+                        //foreach (var line in Lines)
+                        {
+                            SizeF size = g.MeasureString(Text, Font, Width, new StringFormat());
+                            for (int i = 0; i < size.Width; i += Height)
+                            {
+
+                            }
+                            height += (int)size.Height;
+                        }
+                        height = (int)MathHelper.Clamp(height, 25, 1000) + 10;
+                        Height = height;
                     }
-                    height += (int)size.Height;
                 }
-                height = (int)MathHelper.Clamp(height, 25, 1000) + 10;
-                Height = height;
+            }
+            catch
+            {
+
             }
             
             if (contract.Type == typeof(string))

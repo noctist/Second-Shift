@@ -98,6 +98,7 @@ namespace SecondShiftMobile
                 // An unhandled exception has occurred; break into the debugger
                 Debugger.Break();
             }
+            e.Handled = true;
             MessageBox.Show(e.ExceptionObject.ToString());
         }
 

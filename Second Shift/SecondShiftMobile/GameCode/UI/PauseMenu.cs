@@ -11,12 +11,13 @@ namespace SecondShiftMobile.UI
     {
         StackPanel menuPanel, aboutPanel;
         TextBlock title, aboutText;
-        TextBlock resume, options, scenes, quit, about;
+        TextBlock resume, options, scenes, quit, about, network;
         Panel optionsPanel;
         OptionsPanel opsPanel;
         ScrollViewer cutsceneScroll, aboutScroll;
         CutscenePicker cutscenePicker;
         Panel p = new Panel();
+        NetworkPanel networkPanel;
         public PauseMenu()
         {
             menuPanel = new StackPanel()
@@ -30,12 +31,13 @@ namespace SecondShiftMobile.UI
             quit = new TextBlock() { Text = "quit" };
             scenes = new TextBlock() { Text = "scenes" };
             about = new TextBlock() { Text = "about" };
+            network = new TextBlock() { Text = "multiplayer" };
 
             aboutText = new TextBlock() { Wrap = TextWrapping.Wrap };
             string s = Global.Game.Content.Load<String>("Miscellaneous/About");
             aboutText.Text = s;
 
-            menuPanel.AddChild(resume, options, scenes, about, quit);
+            menuPanel.AddChild(resume, options, scenes, network, about, quit);
             title = new TextBlock()
             {
                 Font = Fonts.UITitle,
@@ -57,7 +59,7 @@ namespace SecondShiftMobile.UI
             opsPanel = new OptionsPanel();
             cutscenePicker = new CutscenePicker();
             aboutPanel = new StackPanel();
-
+            networkPanel = new NetworkPanel();
             aboutPanel.AddChild(aboutText);
             aboutScroll.AddChild(aboutPanel);
             cutsceneScroll.AddChild(cutscenePicker);
@@ -68,6 +70,12 @@ namespace SecondShiftMobile.UI
             quit.Clicked += quit_Clicked;
             about.Clicked += about_Clicked;
             resume.Clicked += resume_Clicked;
+            network.Clicked += network_Clicked;
+        }
+
+        void network_Clicked(object sender, MouseEventArgs e)
+        {
+            SwitchChild(networkPanel);
         }
 
         void resume_Clicked(object sender, MouseEventArgs e)

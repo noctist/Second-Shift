@@ -700,3 +700,24 @@ C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShif
 C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\BackAttack.xnb
 C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Sanji to Usopp.xnb
 C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Music\Sanji to Usopp.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Network Stage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Network Scene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.TextForm.resources
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Levels\Network Stage.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Cutscenes\Network Scene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Debug\SecondShiftMobile.TextForm.resources
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\ScreenOverlay.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\ScreenOverlay.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\AirKick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Carrot\AirKick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\HitEffects\Blunt.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Samurai\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Samurai\Run.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Samurai\Stab.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Samurai\Dash.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Enemies\Samurai\DashStab.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Match\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Characters\Match\NormalCombo.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\mediumkick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\swordhit.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Debug\Content\Sound\Effects\spin.xnb

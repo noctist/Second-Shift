@@ -1,7 +1,22 @@
 <Cutscene Class="SecondShiftMobile.Cutscenes.Scenes.BatmanScene">
+  <Action AutoExecute="true" Type="SetScreenFade" Name="">
+    <Time />
+    <FadeType>FadeOut</FadeType>
+    <Frames />
+  </Action>
   <Action AutoExecute="true" Type="LoadLevel" ClearObjects="true" Name="LoadCity">
     <Time />
     <LevelName>BatmanCity</LevelName>
+  </Action>
+  <Action AutoExecute="true" Type="ResetCamera" Name="">
+    <Time />
+  </Action>
+  <Action AutoExecute="true" Type="SetLookDirection" Name="" Animated="false">
+    <Time />
+    <LookDirection>0, 1</LookDirection>
+    <FrameDuration>1</FrameDuration>
+    <EndPower />
+    <StartPower />
   </Action>
   <Action AutoExecute="true" Type="SetMusicState" SongName="" Name="">
     <Time />
@@ -35,6 +50,18 @@
   <Action AutoExecute="false" Type="Dialog" Character="Batman" Name="" Face="">
     <Time>1</Time>
     <Text>I'm Batman.</Text>
+  </Action>
+  <Action AutoExecute="true" Type="SetLookDirection" Name="" Animated="true">
+    <Time />
+    <LookDirection />
+    <FrameDuration>900</FrameDuration>
+    <EndPower>3</EndPower>
+    <StartPower />
+  </Action>
+  <Action AutoExecute="true" Type="SetScreenFade" Name="">
+    <Time />
+    <FadeType>FadeIn</FadeType>
+    <Frames>60</Frames>
   </Action>
   <Action AutoExecute="true" Visible="false" Type="SetDialogVisibility" Name="">
     <Time>299</Time>

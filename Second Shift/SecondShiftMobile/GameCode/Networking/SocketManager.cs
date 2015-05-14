@@ -19,6 +19,7 @@ namespace SecondShiftMobile.Networking
         public const int MaxBufferSize = 2048;
         byte[] receiveBytes;
         bool receiving = false, receiveRequested = false, sending = false, accepting = false;
+        string messageBuffer = "";
         Queue<SocketMessage> messageQueue;
         public SocketManager()
         {
@@ -33,7 +34,7 @@ namespace SecondShiftMobile.Networking
             if (ip == null)
                 ip = fallbackAddress;
             var endPoint = new IPEndPoint(IPAddress.Parse(ip), port);
-            Role = SocketRole.Server;
+            Role = SocketRole.Host;
             var listener = new Socket(endPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
             
             listener.Bind(endPoint);
@@ -111,7 +112,35 @@ namespace SecondShiftMobile.Networking
             if (e.SocketError == SocketError.Success)
             {
                 var response = Encoding.UTF8.GetString(e.Buffer, e.Offset, e.BytesTransferred).Trim('\0');
-                NetworkManager.Log("Received data: " + response);
+                //NetworkManager.Log("Received data: " + response);
+                int socketEndingIndex = 0;
+                bool addToSocketBuffer = true;
+                int respondStartIndex = 0;
+                for (int i = 0; i < response.Length; i++)
+                {
+                    if (response[i] == SocketMessage.EndingString[socketEndingIndex])
+                    {
+                        socketEndingIndex++;
+                        if (socketEndingIndex == SocketMessage.EndingString.Length)
+                        {
+                            addToSocketBuffer = false;
+                            messageBuffer += response.Substring(respondStartIndex, (i + 1) - respondStartIndex);
+                            respondStartIndex = i + 1;
+                            NetworkManager.Log("Received data: " + messageBuffer);
+                            var sm = new SocketMessage(messageBuffer);
+                            messageBuffer = "";
+                            NetworkManager.ProcessIncomingSocketMessage(sm);
+                            socketEndingIndex = 0;
+                        }
+                    }
+                    else
+                    {
+                        addToSocketBuffer = true;
+                        socketEndingIndex = 0;
+                    }
+                }
+                if (addToSocketBuffer)
+                    messageBuffer += response;
             }
             if (receiveRequested)
             {
@@ -126,6 +155,8 @@ namespace SecondShiftMobile.Networking
                 messageQueue.Enqueue(message);
                 return;
             }
+            sending = true;
+            Helper.Write("Sending message: " + message);
             if (send == null)
             {
                 send = new SocketAsyncEventArgs();
@@ -139,6 +170,7 @@ namespace SecondShiftMobile.Networking
 
         void send_Completed(object sender, SocketAsyncEventArgs e)
         {
+            Helper.Write("Message sent");
             sending = false;
             if (messageQueue.Count > 0)
             {

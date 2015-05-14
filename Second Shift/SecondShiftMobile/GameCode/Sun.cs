@@ -18,9 +18,9 @@ namespace SecondShiftMobile
             OverlayColor = Color;
             ZoomColor = new Microsoft.Xna.Framework.Color(255, 210, 180, 255);
             this.BloomWidth = 40;
-            this.BloomIntensity = 0.75f;
+            this.BloomIntensity = 5f;
             this.OverlayScale = 0.2f;
-            OverlayAlpha = 0.9f;
+            OverlayAlpha = 1.5f;
             this.ZoomScale = 3.0f;
             ZoomTimes = 15;
             ZoomIntensity = 0.110f;

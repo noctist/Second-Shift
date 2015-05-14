@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Audio;
+using SecondShiftMobile.Networking;
 namespace SecondShiftMobile
 {
     public class CombatObj: PlatformerObj
@@ -20,11 +21,10 @@ namespace SecondShiftMobile
             }
         }
         public bool IsKnockedBack { private set; get; }
-        public Color AttackColor = Color.Red;
         Color hurtColor = new Color(200, 0, 0);
         protected float health = 100;
         protected float maxHealth = 100;
-        public List<Combo> Combos;
+        
         public Combo CurrentCombo { get; private set; }
         protected bool Attacking = false;
         int attackIndex = 0;
@@ -50,6 +50,7 @@ namespace SecondShiftMobile
         Vector3 combatSpeed = new Vector3();
         int attacksInCurrentCombo = 0;
         public int AttacksInCurrentCombo { get { return attacksInCurrentCombo; } }
+        float gravityMult = 1;
         protected int AttackIndex
         {
             get { return attackIndex; }
@@ -76,10 +77,33 @@ namespace SecondShiftMobile
         public CombatObj(Game1 Doc, TextureFrame Tex, float X, float Y, float Z)
             :base(Doc, Tex, X, Y, Z)
         {
-            Combos = new List<Combo>();
             AttackTimer = 0;
             Attackable = true;
             IsKnockedBack = false;
+        }
+        
+        public override void ReceiveSocketMessage(SocketMessage sm)
+        {
+            base.ReceiveSocketMessage(sm);
+            if (sm.Info.BaseAddress == "ChangeCombo")
+            {
+                ChangeCurrentCombo(Combos[int.Parse(sm.Info["Index"])], true);
+            }
+            else if (sm.Info.BaseAddress == "NextAttack")
+            {
+                NextAttack(int.Parse(sm.Info["Index"]));
+            }
+            else if (sm.Info.BaseAddress == "Die")
+            {
+                NetworkManager.Log("Received Die message");
+                int cIndex = 0, aIndex = 0;
+                int.TryParse(sm.Info["cIndex"], out cIndex);
+                int.TryParse(sm.Info["aIndex"], out aIndex);
+                Rectangle rect = StageObjectPropertyConverter.GetRectangle(sm.Info["rect"]);
+                var obj = doc.FindObjectByNetworkId(sm.Info["obj"]);
+                Die(obj.Combos[cIndex].Attacks[aIndex], obj, rect);
+                NetworkManager.Log("Called Die in CombatObj");
+            }
         }
         protected virtual void ChangeCurrentCombo(int comboIndex)
         {
@@ -94,6 +118,14 @@ namespace SecondShiftMobile
                 if (Attacking)
                     EndAttack();
                 CurrentCombo = combo;
+                if (Combos.Contains(combo) && !IsNetworkControlled && NetworkID != null)
+                {
+                    var sm = new SocketMessage();
+                    sm.NetworkId = NetworkID;
+                    sm.Info.BaseAddress = "ChangeCombo";
+                    sm.Info["Index"] = Combos.IndexOf(combo).ToString();
+                    sm.Send();
+                }
                 attackIndex = 0;
                 hitID = -1;
                 attacksInCurrentCombo = 0;
@@ -105,10 +137,39 @@ namespace SecondShiftMobile
         protected virtual void Die(Attack attack, Obj obj, Rectangle intersection)
         {
             //Remove();
+            if (!IsNetworkControlled)
+            {
+                var sm = new SocketMessage();
+                sm.NetworkId = NetworkID;
+                sm.Info.BaseAddress = "Die";
+                sm.Info["rect"] = intersection.ToStageString();
+                int comboIndex = 0, attackIndex = 0;
+                for (int i = 0; i < obj.Combos.Count; i++)
+                {
+                    var attIndex = obj.Combos[i].Attacks.IndexOf(attack);
+                    if (attIndex != -1)
+                    {
+                        comboIndex = i;
+                        attackIndex = attIndex;
+                    }
+                }
+                sm.Info["cIndex"] = comboIndex.ToString();
+                sm.Info["aIndex"] = attackIndex.ToString();
+                sm.Info["obj"] = obj.NetworkID;
+                sm.Send();
+            }
         }
 
         protected virtual void NextAttack(int attackIndex)
         {
+            if (!IsNetworkControlled)
+            {
+                var sm = new SocketMessage();
+                sm.NetworkId = NetworkID;
+                sm.Info.BaseAddress = "NextAttack";
+                sm.Info["Index"] = attackIndex.ToString();
+                sm.Send();
+            }
             if (!Attacking)
             {
                 if (CanAttack)
@@ -194,15 +255,16 @@ namespace SecondShiftMobile
                         var c = CurrentCombo.Attacks[AttackIndex];
                         c.AttackSoundEffect.Play(GetSoundVolume(c.AttackVolume), GetSoundPitch(), GetSoundPan());
                     }
+                    gravityMult = CurrentCombo.Attacks[AttackIndex].GravityMult;
                     ApplyAttackMovement(CurrentCombo.Attacks[AttackIndex].MoveSpeed);
                     NextAttackOverride();
                     attacksInCurrentCombo++;
                 }
             }
         }
-        public override Vector3 GetMoveSpeed()
+        public override Vector3 GetMoveSpeedOverride()
         {
-            return base.GetMoveSpeed() + combatSpeed;
+            return base.GetMoveSpeedOverride() + combatSpeed;
         }
         protected virtual void EndAttack()
         {
@@ -215,17 +277,25 @@ namespace SecondShiftMobile
             attackState = SecondShiftMobile.AttackState.Ending;
             scheduledAttackIndex = -1;
         }
-        
+        protected override bool AllowChangeDir()
+        {
+            return !Attacking && !IsKnockedBack;
+        }
         public override void MoveLeft(float runSpeed = 1)
         {
-            if (!Attacking && !IsKnockedBack)
-            base.MoveLeft(runSpeed);
+            base.MoveLeft(calculateRunSpeed(runSpeed));
         }
-
+        float calculateRunSpeed(float runSpeed)
+        {
+            if (Attacking && CurrentCombo != null)
+                runSpeed *= CurrentCombo.RunSpeedMultiplier;
+            if (IsKnockedBack)
+                runSpeed *= 0.02f;
+            return runSpeed;
+        }
         public override void MoveRight(float runSpeed = 1)
         {
-            if (!Attacking && !IsKnockedBack)
-            base.MoveRight(runSpeed);
+            base.MoveRight(calculateRunSpeed(runSpeed));
         }
         public override void DashLeft(float dashSpeed)
         {
@@ -278,8 +348,10 @@ namespace SecondShiftMobile
         }
         public override void Update()
         {
+            gravityMult += (1 - gravityMult) * 0.1f;
             if (IsKnockedBack)
             {
+                
                 float xsub = 1f;
                 if (!OnTheGround)
                     xsub *= 0.5f;
@@ -393,7 +465,11 @@ namespace SecondShiftMobile
         {
             var x = Math.Abs(move.X);
             speed3 += Math.Max(Math.Min(x, x - (speed2 + speed3)), 0) * (move.X < 0 ? -1 : 1);
-            Speed.Y += move.Y;
+            Speed.Y = move.Y;
+        }
+        public override float GetGravity()
+        {
+            return base.GetGravity() * gravityMult;
         }
         Attack lastMovedAttack = null;
         private bool AttackHit(Attack attack)
@@ -428,98 +504,7 @@ namespace SecondShiftMobile
                         if (landed)
                         {
                             hit = true;
-                            var diss = new Disappear(doc, doc.LoadTex("Light2"), r.Center.X, r.Center.Y, Pos.Z) { SortingType = DepthSortingType.Top, SlowDown = false, Color = AttackColor };
-                            diss.Scale = new Vector2(attack.Power * 0.01f);
-                            diss.ScaleSpeed = new Vector2(MathHelper.Clamp(attack.Power, 5, 50) * 0.02f);
-                            diss.FadeInSpeed = 1;
-                            diss.Lifetime = 5;
-                            diss.FadeOutSpeed = -0.1f;
-                            diss.MaxAlpha = 0.8f;
-                            diss.Distortion = 0.3f;
-                            diss.BlendState = BlendState.Additive;
-                            //diss.IsLightSource = true;
-                            diss.LightColor = diss.Color;
-                            Vector2 speed = MyMath.FromLengthDir(attack.Power, attack.Direction);
-                            speed.X *= speedMul;
-                            for (int j = 0; j < attack.Power * 2; j++)
-                            {
-                                /*var d = new Disappear(doc, Textures.SmallLight, r.Center.X, r.Center.Y, Pos.Z)
-                                {
-                                    Lifetime = 10f,
-                                    FadeInSpeed = 1f,
-                                    MaxAlpha = 0,
-                                    FadeOutSpeed = -0.1f,
-                                    Color = AttackColor,
-                                    Speed = MyMath.RandomRange(new Vector3(-attack.Power), new Vector3(attack.Power)),
-                                    BlendState = BlendState.Additive,
-                                    SlowDown = false,
-                                    Scale = new Vector2(0.25f)
-                                };
-                                d.AddBehaviour(new Behaviours.DirectionToRotation(1));*/
-                                var d1 = new Disappear(doc, Textures.SmallLight, MyMath.RandomRange(r.Left, r.Right), MyMath.RandomRange(r.Top, r.Bottom), Pos.Z)
-                                {
-                                    Lifetime = 10f,
-                                    FadeInSpeed = 1f,
-                                    MaxAlpha = 1,
-                                    FadeOutSpeed = -0.1f,
-                                    Color = AttackColor,
-                                    Speed = new Vector3(speed, 0) + (MyMath.RandomRange(new Vector3(-attack.Power), new Vector3(attack.Power)) / 4),
-                                    BlendState = BlendState.Additive,
-                                    SlowDown = false,
-                                    Scale = new Vector2(0.25f)
-                                };
-                                d1.AddBehaviour(new Behaviours.DirectionToRotation(1));
-
-                            }
-                            var di = new Disappear(doc, Textures.SmallLight, r.Center.X, r.Center.Y, Pos.Z)
-                            {
-                                Depth = -1000,
-                                Scale = new Vector2(attack.Power * 6, 3),
-                                Lifetime = 2,
-                                FadeInSpeed = 1,
-                                FadeOutSpeed = -0.25f,
-                                Color = AttackColor,
-                                MaxAlpha = 0.75f,
-                                BlendState = BlendState.Additive,
-                                SlowDown = false,
-                                Rotation = new Vector3(0, 0, MyMath.RandomRange(0, 360)),
-                                //Bloom = 0.5f,
-                                SortingType = DepthSortingType.Top,
-                                SunBlockAlpha = 0
-                            };
-                            var di2 = new Disappear(doc, Textures.SmallLight, r.Center.X, r.Center.Y, Pos.Z)
-                            {
-                                Depth = -1000,
-                                Scale = new Vector2(attack.Power * 6, 4),
-                                Lifetime = 2,
-                                FadeInSpeed = 1,
-                                FadeOutSpeed = -0.125f,
-                                Color = AttackColor,
-                                MaxAlpha = 0.75f,
-                                BlendState = BlendState.Additive,
-                                SlowDown = false,
-                                Rotation = new Vector3(di.Rotation.X, di.Rotation.Y, di.Rotation.Z + MyMath.RandomRange(30, 150)),
-                                SortingType = DepthSortingType.Top,
-                                SunBlockAlpha = 0,
-                                //Bloom = di.Bloom
-                            };
-                            /*if (attack.Power > 20)
-                            {
-                                var di3 = new Disappear(doc, Textures.SmallLight, r.Center.X, r.Center.Y, Pos.Z)
-                                {
-                                    Depth = -1000,
-                                    Scale = new Vector2(100),
-                                    Lifetime = 2,
-                                    FadeInSpeed = 1,
-                                    FadeOutSpeed = -0.25f,
-                                    Color = AttackColor,
-                                    MaxAlpha = 1,
-                                    BlendState = BlendState.Additive,
-                                    SlowDown = false,
-                                    SortingType = DepthSortingType.Top,
-                                    SunBlockAlpha = 0
-                                };
-                            }*/
+                            CreateAttackSparks(attack, r, AttackColor);
                             AttackLanded(o, attack, rec, r);
                             Global.Camera.AddShake(MathHelper.Clamp((float)Math.Pow(attack.Power, 1), 0, 50), MathHelper.Clamp((float)Math.Pow(attack.Power, 1), 0, 40) / 40, 0.05f);
                         }
@@ -555,29 +540,26 @@ namespace SecondShiftMobile
             w.Scale *= 2;
             w.ScaleSpeed = new Vector2(0.05f, 0.05f);
         }
-        protected virtual void AttackLanded(Obj obj, Attack attack, Rectangle attackBoundingBox, Rectangle attackIntersection)
+        protected override void AttackLandedOverride(Obj obj, Attack attack, Rectangle attackBoundingBox, Rectangle attackIntersection)
         {
             if (attack.HitPause)
             {
-                float pause = attack.PauseLength;
-                if (attack.HitPause)
-                {
-                    this.Pause(pause, false);
-                }
-                obj.Pause(pause, false);
                 this.Frame = attack.HitFrame;
+                this.Pause(attack.HitPauseLength, true);
             }
         }
         protected virtual void AttackMissed(Obj obj, Attack attack, Rectangle attackBoundingBox, Rectangle attackIntersection)
         {
 
         }
-        public override bool Attacked(Attack attack, Obj obj, Rectangle AttackBox, Rectangle intersection)
+        protected override bool AttackedOverride(Attack attack, Obj obj, Rectangle AttackBox, Rectangle intersection)
         {
             if (!Dashing || AllowHurtWhileDashing || (Dashing && obj.PlaySpeed > PlaySpeed * 2))
             {
-                
-                health -= (attack.Power) * (obj.PlaySpeed / PlaySpeed);
+                if (!IsNetworkControlled)
+                {
+                    health -= (attack.Power) * (obj.PlaySpeed / PlaySpeed);
+                }
                 hurt = (attack.Power / Weight) * (obj.PlaySpeed / PlaySpeed);
                 if (health <= 0)
                     Die(attack, obj, intersection);
@@ -593,7 +575,7 @@ namespace SecondShiftMobile
                 {
                     KnockedBack(obj, attack, AttackBox);
                 }
-                base.Attacked(attack, obj, AttackBox, intersection);
+                base.AttackedOverride(attack, obj, AttackBox, intersection);
                 return true;
             }
             return false;
@@ -643,6 +625,7 @@ namespace SecondShiftMobile
             }
             base.OnTheGroundChanged(speed);
         }
+        
         public override void Draw()
         {
             base.Draw();
@@ -651,6 +634,7 @@ namespace SecondShiftMobile
                 if (Attacking)
                     doc.DrawSprite(doc.LoadTex("TestWall"), ConvertToScreenRec(createAttackRectangle(CurrentCombo.Attacks[attackIndex])), null, Color.White * 0.75f);
                 doc.DrawSprite(doc.LoadTex("TestWall"), ConvertToScreenRec(BoundingBox), null, Color.White * 0.20f);
+                doc.DrawSprite(doc.LoadTex("TestWall"), ConvertToScreenRec(new Rectangle((int)Pos.X - 4, (int)Pos.Y - 4, 8, 8)), null, Color.White);
             }
             if (false)
             {
@@ -666,19 +650,24 @@ namespace SecondShiftMobile
     }
     public class Combo
     {
+        public string Name = null;
         public TextureFrame[] Animation;
         public List<Attack> Attacks;
         public bool LoopAttack = false;
         public bool LoopAnimation = false;
         public float Framespeed = 0.5f;
+        public float RunSpeedMultiplier = 0f;
         public bool AllowSwitchOut = true;
         public Combo()
         {
             Attacks = new List<Attack>();
         }
     }
+    public enum AttackEffectType { None, Blunt, Sharp }
     public class Attack
     {
+        public AttackEffectType EffectType = AttackEffectType.None;
+        public float GravityMult = 0.5f;
         public float Direction = 0;
         public int StartFrame;
         public int EndFrame;
@@ -693,8 +682,14 @@ namespace SecondShiftMobile
         public float TimeOut = 15;
         public Rectangle HitBox = Rectangle.Empty;
         public bool HitOnAllFrames = false;
-        public bool KnockBack = false;
-        float knockBack = float.NaN;
+        public bool KnockBack
+        {
+            get
+            {
+                return knockBack > 0;
+            }
+        }
+        float knockBack = 0;
         public float KnockBackAmount
         {
             get
@@ -709,7 +704,7 @@ namespace SecondShiftMobile
             }
         }
         float pauseLength = float.NaN;
-        public float PauseLength
+        public float HitPauseLength
         {
             get
             {
@@ -719,11 +714,19 @@ namespace SecondShiftMobile
             }
             set
             {
+                hitPause = true;
                 pauseLength = value;
             }
         }
         public Vector3 MoveSpeed = Vector3.Zero;
-        public bool HitPause = true;
+        bool hitPause = false;
+        public bool HitPause
+        {
+            get
+            {
+                return hitPause;
+            }
+        }
         public string AttackSound
         {
             set { attS = Global.Game.LoadSoundEffect(value); }

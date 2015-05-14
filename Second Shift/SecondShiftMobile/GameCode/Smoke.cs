@@ -21,9 +21,9 @@ namespace SecondShiftMobile
             //ShaderValues.Add("smokeAlpha", 1f);
             //Parallel = true;
         }
-        public override Vector3 GetMoveSpeed()
+        public override Vector3 GetMoveSpeedOverride()
         {
-            return base.GetMoveSpeed() + windSpeed;
+            return base.GetMoveSpeedOverride() + windSpeed;
         }
         public override void ParallelUpdate()
         {

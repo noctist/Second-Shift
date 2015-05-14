@@ -58,7 +58,7 @@ namespace SecondShiftMobile
         float left = -1000000000, right = 10000000000;
         public float MaxAlpha = 1;
         public Cloud(Game1 Doc, float X, float Y, float Z)
-            :base(Doc, Doc.Content.Load<Texture2D>("Cloud4"), X, Y, Z)
+            :base(Doc, Doc.Content.Load<Texture2D>("Cloud3"), X, Y, Z)
         {
             //Parallel = true;
             SlowDown = false;

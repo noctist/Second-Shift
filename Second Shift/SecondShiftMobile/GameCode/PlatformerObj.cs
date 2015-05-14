@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework.Audio;
+using SecondShiftMobile.Networking;
 
 namespace SecondShiftMobile
 {
@@ -15,7 +16,7 @@ namespace SecondShiftMobile
         protected float WallStickCenter = 64;
         float wallTimer = 0;
         float wallTimerMax = 25;
-        public PlatformerState State = PlatformerState.Running;
+        public PlatformerState State = PlatformerState.Standing;
         protected float speed2 = 0, speed3 = 0;
         protected float acceleration = 0.8f, deceleration = 0.5f;
         protected int speedMul = 1;
@@ -82,8 +83,21 @@ namespace SecondShiftMobile
         }
         float windTimer = 0;
         float maxWindTimer = 8;
+        int speedMulPrev = 1;
         public override void EarlyUpdate()
         {
+            if (!IsNetworkControlled && NetworkID != null)
+            {
+                if (speedMul != speedMulPrev)
+                {
+                    var sm = new SocketMessage();
+                    sm.NetworkId = NetworkID;
+                    sm.Info.BaseAddress = "MoveDir";
+                    sm.Info["Val"] = speedMul.ToString();
+                    sm.Send();
+                }
+                speedMulPrev = speedMul;
+            }
             wallJumpMul += (1 - wallJumpMul) * 0.02f;
             speed2 -= deceleration * PlaySpeed * ((dashing) ? 2 : 1) * wallJumpMul;
             if (speed3 != 0)
@@ -101,7 +115,7 @@ namespace SecondShiftMobile
 
             if (OnAWall && Speed.Y > 5)
             {
-                Speed.Y -= Gravity * PlaySpeed * 2;
+                Speed.Y -= GetGravity() * PlaySpeed * 2;
             }
 
             base.EarlyUpdate();
@@ -115,9 +129,9 @@ namespace SecondShiftMobile
             }
             
         }
-        public override Vector3 GetMoveSpeed()
+        public override Vector3 GetMoveSpeedOverride()
         {
-            return base.GetMoveSpeed() + new Vector3((speed2 + speed3) * speedMul, 0 ,0);
+            return base.GetMoveSpeedOverride() + new Vector3((speed2 + speed3) * speedMul, 0 ,0);
         }
         public override void Update()
         {
@@ -125,9 +139,12 @@ namespace SecondShiftMobile
         }
         public override void LateUpdate()
         {
-            if (SetState())
+            if (!IsNetworkControlled)
             {
-                SetAnimations();
+                if (SetState())
+                {
+                    SetAnimations();
+                }
             }
 
             SetFramespeed();
@@ -161,7 +178,7 @@ namespace SecondShiftMobile
         {
             if (!LevelBuilder.Active)
             {
-                var speed = GetMoveSpeed();
+                var speed = GetMoveSpeedOverride();
                 Rectangle copyBox = BoundingBox;
                 bool onTheGroundPrev = OnTheGround;
                 bool onAWallPrev = OnAWall;
@@ -255,7 +272,7 @@ namespace SecondShiftMobile
                                 && (FloorObj == null || ((Speed.Y >= 0 && FloorObj.BoundingBox.Top != o.BoundingBox.Top) || (Speed.Y < 0 && FloorObj.BoundingBox.Bottom != o.BoundingBox.Bottom)))
                                 )
                             {
-                                if ((o.FloorCollisionType & FloorCollisionType.Left) == SecondShiftMobile.FloorCollisionType.Left && GetMoveSpeed().X >= 0 && BoundingBox.X < o.BoundingBox.X - 3 && BoundingBox.Right >= o.BoundingBox.X - 3)
+                                if ((o.FloorCollisionType & FloorCollisionType.Left) == SecondShiftMobile.FloorCollisionType.Left && GetMoveSpeedOverride().X >= 0 && BoundingBox.X < o.BoundingBox.X - 3 && BoundingBox.Right >= o.BoundingBox.X - 3)
                                 {
                                     for (float x = BoundingBox.Right; x <= BoundingBox.Right + Speed.X; x += 10)
                                     {
@@ -263,7 +280,9 @@ namespace SecondShiftMobile
                                         {
                                             o.CallCollision(new Vector3(Speed.X, 0, 0));
                                             //Pos.X = o.BoundingBox.Left - (((BoundingBox.Width + BoundingRectangle.X) - (Origin.X * Scale.X))) + 1;
-                                            Pos.X = o.BoundingBox.Left;
+                                            //Pos.X = o.BoundingBox.Left;
+                                            //Pos.X = o.BoundingBox.Left - BoundingBox.Width + 3;
+                                            Pos.X = o.BoundingBox.Left - ((Texture.Width - Origin.X - BoundingRectangle.Width) * Scale.X) - 1;
                                             if (speedMul == 1)
                                             {
 
@@ -273,10 +292,11 @@ namespace SecondShiftMobile
                                                 OnAWall = true;
                                                 WallObj = o;
                                             }
+                                            break;
                                         }
                                     }
                                 }
-                                if ((o.FloorCollisionType & FloorCollisionType.Right) == SecondShiftMobile.FloorCollisionType.Right && GetMoveSpeed().X <= 0 && BoundingBox.Right > o.BoundingBox.Right + 3 && BoundingBox.X <= o.BoundingBox.Right + 3)
+                                if ((o.FloorCollisionType & FloorCollisionType.Right) == SecondShiftMobile.FloorCollisionType.Right && GetMoveSpeedOverride().X <= 0 && BoundingBox.Right > o.BoundingBox.Right + 3 && BoundingBox.X <= o.BoundingBox.Right + 3)
                                 {
                                     for (float x = BoundingBox.X; x >= BoundingBox.X + Speed.X; x -= 10)
                                     {
@@ -285,7 +305,8 @@ namespace SecondShiftMobile
                                             o.CallCollision(new Vector3(Speed.X, 0, 0));
                                             //Pos.X = o.BoundingBox.Right + 1;
                                             //Pos.X = o.BoundingBox.Right + (((BoundingBox.Width + BoundingRectangle.X) - (Origin.X * Scale.X))) + 1; ;
-                                            Pos.X = o.BoundingBox.Right;
+                                            //Pos.X = o.BoundingBox.Right + 1;
+                                            Pos.X = o.BoundingBox.Right + ((Texture.Width - Origin.X - BoundingRectangle.Width) * Scale.X) + 1;
                                             if (speedMul == -1)
                                             {
 
@@ -295,6 +316,7 @@ namespace SecondShiftMobile
                                                 OnAWall = true;
                                                 WallObj = o;
                                             }
+                                            break;
                                         }
                                     }
                                 }
@@ -327,6 +349,10 @@ namespace SecondShiftMobile
         {
 
         }
+        protected virtual bool AllowChangeDir()
+        {
+            return true;
+        }
         protected virtual void OnTheGroundChanged(Vector3 speed)
         {
             if (!OnTheGround && FloorObj != null)
@@ -350,6 +376,10 @@ namespace SecondShiftMobile
         {
             if (wallTimer > wallTimerMax || (!OnAWall) || OnTheGround)
             {
+                if (OnAWall)
+                {
+                    Pos.X += BoundingBox.Width;
+                }
                 if (speedMul == 1)
                 {
                     if (!dashing)
@@ -370,7 +400,14 @@ namespace SecondShiftMobile
                     }
                     else
                     {
-                        speedMul = 1;
+                        if (AllowChangeDir())
+                        {
+                            speedMul = 1;
+                        }
+                        else
+                        {
+                            speed2 = 0;
+                        }
                     }
                 }
             }
@@ -388,6 +425,10 @@ namespace SecondShiftMobile
         {
             if (wallTimer > wallTimerMax || (!OnAWall) || OnTheGround)
             {
+                if (OnAWall)
+                {
+                    Pos.X -= BoundingBox.Width;
+                }
                 if (speedMul == -1)
                 {
                     if (!dashing)
@@ -408,8 +449,14 @@ namespace SecondShiftMobile
                     }
                     else
                     {
-                        //speed2 = 0;
-                        speedMul = -1;
+                        if (AllowChangeDir())
+                        {
+                            speedMul = -1;
+                        }
+                        else
+                        {
+                            speed2 = 0;
+                        }
                     }
                 }
             }
@@ -522,7 +569,17 @@ namespace SecondShiftMobile
                 State = PlatformerState.Wall;
             }
             if (s != State)
+            {
+                if (!IsNetworkControlled && IsNetworkCapable && !string.IsNullOrWhiteSpace(NetworkID))
+                {
+                    var sm = new SocketMessage();
+                    sm.Info.BaseAddress = "State";
+                    sm.Info["Value"] = State.ToString();
+                    sm.NetworkId = NetworkID;
+                    sm.Send();
+                }
                 StateChanged(s, State);
+            }
             return s != State;
         }
         protected virtual void StateChanged(PlatformerState oldState, PlatformerState newState)
@@ -597,6 +654,30 @@ namespace SecondShiftMobile
                     break;
             }
         }
+        public override void ReceiveSocketMessage(SocketMessage sm)
+        {
+            base.ReceiveSocketMessage(sm);
+            if (sm.Info.BaseAddress == "State")
+            {
+                try
+                {
+                    var s = State;
+                    State = (PlatformerState)Enum.Parse(typeof(PlatformerState), sm.Info["Value"]);
+                    if (s != State)
+                    {
+                        StateChanged(s, State);
+                        SetAnimations();
+                    }
+                }
+                catch
+                {
 
+                }
+            }
+            if (sm.Info.BaseAddress == "MoveDir")
+            {
+                speedMul = int.Parse(sm.Info["Val"]);
+            }
+        }
     }
 }

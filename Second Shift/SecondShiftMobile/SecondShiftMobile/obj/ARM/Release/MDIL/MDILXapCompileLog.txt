@@ -16,16 +16,6 @@ Processing file: C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShi
 File C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.dll is not in the compile filter. Skipping.
 Processing file: C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.DXGI.dll
 File C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.DXGI.dll is not in the compile filter. Skipping.
-Processing file: C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.MediaFoundation.dll
-File C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.MediaFoundation.dll is not in the compile filter. Skipping.
-Processing file: C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.Toolkit.dll
-File C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.Toolkit.dll is not in the compile filter. Skipping.
-Processing file: C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.Toolkit.Game.dll
-File C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.Toolkit.Game.dll is not in the compile filter. Skipping.
-Processing file: C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.Toolkit.Graphics.dll
-File C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.Toolkit.Graphics.dll is not in the compile filter. Skipping.
-Processing file: C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.Toolkit.Input.dll
-File C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.Toolkit.Input.dll is not in the compile filter. Skipping.
 Processing file: C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.WP8.dll
 File C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.WP8.dll is not in the compile filter. Skipping.
 Processing file: C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\MDIL\SharpDX.WP8.winmd

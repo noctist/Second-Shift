@@ -47,18 +47,19 @@ float2 textureScale = float2(1, 1);
 
 float2 depthMaskTexStart = float2(0.5, 0);
 float2 depthMaskTexEnd = float2(1, 1);
-float2 depthMaskDepthStart = 0.5f;
-float2 depthMaskDepthEnd = 0.4f;
+float2 depthMaskDepthStart = 0.7f;
+float2 depthMaskDepthEnd = 0.9f;
 
 /*float farDepth = 50000;
 float closeDepth = 0;
 
 float farBlur = 0.1;
-float closeBlur = 0;
+float closeBlur = 0;*/
 
-float closeFog = 0;
-float farFog = 0.1;
-float fogWeight = 0.2;*/
+float4 fogColor;
+float closeFog = 0.01;
+float farFog = 0.05;
+float fogWeight = 0.7;
 
 SamplerState gSampler : register(s0)
 {
@@ -232,7 +233,7 @@ float4 contrast(float4 col, float4 concol)
 float4 performScreenFinal(float4 col, float2 tex)
 {
 	col = contrast(col, contrastColor);
-	//col = between(col, float4(1, 0.5, 0.2, 1), clamp(betweenValue(closeFog, farFog, depthTexture.Sample(depthSampler, tex).r), 0 , fogWeight));
+	//col = between(col, float4(0.2, 0.8, 0.9, 1), clamp(betweenValue(closeFog, farFog, depthTexture.Sample(depthSampler, tex).g), 0 , fogWeight));
 
 	return col;
 }
@@ -328,7 +329,7 @@ float4 ScreenObjBloomX(float4 color: COLOR, float2 tex: TEXCOORD0) : COLOR0
 	float num2 = 0;
 	float baseBloom = bloom + depthTexture.Sample(depthSampler, tex).g;
 	float averageBloom = 0;
-	for (float i = -1; i <= 1; i += 0.2f)
+	for (float i = -1; i <= 1; i += 0.125f)
 	{
 		intensity = (1 - abs(i));
 		intens = bloom + (depthTexture.Sample(depthSampler, tex + float2(i * bloomRadius, 0)).g);
@@ -358,7 +359,7 @@ float4 ScreenObjBloomY(float4 color: COLOR, float2 tex: TEXCOORD0) : COLOR0
 	float num2 = 0;
 	float averageBloom = 0;
 	//return tex2D(gSampler, tex) * 1000;
-	for (float i = -1; i <= 1; i += 0.2f)
+	for (float i = -1; i <= 1; i += 0.125f)
 	{
 		intensity = (1 - abs(i));
 
@@ -713,8 +714,9 @@ mrt SmokeShader(float4 color : COLOR, float2 tex : TEXCOORD0, float depth : DEPT
 	color /= color.a;
 	float4 col = tex2D(gSampler, tex) * al;
 	float coll = pow(clamp((col.a - 0.4f) * 10, 0, 1), 0.2);
-	//if (col.a < 0.4f)
-		//coll = 0;
+	coll = 1;
+	if (col.a < 0.4f)
+		coll = 0;
 	o.col0 = color * coll;
 	o.col1 = float4(depth, objBloom, distortion * col.a, 1) * o.col0.a;
 	return o;
@@ -783,7 +785,8 @@ float4 MaskShader(float4 color: COLOR, float2 tex: TEXCOORD0) : COLOR0
 float4 DepthMaskShader(float4 color: COLOR, float2 tex : TEXCOORD0, float2 tex2 : TEXCOORD1) : COLOR0
 {
 	float4 col = tex2D(gSampler, tex);
-	float al = depthTexture.Sample(depthSampler, tex2).r;
+	float4 alCol = depthTexture.Sample(depthSampler, tex2);
+	float al = alCol.r * alCol.a;
 	al = betweenValue(depthMaskDepthStart, depthMaskDepthEnd, al);
 	return color * (float4(al, al, al, 1));
 }

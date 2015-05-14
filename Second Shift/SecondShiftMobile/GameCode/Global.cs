@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using SecondShiftMobile.Cutscenes;
+using SecondShiftMobile.Networking;
 namespace SecondShiftMobile
 {
     public enum GameOrient { Left, Right };
@@ -34,6 +35,10 @@ namespace SecondShiftMobile
         public static bool ShowFramerate = false;
         public static Vector3 TestVec = new Vector3(0, -1000, 0);
         public static Rectangle ScreenRect = new Rectangle();
+        public static Rectangle NetworkScreenRect = new Rectangle();
+        static Rectangle prevScreenRect = new Rectangle();
+        static long frameCount = 0;
+        public static long FrameCount { get { return frameCount; } }
         public static VirtualJoystick VirtualJoystick;
         public static float Speed
         {
@@ -60,6 +65,7 @@ namespace SecondShiftMobile
         }
         public static void Update(GameTime time)
         {
+            frameCount++;
             if (Global.GameState != SecondShiftMobile.GameState.Paused)
             {
                 framespeed = (float)time.ElapsedGameTime.Milliseconds / (float)TimeSpan.FromSeconds(1d / 60d).Milliseconds;
@@ -68,6 +74,17 @@ namespace SecondShiftMobile
                 speed = gamespeed * framespeed;
                 Camera.Update();
                 ScreenRect = new Rectangle((int)(Camera.View.X - (Camera.CameraSize.X / 2)), (int)(Camera.View.Y - (Camera.CameraSize.Y / 2)), (int)Camera.CameraSize.X, (int)Camera.CameraSize.Y);
+                if (ScreenRect != prevScreenRect && frameCount % 3 == 0)
+                {
+                    if (NetworkManager.SocketRole != SocketRole.None)
+                    {
+                        SocketMessage sm = new SocketMessage();
+                        sm.Info.BaseAddress = "ScreenRect";
+                        sm.Info["rect"] = ScreenRect.ToStageString();
+                        sm.Send();
+                        prevScreenRect = ScreenRect;
+                    }
+                }
                 //ScreenRect.Inflate(20000, 20000);
                 Touch.ScreenSize = Controls.ScreenSize = ScreenSize;
                 Touch.WindowSize = 

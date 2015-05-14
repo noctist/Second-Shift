@@ -76,7 +76,6 @@ Content\Environment\City\Train.xnb
 Content\Environment\Paper.xnb
 Content\WhiteBlock.xnb
 Content\Cloud4.xnb
-Content\Rytard Missle.xnb
 Content\Rytard Ship.xnb
 Content\Shard.xnb
 Content\Characters\Enemies\Guard\Dash.xnb
@@ -161,6 +160,17 @@ Content\Characters\Carrot\RunSprite_Trans.xnb
 Content\Characters\Carrot\Standing.xnb
 Content\Characters\Carrot\UpAttack.xnb
 Content\Characters\Carrot\BackAttack.xnb
+Content\ScreenOverlay.xnb
+Content\Rytard Missle.xnb
+Content\Characters\Carrot\AirKick.xnb
+Content\Characters\Enemies\Samurai\Stand.xnb
+Content\Characters\Enemies\Samurai\Run.xnb
+Content\Characters\Enemies\Samurai\Stab.xnb
+Content\HitEffects\Blunt.xnb
+Content\Characters\Enemies\Samurai\Dash.xnb
+Content\Characters\Enemies\Samurai\DashStab.xnb
+Content\Characters\Match\NormalCombo.xnb
+Content\Characters\Match\Stand.xnb
 Content\Shaders.xnb
 Content\SpriteFont1.xnb
 Content\Fonts\UIDefault.xnb
@@ -199,6 +209,9 @@ Content\Sound\Effects\Train.xnb
 Content\Sound\Effects\charge.xnb
 Content\Sound\Effects\beamfire.xnb
 Content\Sound\Effects\windmill.xnb
+Content\Sound\Effects\mediumkick.xnb
+Content\Sound\Effects\swordhit.xnb
+Content\Sound\Effects\spin.xnb
 Content\Miscellaneous\About.xnb
 Content\Levels\Hello World.xml
 Content\Levels\Night Level.xml
@@ -221,3 +234,7 @@ Content\Levels\Homing Missle Test.xml
 Content\Levels\Polygon Floor Test.xml
 Content\Cutscenes\Flat Floor Scene.xml
 Content\Levels\Flat Floor Stage.xml
+Content\Levels\Network Stage.xml
+Content\Cutscenes\Network Scene.xml
+Content\Levels\MatchStage.xml
+Content\Cutscenes\MatchScene.xml

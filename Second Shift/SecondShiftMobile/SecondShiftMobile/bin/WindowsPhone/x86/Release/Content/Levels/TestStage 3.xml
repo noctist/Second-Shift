@@ -30,10 +30,11 @@
   <Object X="1408" Y="-256" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
   <Object X="-635" Y="180" Z="0" Name="Player" Type="SecondShiftMobile.Grey" CameraTarget="true" />
   <Object X="-19328" Y="-21376" Z="46000" Name="" Type="SecondShiftMobile.Sun">
-    <Property Name="Scale" Info="A single float representing scale">600</Property>
+    <Property Name="Scale" Info="A single float representing scale">300</Property>
     <Property Name="BloomWidth" Info="The width of the bloom effect">20</Property>
     <Property Name="BloomIntensity" Info="The intensity of the bloom effect">2</Property>
     <Property Name="ZoomScale" Info="The scale of the zoom effect">3</Property>
+    <Property Name="Speed" Info="The speed of the sun">0, 0, 0</Property>
   </Object>
   <Object X="2944" Y="-896" Z="750" Name="" Type="SecondShiftMobile.Test.TestPropellors" />
   <Object X="1536" Y="-256" Z="0" Name="" Type="SecondShiftMobile.Test.TestFloor" />
@@ -103,6 +104,8 @@
     <Property Name="Emitter Size" Info="The size of the emitter">500, 20, 20</Property>
     <Property Name="Max Timer" Info="How many frames before a new smoke is created">6</Property>
     <Property Name="Sun Block Alpha">0.5</Property>
+    <Property Name="Smoke Lifetime">180</Property>
+    <Property Name="Start Scale">1</Property>
   </Object>
   <Object X="-62973" Y="-22645" Z="26122" Name="" Type="SecondShiftMobile.Cloud">
     <Property Name="Scale" Info="A single float representing scale">113.5027</Property>

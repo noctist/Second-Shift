@@ -597,3 +597,45 @@ C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bi
 C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Environment\City\Buildings.xnb
 C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Carrot\UpAttack.xnb
 C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Carrot\BackAttack.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Carrot\UpAttack.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Carrot\BackAttack.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\ScreenOverlay.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Music\Sanji to Usopp.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Music\Sanji to Usopp.wma
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Levels\Network Stage.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Cutscenes\Network Scene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Release\SecondShiftMobile.TextForm.resources
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\ScreenOverlay.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Music\Sanji to Usopp.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Music\Sanji to Usopp.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Levels\Network Stage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Cutscenes\Network Scene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\obj\x86\Release\SecondShiftMobile.TextForm.resources
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Carrot\AirKick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Carrot\AirKick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\HitEffects\Blunt.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\Run.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\Stab.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\Dash.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\DashStab.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Match\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Match\NormalCombo.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Effects\mediumkick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Effects\swordhit.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Effects\spin.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Levels\MatchStage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Cutscenes\MatchScene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\Stand.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\HitEffects\Blunt.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\Run.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\Stab.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\Dash.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\DashStab.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Match\Stand.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Match\NormalCombo.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Effects\mediumkick.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Effects\swordhit.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Effects\spin.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Levels\MatchStage.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Cutscenes\MatchScene.xml

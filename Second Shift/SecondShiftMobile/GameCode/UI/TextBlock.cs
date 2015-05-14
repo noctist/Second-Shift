@@ -13,6 +13,20 @@ namespace SecondShiftMobile.UI
         string text = null;
         TextWrapping wrap = TextWrapping.None;
         string renderText = null;
+        Thickness padding = new Thickness();
+        public Thickness Padding
+        {
+            get
+            {
+                return padding;
+            }
+            set
+            {
+                padding = value;
+                Changed("Padding");
+                InvalidateMeasure();
+            }
+        }
         public string Text
         {
             get
@@ -115,6 +129,8 @@ namespace SecondShiftMobile.UI
                     fontSize = font.MeasureString(s);
                     renderText = s;
                 }
+                fontSize.X += Padding.Left + padding.Right;
+                fontSize.Y += Padding.Bottom + padding.Top;
                 return fontSize;
             }
             else return base.MeasureOverride(aS);
@@ -124,7 +140,7 @@ namespace SecondShiftMobile.UI
             base.Draw(DrawRect, device, graphics, spriteBatch, opacity);
             if (font != null && text != null && renderText != null)
             {
-                spriteBatch.DrawString(font, renderText, new Vector2(DrawRect.X, DrawRect.Y), Foreground * opacity * Opacity);
+                spriteBatch.DrawString(font, renderText, new Vector2(DrawRect.X + Padding.Left, DrawRect.Y + Padding.Top), Foreground * opacity * Opacity);
                 //spriteBatch.Draw(Textures.WhiteBlock, DrawRect, Color.Blue);
             }
         }

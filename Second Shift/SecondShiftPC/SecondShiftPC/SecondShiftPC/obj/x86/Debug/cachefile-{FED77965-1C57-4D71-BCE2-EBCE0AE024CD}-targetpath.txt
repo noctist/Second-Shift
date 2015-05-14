@@ -163,6 +163,8 @@ Content\Characters\Carrot\Dash.xnb
 Content\Environment\City\Buildings.xnb
 Content\Characters\Carrot\UpAttack.xnb
 Content\Characters\Carrot\BackAttack.xnb
+Content\ScreenOverlay.xnb
+Content\Characters\Carrot\AirKick.xnb
 Content\SpriteFont1.xnb
 Content\SpriteFont2.xnb
 Content\Fonts\UIDefault.xnb
@@ -202,6 +204,17 @@ Content\Sound\Effects\beamfire.xnb
 Content\Sound\Effects\windmill.xnb
 Content\Shaders.xnb
 Content\Miscellaneous\About.xnb
+Content\HitEffects\Blunt.xnb
+Content\Characters\Enemies\Samurai\Stand.xnb
+Content\Characters\Enemies\Samurai\Run.xnb
+Content\Characters\Enemies\Samurai\Stab.xnb
+Content\Characters\Enemies\Samurai\Dash.xnb
+Content\Characters\Enemies\Samurai\DashStab.xnb
+Content\Characters\Match\Stand.xnb
+Content\Characters\Match\NormalCombo.xnb
+Content\Sound\Effects\mediumkick.xnb
+Content\Sound\Effects\swordhit.xnb
+Content\Sound\Effects\spin.xnb
 Content\Cutscenes\TestScene.xml
 Content\Cutscenes\TestScene 2.xml
 Content\Cutscenes\TestScene 3.xml
@@ -223,3 +236,5 @@ Content\Levels\Homing Missle Test.xml
 Content\Levels\Polygon Floor Test.xml
 Content\Cutscenes\Flat Floor Scene.xml
 Content\Levels\Flat Floor Stage.xml
+Content\Levels\Network Stage.xml
+Content\Cutscenes\Network Scene.xml

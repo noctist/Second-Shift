@@ -38,25 +38,26 @@ namespace SecondShiftMobile
             BoundingRectangle = new Rectangle(49, 30, 40, 0);
             SlowDown = false;
             normalCombo = new Combo() { Animation = doc.LoadAnimation("Characters/Grey/Combo", "Combos", 0, 12), Framespeed = 0.3f };
-            normalCombo.Attacks.Add(new Attack(0, 2, 1) { Power = 10, HitPause = false, MoveSpeed = new Vector3(1, 0, 0), AttackSound = "meleemiss1", HitSound = "weakpunch", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(64, 45, 50, 40) });
-            normalCombo.Attacks.Add(new Attack(3, 4, 4) { Power = 13, HitPause = false, MoveSpeed = new Vector3(1, 0, 0), AttackSound = "meleemiss2", HitSound = "mediumpunch", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(64, 40, 50, 45) });
-            normalCombo.Attacks.Add(new Attack(5, 12, 10) { Power = 20, MoveSpeed = new Vector3(3, 0, 0), Direction = -30, AttackSound = "meleemiss3", HitSound = "strongkick", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(60, 70, 65, 45), KnockBack = true });
+            normalCombo.Attacks.Add(new Attack(0, 2, 1) { Power = 10, MoveSpeed = new Vector3(1, 0, 0), AttackSound = "meleemiss1", HitSound = "weakpunch", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(64, 45, 50, 40) });
+            normalCombo.Attacks.Add(new Attack(3, 4, 4) { Power = 13, MoveSpeed = new Vector3(1, 0, 0), AttackSound = "meleemiss2", HitSound = "mediumpunch", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(64, 40, 50, 45) });
+            normalCombo.Attacks.Add(new Attack(5, 12, 10) { Power = 20, MoveSpeed = new Vector3(3, 0, 0), Direction = -30, EffectType = AttackEffectType.Blunt, HitPauseLength = 10, AttackSound = "meleemiss3", HitSound = "strongkick", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(60, 70, 65, 45), });
 
             punchCombo = new Combo() { Animation = doc.LoadAnimation("Characters/Grey/Combo", "Combos", 0, 12), Framespeed = 0.3f, LoopAttack = true };
-            punchCombo.Attacks.Add(new Attack(0, 2, 1) { HitPause = false, Power = 10, AttackSound = "meleemiss1", HitSound = "weakpunch", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(64, 45, 50, 40) });
-            punchCombo.Attacks.Add(new Attack(3, 4, 4) { Power = 10, HitPause = false, AttackSound = "meleemiss2", HitSound = "mediumpunch", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(64, 40, 50, 45) });
+            punchCombo.Attacks.Add(new Attack(0, 2, 1) { Power = 10, AttackSound = "meleemiss1", HitSound = "weakpunch", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(64, 45, 50, 40) });
+            punchCombo.Attacks.Add(new Attack(3, 4, 4) { Power = 10,  AttackSound = "meleemiss2", HitSound = "mediumpunch", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(64, 40, 50, 45) });
             upCombo = new Combo() { Animation = doc.LoadAnimation("Characters/Grey/Combo", "Combos", 0, 12), Framespeed = 0.3f };
-            upCombo.Attacks.Add(new Attack(5, 12, 10) { MoveSpeed = new Vector3(10, -10, 0), AttackSound = "meleemiss3", HitSound = "strongkick", KnockBack = true, HitBox = new Rectangle(70, 70, 55, 45), Power = 25, Direction = -70 });
+            upCombo.Attacks.Add(new Attack(5, 12, 10) { MoveSpeed = new Vector3(10, -10, 0), AttackSound = "meleemiss3", HitSound = "strongkick", HitBox = new Rectangle(70, 70, 55, 45), Power = 25, Direction = -70 });
             airCombo = new Combo() { Animation = doc.LoadAnimation("Characters/Grey/Combo", "Combos", 0, 12), Framespeed = 0.3f };
-            airCombo.Attacks.Add(new Attack(5, 12, 10) { Power = 25, MoveSpeed = new Vector3(3, -10, 0), KnockBack = true, AttackSound = "meleemiss3", HitSound = "strongpunch", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(40, 40, 85, 75), HitOnAllFrames = true, TimeOut = 0 });
+            airCombo.Attacks.Add(new Attack(5, 12, 10) { Power = 25, EffectType = AttackEffectType.Blunt, MoveSpeed = new Vector3(3, -10, 0), AttackSound = "meleemiss3", HitSound = "strongpunch", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(40, 40, 85, 75), HitOnAllFrames = true, TimeOut = 0 });
 
             dashCombo = new Combo() { Animation = doc.LoadAnimation("Characters/Grey/Combo", "Combos", 0, 12), Framespeed = 0.3f };
-            dashCombo.Attacks.Add(new Attack(5, 12, 10) { Power = 30, Direction = -40, KnockBack = true, AttackSound = "meleemiss3", HitSound = "strongpunch", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(30, 40, 95, 75), HitOnAllFrames = true, TimeOut = 0 });
+            dashCombo.Attacks.Add(new Attack(5, 12, 10) { Power = 30, EffectType = AttackEffectType.Blunt, Direction = -40, AttackSound = "meleemiss3", HitSound = "strongpunch", AttackVolume = 0.5f, HitVolume = 0.5f, HitBox = new Rectangle(30, 40, 95, 75), HitOnAllFrames = true, TimeOut = 0 });
 
             dashUpCombo = new Combo() { Animation = doc.LoadAnimation("Characters/Grey/Combo", "Combos", 0, 12), Framespeed = 0.3f };
-            dashUpCombo.Attacks.Add(new Attack(5, 12, 10) { MoveSpeed = new Vector3(5, -10, 0), Power = 30, Direction = -60, KnockBack = true, AttackSound = "meleemiss3", HitSound = "strongpunch", AttackVolume = 0.6f, HitVolume = 0.6f, HitBox = new Rectangle(30, 40, 95, 75), HitOnAllFrames = true, TimeOut = 0 });
+            dashUpCombo.Attacks.Add(new Attack(5, 12, 10) { MoveSpeed = new Vector3(5, -10, 0), Power = 30, Direction = -60, AttackSound = "meleemiss3", HitSound = "strongpunch", AttackVolume = 0.6f, HitVolume = 0.6f, HitBox = new Rectangle(30, 40, 95, 75), HitOnAllFrames = true, TimeOut = 0 });
             //normalCombo.Attacks.Add(new Attack(0, 2, 1) { Power = 10, AttackSound = "meleemiss1", AttackVolume = 0.5f });
             ChangeCurrentCombo(normalCombo);
+            AddCombo(normalCombo, dashCombo, airCombo, upCombo, punchCombo);
             
         }
         public override void AttackButtonHit(ControlDirection direction)
@@ -125,8 +126,8 @@ namespace SecondShiftMobile
                 Pause(60, false);
             }
             //Global.Output = GetScreenPosition(Pos);
-            Remove();
-            Global.Camera.Target = new Players.Carrot(doc, Pos.X, Pos.Y, Pos.Z);
+            //Remove();
+            //Global.Camera.Target = new Players.Carrot(doc, Pos.X, Pos.Y, Pos.Z);
             base.LateUpdate();
         }
         public override void Remove()

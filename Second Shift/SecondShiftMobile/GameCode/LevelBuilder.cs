@@ -168,6 +168,7 @@ namespace SecondShiftMobile
             watch.Start();
             level = new Level();
             Types.Add(typeof(Players.Carrot));
+            Types.Add(typeof(Players.Match));
             Types.Add(typeof(Environments.City.Building1));
             Types.Add(typeof(Environments.City.Building2));
             Types.Add(typeof(Environments.City.Building3));
@@ -185,6 +186,7 @@ namespace SecondShiftMobile
             Types.Add(typeof(TestPropellor));
             Types.Add(typeof(TestVortex));
             Types.Add(typeof(Enemies.Guard));
+            Types.Add(typeof(Enemies.Samurai));
             Types.Add(typeof(Moon));
             Types.Add(typeof(LightPole));
             Types.Add(typeof(Test.LogoBloom));
@@ -201,7 +203,6 @@ namespace SecondShiftMobile
             Types.Add(typeof(Environments.Grass.Windmill));
             Types.Add(typeof(Enemies.HomingMissle));
             Types.Add(typeof(Test.Ball));
-            Types.Add(typeof(Test.TestPolygonFloor));
             Types.Add(typeof(Test.FlatFloor));
             Types.Add(typeof(Test.TestGrass));
 #if PC
@@ -622,6 +623,17 @@ namespace SecondShiftMobile
         {
             this.xml = xml;
         }
+        public string NetworkId
+        {
+            get
+            {
+                return xml.GetAttribute("NetworkId").Value;
+            }
+            set
+            {
+                xml.GetAttribute("NetworkId").Value = value;
+            }
+        }
         public string Name
         {
             get
@@ -711,9 +723,12 @@ namespace SecondShiftMobile
                 xml.SetBool("CameraTarget", value);
             }
         }
-        public static void Create(Type type)
+        public static Obj Create(Type type, Vector3 pos, string name, string networkId)
         {
-
+            var obj = (Obj)Activator.CreateInstance(type, Global.Game, pos.X, pos.Y, pos.Z);
+            obj.Name = name;
+            obj.SetNetworkId(networkId);
+            return obj;
         }
         public StageObjectData()
         {
@@ -748,6 +763,8 @@ namespace SecondShiftMobile
             Pos = o.Pos;
             Name = o.Name;
             Type = o.GetType();
+            if (!string.IsNullOrWhiteSpace(o.NetworkID))
+                NetworkId = o.NetworkID;
             SetProperties(o);
             var s = "";
         }
@@ -770,8 +787,10 @@ namespace SecondShiftMobile
             {
                 var s = "";
             }
+            return Create(Type, new Vector3(X, Y, Z), Name, NetworkId);
             var obj = (Obj)Activator.CreateInstance(Type, Global.Game, X, Y, Z);
             obj.Name = Name;
+            obj.SetNetworkId(NetworkId);
             return obj;
         }
 
@@ -849,23 +868,32 @@ namespace SecondShiftMobile
     }
     public static class StageObjectPropertyConverter
     {
+        public static string ToStageString(this object value)
+        {
+            return SetValue(value);
+        }
         public static string SetValue(object value)
         {
             string s;
             if (value is Vector3)
             {
                 var v = (Vector3)value;
-                s = v.X + ", " + v.Y + ", " + v.Z;
+                s = v.X + "," + v.Y + "," + v.Z;
             }
             else if (value is Vector4)
             {
                 var v = (Vector4)value;
-                s = v.X + ", " + v.Y + ", " + v.Z + ", " + v.W;
+                s = v.X + "," + v.Y + "," + v.Z + "," + v.W;
             }
             else if (value is Vector2)
             {
                 var v = (Vector2)value;
-                s = v.X + ", " + v.Y;
+                s = v.X + "," + v.Y;
+            }
+            else if (value is Rectangle)
+            {
+                var r = (Rectangle)value;
+                s = r.X + "," + r.Y + "," + r.Width + "," + r.Height;
             }
             else if (value is float)
             {
@@ -878,7 +906,7 @@ namespace SecondShiftMobile
             else if (value is Color)
             {
                 Color c = (Color)value;
-                s = c.R + ", " + c.G + ", " + c.B + ", " + c.A;
+                s = c.R + "," + c.G + "," + c.B + "," + c.A;
             }
             else if (value is Texture2D)
             {
@@ -999,6 +1027,27 @@ namespace SecondShiftMobile
                         v.Y = f;
                     else if (i == 2)
                         v.Z = f;
+                }
+            }
+            return v;
+        }
+        public static Rectangle GetRectangle(string val)
+        {
+            string[] vals = val.Split(',');
+            Rectangle v = Rectangle.Empty;
+            for (int i = 0; i < vals.Length; i++)
+            {
+                int f;
+                if (int.TryParse(vals[i], out f))
+                {
+                    if (i == 0)
+                        v.X = f;
+                    else if (i == 1)
+                        v.Y = f;
+                    else if (i == 2)
+                        v.Width = f;
+                    else if (i == 3)
+                        v.Height = f;
                 }
             }
             return v;
@@ -1133,7 +1182,59 @@ namespace SecondShiftMobile
         public void Add(StageObjectData sod)
         {
             //xml.Add(sod.XML);
+            if (sod.NetworkId == null)
+            {
+                int tries = 0;
+                while (tries < 800000)
+                {
+                    tries++;
+                    string id = Guid.NewGuid().ToString().Split('-')[0];
+                    bool found = false;
+                    foreach (var s in StageObjectData)
+                    {
+                        if (s.NetworkId == id)
+                        {
+                            found = true;
+                            break;
+                        }
+                    }
+                    if (!found)
+                    {
+                        sod.NetworkId = id;
+                        break;
+                    }
+                }
+            }
             StageObjectData.Add(sod);
+        }
+        public void SetNetworkIDs()
+        {
+            foreach (var sod in StageObjectData)
+            {
+                if (string.IsNullOrEmpty(sod.NetworkId))
+                {
+                    int tries = 0;
+                    while (tries < 800000)
+                    {
+                        tries++;
+                        string id = Guid.NewGuid().ToString().Split('-')[0];
+                        bool found = false;
+                        foreach (var s in StageObjectData)
+                        {
+                            if (s.NetworkId == id)
+                            {
+                                found = true;
+                                break;
+                            }
+                        }
+                        if (!found)
+                        {
+                            sod.NetworkId = id;
+                            break;
+                        }
+                    }
+                }
+            }
         }
         public void Add(Obj o)
         {
@@ -1180,6 +1281,7 @@ namespace SecondShiftMobile
                 s.XML.Remove();
             foreach (var s in StageObjectData)
                 xml.Add(s.XML);
+            SetNetworkIDs();
             if (folder.Last() != '/' && folder.Last() != '\\')
                 folder += '/';
             if (!Directory.Exists(folder))

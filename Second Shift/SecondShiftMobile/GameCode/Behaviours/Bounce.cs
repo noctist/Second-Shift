@@ -26,7 +26,7 @@ namespace SecondShiftMobile.Behaviours
         }
         public override void Update(Obj o)
         {
-            base.Update(o);
+            //base.Update(o);
             var collisions = o.GetCollisions();
             foreach (var obj in collisions)
             {
@@ -41,19 +41,19 @@ namespace SecondShiftMobile.Behaviours
                 float min = Math.Min(left, Math.Min(right, Math.Min(top, bottom)));
                 if (min == left)
                 {
-                    colls.Add(new CollisionInfo(FloorCollisionType.Left, obj.GetMoveSpeed()));
+                    colls.Add(new CollisionInfo(FloorCollisionType.Left, obj.GetMoveSpeedOverride()));
                     if (inside)
                         o.Pos.X += (obj.BoundingBox.Left - o.BoundingBox.Right) * 0.5f;
                 }
                 else if (min == right)
                 {
-                    colls.Add(new CollisionInfo(FloorCollisionType.Right, obj.GetMoveSpeed()));
+                    colls.Add(new CollisionInfo(FloorCollisionType.Right, obj.GetMoveSpeedOverride()));
                     if (inside)
                         o.Pos.X += (obj.BoundingBox.Right - o.BoundingBox.Left) * 0.5f;
                 }
                 else if (min == top)
                 {
-                    colls.Add(new CollisionInfo(FloorCollisionType.Top, obj.GetMoveSpeed()));
+                    colls.Add(new CollisionInfo(FloorCollisionType.Top, obj.GetMoveSpeedOverride()));
                     if (inside)
                     {
                         o.Speed.Y = 0;
@@ -62,7 +62,7 @@ namespace SecondShiftMobile.Behaviours
                 }
                 else
                 {
-                    colls.Add(new CollisionInfo(FloorCollisionType.Bottom, obj.GetMoveSpeed()));
+                    colls.Add(new CollisionInfo(FloorCollisionType.Bottom, obj.GetMoveSpeedOverride()));
                     if (inside)
                         o.Pos.Y += (obj.BoundingBox.Bottom - o.BoundingBox.Top)  * 0.5f;
                 }

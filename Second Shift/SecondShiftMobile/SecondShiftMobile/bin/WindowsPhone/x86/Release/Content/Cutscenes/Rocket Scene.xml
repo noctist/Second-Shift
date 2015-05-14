@@ -34,6 +34,9 @@
     <Time />
     <LevelName>Rocket Test</LevelName>
   </Action>
+  <Action AutoExecute="true" Type="ResetCamera" Name="">
+    <Time />
+  </Action>
   <Action AutoExecute="true" Type="SetObjectProperty" Name="">
     <Time />
     <ObjectName>emitter</ObjectName>
@@ -74,6 +77,13 @@ StartSpeed = 0, 0, -1; EndSpeed = 10, 0, 3;</PropertyStrings>
   <Action AutoExecute="true" Type="Event" Name="Launch">
     <Time>600</Time>
   </Action>
+  <Action AutoExecute="true" Type="SetLookDirection" Name="">
+    <Time />
+    <LookDirection>0, -0.8</LookDirection>
+    <FrameDuration>800</FrameDuration>
+    <EndPower>6</EndPower>
+    <StartPower>6</StartPower>
+  </Action>
   <Action AutoExecute="true" Type="SetBlur" Name="">
     <Time />
     <Blur />
@@ -111,6 +121,13 @@ StartSpeed = 0, 0, -1; EndSpeed = 10, 0, 3;</PropertyStrings>
     <StartingDelta />
     <StartPower>3</StartPower>
     <EndPower>3</EndPower>
+  </Action>
+  <Action AutoExecute="true" Type="SetLookDirection" Name="">
+    <Time />
+    <LookDirection />
+    <FrameDuration>400</FrameDuration>
+    <EndPower>4</EndPower>
+    <StartPower>4</StartPower>
   </Action>
   <Action AutoExecute="true" Type="SetGameSpeed" Name="">
     <Time>1800</Time>

@@ -29,9 +29,9 @@
   </Object>
   <Object X="93184" Y="-45568" Z="114000" Name="" Type="SecondShiftMobile.Sun">
     <Property Name="Scale" Info="A single float representing scale">1200</Property>
-    <Property Name="BloomWidth" Info="The width of the bloom effect">20</Property>
+    <Property Name="BloomWidth" Info="The width of the bloom effect">160</Property>
     <Property Name="BloomIntensity" Info="The intensity of the bloom effect">2</Property>
-    <Property Name="ZoomScale" Info="The scale of the zoom effect">3</Property>
+    <Property Name="ZoomScale" Info="The scale of the zoom effect">3.5</Property>
   </Object>
   <Object X="2932" Y="1214" Z="0" Name="" Type="SecondShiftMobile.Environments.City.Building2">
     <Property Name="Scale">5</Property>
@@ -55,7 +55,7 @@
     <Property Name="Scale">5</Property>
   </Object>
   <Object X="11008" Y="1920" Z="4000" Name="" Type="SecondShiftMobile.Environments.City.Building4">
-    <Property Name="Scale">9</Property>
+    <Property Name="Scale" Info="">9</Property>
   </Object>
   <Object X="5073" Y="190" Z="0" Name="" Type="SecondShiftMobile.Test.InvisibleFloor">
     <Property Info="The size of the floor" Name="Size">1360, 4500</Property>
@@ -67,10 +67,10 @@
     <Property Name="Scale">5</Property>
   </Object>
   <Object X="4224" Y="1280" Z="4000" Name="" Type="SecondShiftMobile.Environments.City.Building3">
-    <Property Name="Scale">5</Property>
+    <Property Name="Scale" Info="">5</Property>
   </Object>
   <Object X="6144" Y="1152" Z="4000" Name="" Type="SecondShiftMobile.Environments.City.Building4">
-    <Property Name="Scale">5</Property>
+    <Property Name="Scale" Info="">5</Property>
   </Object>
   <Object X="8192" Y="1280" Z="4000" Name="" Type="SecondShiftMobile.Environments.City.Building2">
     <Property Name="Scale">5</Property>
@@ -79,7 +79,7 @@
     <Property Name="Scale">10</Property>
   </Object>
   <Object X="0" Y="1024" Z="2000" Name="" Type="SecondShiftMobile.Environments.City.Building1">
-    <Property Name="Scale">5</Property>
+    <Property Name="Scale" Info="">5</Property>
   </Object>
   <Object X="-1408" Y="896" Z="2500" Name="" Type="SecondShiftMobile.Environments.City.Building4">
     <Property Name="Scale">5</Property>
@@ -94,16 +94,16 @@
     <Property Name="Scale">10</Property>
   </Object>
   <Object X="2816" Y="-1280" Z="6000" Name="" Type="SecondShiftMobile.Environments.City.Building4">
-    <Property Name="Scale">12</Property>
+    <Property Name="Scale" Info="">12</Property>
   </Object>
   <Object X="9856" Y="0" Z="6500" Name="" Type="SecondShiftMobile.Environments.City.Building3">
     <Property Name="Scale">8</Property>
   </Object>
   <Object X="6016" Y="896" Z="5250" Name="" Type="SecondShiftMobile.Environments.City.Building4">
-    <Property Name="Scale">8</Property>
+    <Property Name="Scale" Info="">8</Property>
   </Object>
   <Object X="4352" Y="2432" Z="7250" Name="" Type="SecondShiftMobile.Environments.City.Building1">
-    <Property Name="Scale">15</Property>
+    <Property Name="Scale" Info="">15</Property>
   </Object>
   <Object X="7040" Y="768" Z="6000" Name="" Type="SecondShiftMobile.Environments.City.Building1">
     <Property Name="Scale">5</Property>
@@ -1038,6 +1038,6 @@
     <Property Name="Max Timer" Info="How many frames before a new smoke is created">6</Property>
     <Property Name="Sun Block Alpha">0.5</Property>
     <Property Name="Smoke Lifetime">360</Property>
-    <Property Name="Start Scale" Info="">8</Property>
+    <Property Name="Start Scale">8</Property>
   </Object>
 </Level>

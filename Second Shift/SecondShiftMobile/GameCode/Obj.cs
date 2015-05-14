@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Audio;
+using SecondShiftMobile.Networking;
+using System.ComponentModel;
 namespace SecondShiftMobile
 {
     [Flags]
@@ -14,6 +16,14 @@ namespace SecondShiftMobile
     public enum DepthSortingType { Bottom, ZDepth, Top }
     public class Obj
     {
+        public List<Combo> Combos;
+        public Color AttackColor = new Color(255, 100, 100);
+        int updateCount = 0;
+        [DefaultValue(false)]
+        public bool IsNetworkCapable { get; set; }
+        [DefaultValue(false)]
+        public bool IsNetworkControlled { get; set; }
+        public string NetworkID { get; private set; }
         public Faction Faction = Faction.Unknown;
         public PosType PosType = PosType.Normal;
         public Dictionary<string, object> ShaderValues = new Dictionary<string, object>();
@@ -227,6 +237,8 @@ namespace SecondShiftMobile
         public float LightFallOffRange = 100;
         public Color LightColor = Color.White;
 
+        bool allowDecisions = true;
+        List<Decision> decisions;
         public Vector2 TextureScale = Vector2.One;
 
         public float ZWidth = 10;
@@ -242,7 +254,7 @@ namespace SecondShiftMobile
                 return isBeveling;
             }
         }
-
+        Vector3 networkSpeed = Vector3.Zero;
         float pauseFrames = 0, maxPauseFrames = 0;
         bool multiplyPauseSpeed = false;
         bool pauseRequested = false;
@@ -257,6 +269,7 @@ namespace SecondShiftMobile
         }
         public Obj(Game1 Doc, TextureFrame Tex, float x, float y, float z)
         {
+            Combos = new List<Combo>(16);
             Active = true;
             this.Texture = Tex;
             if (Tex != null)
@@ -266,6 +279,17 @@ namespace SecondShiftMobile
             doc = Doc;
             Pos = new Vector3(x, y, z);
             doc.AddObj(this);
+            callCreateDecisions();
+        }
+        public void AddCombo(params Combo[] combos)
+        {
+            foreach (var c in combos)
+            {
+                if (!Combos.Contains(c))
+                {
+                    Combos.Add(c);
+                }
+            }
         }
         public virtual StageObjectProperty[] GetStageProperties()
         {
@@ -274,6 +298,187 @@ namespace SecondShiftMobile
         public virtual void SetStageProperties(params StageObjectProperty[] sop)
         {
 
+        }
+        public virtual void PeerConnected()
+        {
+
+        }
+        public void SetNetworkId(string id)
+        {
+            NetworkID = id;
+        }
+        public void NewNetworkId()
+        {
+            NetworkID = Guid.NewGuid().ToString().Split('-')[0];
+        }
+        void callCreateDecisions()
+        {
+            allowDecisions = true;
+            CreateDecisions();
+            allowDecisions = false;
+        }
+        protected virtual void CreateDecisions()
+        {
+
+        }
+        protected void AddDecision(params Decision[] decision)
+        {
+            foreach (var d in decision)
+            {
+                AddDecision(d);
+            }
+        }
+        protected void AddDecision(Decision decision)
+        {
+            if (!allowDecisions)
+                throw new InvalidOperationException("Decisions are no longer allowed to be added");
+            if (decisions == null)
+                decisions = new List<Decision>();
+            decisions.Add(decision);
+        }
+        public void SendNetworkAttack(Attack a, Rectangle attackBox, Rectangle intersection, Obj o)
+        {
+            if (string.IsNullOrWhiteSpace(o.NetworkID))
+                return;
+            int comboIndex = -1;
+            int attackIndex = -1;
+            for (int ii = 0; ii < o.Combos.Count; ii++)
+            {
+                if (o.Combos[ii].Attacks.Contains(a))
+                {
+                    comboIndex = ii;
+                    attackIndex = o.Combos[ii].Attacks.IndexOf(a);
+                }
+            }
+            if (comboIndex == -1)
+                return;
+            SocketMessage sm = new SocketMessage();
+            var i = sm.Info;
+            sm.Info.BaseAddress = "A";
+            i["AI"] = attackIndex.ToString();
+            i["CI"] = comboIndex.ToString();
+            i["R"] = attackBox.ToStageString();
+            i["IN"] = intersection.ToStageString();
+            i["ID"] = o.NetworkID;
+            sm.NetworkId = this.NetworkID;
+            sm.Send();
+        }
+        public void SendNetworkAttackLanded(Attack a, Rectangle attackBox, Rectangle intersection, Obj o)
+        {
+            if (string.IsNullOrWhiteSpace(o.NetworkID))
+                return;
+            int comboIndex = -1;
+            int attackIndex = -1;
+            for (int ii = 0; ii < Combos.Count; ii++)
+            {
+                if (Combos[ii].Attacks.Contains(a))
+                {
+                    comboIndex = ii;
+                    attackIndex = Combos[ii].Attacks.IndexOf(a);
+                }
+            }
+            if (comboIndex == -1)
+                return;
+            SocketMessage sm = new SocketMessage();
+            var i = sm.Info;
+            sm.Info.BaseAddress = "ALanded";
+            i["AI"] = attackIndex.ToString();
+            i["CI"] = comboIndex.ToString();
+            i["R"] = attackBox.ToStageString();
+            i["IN"] = intersection.ToStageString();
+            i["ID"] = o.NetworkID;
+            sm.NetworkId = this.NetworkID;
+            sm.Send();
+        }
+
+        public void SendHostOrClientRequest(bool isHost)
+        {
+            if (string.IsNullOrWhiteSpace(NetworkID))
+                return;
+            var sm = new SocketMessage();
+            sm.NetworkId = NetworkID;
+            sm.Info.BaseAddress = isHost ? "Client" : "Host";
+            sm.Send();
+        }
+
+        bool animatePos = false;
+        Vector3 networkPosTarget = Vector3.Zero;
+        public virtual void ReceiveSocketMessage(SocketMessage sm)
+        {
+            var info = sm.Info;
+            if (info.BaseAddress == "M")
+            {
+                animatePos = false;
+                if (info.ContainsKey("P"))
+                {
+                    animatePos = true;
+                    networkPosTarget = StageObjectPropertyConverter.GetVector3(info["P"]);
+                    if (!Active)
+                        Pos = networkPosTarget;
+                }
+                if (info.ContainsKey("S"))
+                {
+                    networkSpeed = StageObjectPropertyConverter.GetVector3(info["S"]);
+                }
+            }
+            else if (info.BaseAddress == "A")
+            {
+                Rectangle intersection = StageObjectPropertyConverter.GetRectangle(info["IN"]);
+                Rectangle r = StageObjectPropertyConverter.GetRectangle(info["R"]);
+
+                Obj o = doc.FindObjectByNetworkId(info["ID"]);
+                Attack a = o.Combos[int.Parse(info["CI"])].Attacks[int.Parse(info["AI"])];
+                AttackedOverride(a, o, r, intersection);
+                if (o != null)
+                {
+                    o.AttackLanded(this, a, r, intersection);
+                }
+                if (a.HitPause)
+                {
+                    Pause(a.HitPauseLength, false);
+                }
+            }
+            else if (info.BaseAddress == "ALanded")
+            {
+                Rectangle intersection = StageObjectPropertyConverter.GetRectangle(info["IN"]);
+                Rectangle r = StageObjectPropertyConverter.GetRectangle(info["R"]);
+
+                Obj o = doc.FindObjectByNetworkId(info["ID"]);
+                Attack a = Combos[int.Parse(info["CI"])].Attacks[int.Parse(info["AI"])];
+                o.AttackedOverride(a, this, r, intersection);
+                if (o != null)
+                {
+                    AttackLanded(o, a, r, intersection);
+                }
+                if (a.HitPause)
+                {
+                    Pause(a.HitPauseLength, false);
+                }
+            }
+            else if (info.BaseAddress == "Client")
+            {
+                IsNetworkControlled = true;
+                var mess = new SocketMessage();
+                mess.NetworkId = NetworkID;
+                mess.Info.BaseAddress = "ClientReceived";
+                mess.Send();
+            }
+            else if (info.BaseAddress == "ClientReceived")
+            {
+                IsNetworkControlled = false;
+            }
+            else if (info.BaseAddress == "Host")
+            {
+                IsNetworkControlled = false;
+                var mess = new SocketMessage();
+                mess.NetworkId = NetworkID;
+                mess.Info.BaseAddress = "HostReceived";
+                mess.Send();
+            }
+            else if (info.BaseAddress == "HostReceived")
+            {
+                IsNetworkControlled = true;
+            }
         }
         protected float GetSlowSpeed()
         {
@@ -332,7 +537,13 @@ namespace SecondShiftMobile
                 return 1;
             }
         }
-        public virtual Vector3 GetMoveSpeed()
+        public Vector3 GetMoveSpeed()
+        {
+            if (IsNetworkControlled)
+                return networkSpeed;
+            else return GetMoveSpeedOverride();
+        }
+        public virtual Vector3 GetMoveSpeedOverride()
         {
             return Speed;
             
@@ -352,8 +563,15 @@ namespace SecondShiftMobile
                 IsPaused = false;
             }
         }
+        public bool ShouldDoNetworkUpdate(int count)
+        {
+            return IsNetworkCapable && ((updateCount % count) == 0);
+        }
+        Vector3 lastNetworkPosUpdate = Vector3.Zero, lastNetworkSpeed = Vector3.Zero;
+        SocketMessage moveSocket;
         public virtual void EarlyUpdate()
         {
+            updateCount++;
             if (!FirstUpdate)
             {
                 slowSpeed = GetSlowSpeed();
@@ -367,18 +585,68 @@ namespace SecondShiftMobile
             PlaySpeed = Global.Speed * slowSpeed;
             PreviousPos = Pos;
             Pos += GetMoveSpeed() * PlaySpeed;
+            if (animatePos)
+            {
+                Pos += (networkPosTarget - Pos) * 0.2f;
+            }
             Rotation += RotationSpeed * PlaySpeed;
             Scale += ScaleSpeed * PlaySpeed;
             Alpha += AlphaSpeed * PlaySpeed;
+            if (!IsNetworkControlled)
+            {
+                bool send = false;
+                if (moveSocket == null)
+                {
+                    moveSocket = new SocketMessage();
+                    moveSocket.Info.BaseAddress = "M";
+                }
+                var sm = moveSocket;
+                sm.Info.RemoveValue("S");
+                sm.Info.RemoveValue("P");
+                sm.NetworkId = this.NetworkID;
+                if (ShouldDoNetworkUpdate(10) && lastNetworkPosUpdate != Pos)
+                {
+                    lastNetworkPosUpdate = Pos;
+                    sm.Info["P"] = Pos.ToStageString();
+                    
+                    send = true;
+                }
+                if (ShouldDoNetworkUpdate(2) && lastNetworkSpeed != GetMoveSpeed())
+                {
+                    sm.Info["S"] = GetMoveSpeed().ToStageString();
+                    lastNetworkSpeed = GetMoveSpeed();
+                    send = true;
+                }
+                if (send)
+                {
+                    NetworkManager.Send(sm);
+                }
+                
+            }
+            
             //if (Collidable)
             {
                 SetBoundingBox();
             }
+            if (decisions != null)
+            {
+                foreach (var d in decisions)
+                {
+                    d.Update(PlaySpeed);
+                }
+            }
+        }
+        void sendNetworkMove()
+        {
+            var sm = new SocketMessage("Move");
+            sm.Info.BaseAddress = "Move";
+            sm.Info["Pos"] = Pos.ToStageString();
+            sm.NetworkId = this.NetworkID;
+            NetworkManager.Send(sm);
         }
         public virtual void Update()
         {
 
-            
         }
         public virtual void LateUpdate()
         {
@@ -552,11 +820,206 @@ namespace SecondShiftMobile
             return MathHelper.Clamp((zPos.X - Global.Camera.View.X) / (Global.Camera.CameraSize.X / 2), -1, 1);
         }
 
+        public void CreateAttackSparks(Attack attack, Rectangle intersection, Color sparkColor, int sparkDir = 0 )
+        {
+            if (sparkColor == Color.Transparent)
+                sparkColor = AttackColor;
+            var diss = new Disappear(doc, doc.LoadTex("Light2"), intersection.Center.X, intersection.Center.Y, Pos.Z) { SortingType = DepthSortingType.Top, SlowDown = false, Color = AttackColor };
+            diss.Scale = new Vector2(attack.Power * 0.01f);
+            diss.ScaleSpeed = new Vector2(MathHelper.Clamp(attack.Power, 5, 50) * 0.02f);
+            diss.FadeInSpeed = 1;
+            diss.Lifetime = 5;
+            diss.FadeOutSpeed = -0.1f;
+            diss.MaxAlpha = 0.8f;
+            diss.Distortion = 0.3f;
+            diss.BlendState = BlendState.Additive;
+            //diss.IsLightSource = true;
+            diss.LightColor = diss.Color;
+            Vector2 speed = MyMath.FromLengthDir(attack.Power, attack.Direction);
+            //speed.X *= (sparkDir == 0) ? (intersection.Center.X < BoundingBox.Center.X ? 1 : - 1) : sparkDir;
+            for (int j = 0; j < attack.Power * 2; j++)
+            {
+                /*var d = new Disappear(doc, Textures.SmallLight, r.Center.X, r.Center.Y, Pos.Z)
+                {
+                    Lifetime = 10f,
+                    FadeInSpeed = 1f,
+                    MaxAlpha = 0,
+                    FadeOutSpeed = -0.1f,
+                    Color = AttackColor,
+                    Speed = MyMath.RandomRange(new Vector3(-attack.Power), new Vector3(attack.Power)),
+                    BlendState = BlendState.Additive,
+                    SlowDown = false,
+                    Scale = new Vector2(0.25f)
+                };
+                d.AddBehaviour(new Behaviours.DirectionToRotation(1));*/
+                var d1 = new Disappear(doc, Textures.SmallLight, MyMath.RandomRange(intersection.Left, intersection.Right), MyMath.RandomRange(intersection.Top, intersection.Bottom), Pos.Z)
+                {
+                    Lifetime = 10f,
+                    FadeInSpeed = 1f,
+                    MaxAlpha = 1,
+                    FadeOutSpeed = -0.1f,
+                    Color = AttackColor,
+                    Speed = new Vector3(speed, 0) + (MyMath.RandomRange(new Vector3(-attack.Power), new Vector3(attack.Power)) / 4),
+                    BlendState = BlendState.Additive,
+                    SlowDown = false,
+                    Scale = new Vector2(0.25f)
+                };
+                d1.AddBehaviour(new Behaviours.DirectionToRotation(1));
+
+            }
+            var di = new Disappear(doc, Textures.SmallLight, intersection.Center.X, intersection.Center.Y, Pos.Z)
+            {
+                Depth = -1000,
+                Scale = new Vector2(attack.Power * 6, 3),
+                Lifetime = 2,
+                FadeInSpeed = 1,
+                FadeOutSpeed = -0.25f,
+                Color = AttackColor,
+                MaxAlpha = 0.75f,
+                BlendState = BlendState.Additive,
+                SlowDown = false,
+                Rotation = new Vector3(0, 0, MyMath.RandomRange(0, 360)),
+                //Bloom = 0.5f,
+                SortingType = DepthSortingType.Top,
+                SunBlockAlpha = 0
+            };
+            var di2 = new Disappear(doc, Textures.SmallLight, intersection.Center.X, intersection.Center.Y, Pos.Z)
+            {
+                Depth = -1000,
+                Scale = new Vector2(attack.Power * 6, 4),
+                Lifetime = 2,
+                FadeInSpeed = 1,
+                FadeOutSpeed = -0.125f,
+                Color = AttackColor,
+                MaxAlpha = 0.75f,
+                BlendState = BlendState.Additive,
+                SlowDown = false,
+                Rotation = new Vector3(di.Rotation.X, di.Rotation.Y, di.Rotation.Z + MyMath.RandomRange(30, 150)),
+                SortingType = DepthSortingType.Top,
+                SunBlockAlpha = 0,
+                //Bloom = di.Bloom
+            };
+            if (attack.EffectType != AttackEffectType.None)
+            {
+                for (int i = 0; i < 1; i++)
+                {
+                    var effect = new Disappear(doc, doc.LoadTex("HitEffects/blunt"), intersection.Center.X, intersection.Center.Y, Pos.Z)
+                    {
+                        Lifetime = attack.HitPauseLength * 0.25f,
+                        Bloom = 0.2f,
+                        FadeInSpeed = 1,
+                        FadeOutSpeed = -0.5f,
+                        SortingType = DepthSortingType.Top,
+                        MaxAlpha = 0.7f,
+                        Alpha = 1,
+                        Color = AttackColor,
+                        BlendState = BlendState.Additive
+                    };
+                    bool flip = intersection.Center.X < Pos.X;
+                    switch (attack.EffectType)
+                    {
+                        case AttackEffectType.Sharp:
+                            effect.spriteEffect = SpriteEffects.FlipHorizontally;
+                            break;
+                    }
+                    if (flip)
+                    {
+                        var dir = attack.Direction % 360f;
+                        if (dir > 180)
+                        {
+                            if (dir < 270)
+                                dir = 270 + (270 - dir);
+                            else dir = 270 - (dir - 270);
+                        }
+                        else
+                        {
+                            if (dir < 90)
+                                dir = 90 + (90 - dir);
+                            else dir = 90 - (dir - 90);
+                        }
+                        effect.Rotation = new Vector3(0, 0, dir);
+                    }
+                    else
+                    {
+                        effect.Rotation = new Vector3(0, 0, attack.Direction);
+                    }
+                    var scale = MathHelper.Clamp(attack.Power / 20f, 1f, 3f);
+                    effect.AddBehaviour(new Behaviours.HitEffects.HitEffect(scale, scale * 0.25f));
+                }
+            }
+            /*if (attack.Power > 20)
+            {
+                var di3 = new Disappear(doc, Textures.SmallLight, r.Center.X, r.Center.Y, Pos.Z)
+                {
+                    Depth = -1000,
+                    Scale = new Vector2(100),
+                    Lifetime = 2,
+                    FadeInSpeed = 1,
+                    FadeOutSpeed = -0.25f,
+                    Color = AttackColor,
+                    MaxAlpha = 1,
+                    BlendState = BlendState.Additive,
+                    SlowDown = false,
+                    SortingType = DepthSortingType.Top,
+                    SunBlockAlpha = 0
+                };
+            }*/
+        }
+        protected void AttackLanded(Obj obj, Attack attack, Rectangle attackBoundingBox, Rectangle attackIntersection)
+        {
+            if (!IsNetworkControlled)
+            {
+                AttackLandedOverride(obj, attack, attackBoundingBox, attackIntersection);
+            }
+            else
+            {
+
+            }
+        }
+        protected virtual void AttackLandedOverride(Obj obj, Attack attack, Rectangle attackBoundingBox, Rectangle attackIntersection)
+        {
+            
+        }
+        public bool Attacked(Attack attack, Obj obj, Rectangle attackBox, Rectangle interection)
+        {
+            if (Attackable)
+            {
+                if (!IsNetworkControlled)
+                {
+                    if (attack.HitPause)
+                    {
+                        float pause = attack.HitPauseLength;
+                        if (attack.HitPause)
+                        {
+                            this.Pause(pause, false);
+                        }
+                    }
+                }
+                if (obj.IsNetworkControlled)
+                {
+                    SendNetworkAttack(attack, attackBox, interection, obj);
+                }
+                {
+                    if (attack.HitPause)
+                        Pause(attack.HitPauseLength, false);
+                    return AttackedOverride(attack, obj, attackBox, interection);
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public virtual bool IsValidAttack()
+        {
+            return true;
+        }
         /// <summary>
         /// This method is called when the object is attacked
         /// </summary>
         /// <param name="attack"></param>
-        public virtual bool Attacked(Attack attack, Obj obj, Rectangle attackBox, Rectangle interection)
+        protected virtual bool AttackedOverride(Attack attack, Obj obj, Rectangle attackBox, Rectangle interection)
         {
             return true;
         }
@@ -596,7 +1059,9 @@ namespace SecondShiftMobile
                 //Vector2 Offset = 
                 var screenRect = Global.ScreenRect;
                 screenRect.Inflate(OnScreenExpansion, OnScreenExpansion);
-                OnScreen = ScreenRect.Intersects(screenRect);
+                var screenRect2 = Global.NetworkScreenRect;
+                screenRect2.Inflate(OnScreenExpansion, OnScreenExpansion);
+                OnScreen = ScreenRect.Intersects(screenRect) || ScreenRect.Intersects(screenRect2);
                 if (DeactivateOffscreen)
                 {
                     Active = OnScreen;
@@ -817,17 +1282,28 @@ namespace SecondShiftMobile
         public virtual void DrawScreenRect()
         {
             Global.Effects.Technique = Techniques.Normal;
+            
             //doc.GraphicsDevice.BlendState = BlendState;
-            foreach (var pass in Global.Effects.CurrentTechnique.Passes)
+            /*foreach (var pass in Global.Effects.CurrentTechnique.Passes)
             {
                 pass.Apply();
                 //doc.DrawSprite(Texture, zPos, Color, Rotation, Origin, Scale * zFactor, spriteEffect, 0);
                 doc.DrawSprite(doc.LoadTex("TestWall"), ScreenRect, null, Color * 0.2f);
-            }
+            }*/
         }
         public virtual void SelectedDraw()
         {
-            Global.Effects.Technique = Techniques.Selected;
+            float zfact = Camera.GetZFactor(Global.Camera.View.Z, Pos.Z, Global.Camera.DepthSize, Global.Camera.DepthPower);
+            for (int i = -5; i < 5; i++)
+            {
+                for (int o = -5; o < 5; o++)
+                {
+                    //Global.Drawer.DrawRelativeToObj(this, Texture, new Vector3(i, o, 0) / zfact, Color.Black, new Vector3(Origin, 0));
+                    //Global.Drawer.Draw(Texture, Techniques.Normal, Pos + new Vector3(i, o, 0) / zfact, Color.Black, Origin.ToVector3(), Rotation, Scale.ToVector3(), BlendState.AlphaBlend, SortingType);
+                    Global.Drawer.Draw(Texture, Techniques.Normal, Pos + new Vector3(i, o, 0) / zfact, Color.Black, Origin.ToVector3(), Rotation, Scale.ToVector3(), TextureScale, 0, 0, spriteEffect, BlendState.AlphaBlend, SamplerState.AnisotropicClamp, new BevelData(), ShaderValues, SortingType, PosType);
+                }
+            }
+            /*Global.Effects.Technique = Techniques.Selected;
             //Global.Effects.SetObjValues(this);
             foreach (var pass in Global.Effects.CurrentTechnique.Passes)
             {
@@ -836,7 +1312,7 @@ namespace SecondShiftMobile
                 doc.DrawSprite(Texture, Vector3.Zero, GetDrawColor() * GetDrawAlpha(), spriteEffect);
                 doc.DrawSprite(Texture, Pos.ToVector2(), GetDrawColor() * GetDrawAlpha(), Rotation.Z, Origin, GetDrawScale(), spriteEffect, -Pos.Z);
 
-            }
+            }*/
         }
         public virtual Vector2 GetDrawScale()
         {

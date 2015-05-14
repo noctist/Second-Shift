@@ -13,7 +13,7 @@ namespace SecondShiftMobile.Behaviours
         }
         public override void Update(Obj o)
         {
-            base.Update(o);
+            //base.Update(o);
         }
         public override Microsoft.Xna.Framework.Vector3 Speed(Obj o, Microsoft.Xna.Framework.Vector3 speed)
         {

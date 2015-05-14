@@ -14,6 +14,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Behaviours\DirectionToRotation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Behaviours\DisappearBehaviour.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Behaviours\GravityBehaviour.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviours\HitEffects\HitEffect.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Behaviours\LeafBehaviour.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Behaviours\SpeedDissipation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Camera.cs" />
@@ -36,6 +37,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Enemies\Guard.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Enemies\HomingMissle.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Enemies\Joker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enemies\Samurai.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Enemy.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Environments\City\Buildings.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Environments\FoliageEmitter.cs" />
@@ -59,6 +61,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Networking\NetworkManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Networking\SocketManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Networking\SocketMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Networking\URLConstructor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Obj.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PlatformerObj.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Player.cs" />
@@ -66,6 +69,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Players\Braveheart.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Players\Carrot.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Players\Grey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Players\Match.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PolygonObj.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PolygonRect.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Smoke.cs" />
@@ -92,6 +96,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)UI\Panel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UI\PauseMenu.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UI\PausePanels\CutscenePicker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\PausePanels\NetworkPanel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UI\PausePanels\OptionsPanel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UI\ScrollViewer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UI\Size.cs" />

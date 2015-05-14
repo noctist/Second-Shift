@@ -15,7 +15,7 @@ namespace SecondShiftMobile.Test
             Gravity = 0.9f;
             Attackable = true;
         }
-        public override bool Attacked(Attack attack, Obj obj, Rectangle attackBox, Rectangle interection)
+        protected override bool AttackedOverride(Attack attack, Obj obj, Rectangle attackBox, Rectangle interection)
         {
 
             //var move = MyMath.Rotate(((Pos - interection.Center.ToVector2().ToVector3(Pos.Z)) * attack.Power).ToVector2(), attack.Direction);
@@ -27,14 +27,14 @@ namespace SecondShiftMobile.Test
                 float power = attack.KnockBackAmount * 0.5f * (obj.PlaySpeed / PlaySpeed);
                 Speed += new Vector3(MyMath.LengthDirX(power * dir, attack.Direction), MyMath.LengthDirY(power, attack.Direction), 0);
             }
-            return base.Attacked(attack, obj, attackBox, interection);
+            return base.AttackedOverride(attack, obj, attackBox, interection);
         }
         public override void Update()
         {
             if (OnTheGround)
             {
                 Speed.X *= 0.95f;
-                RotationSpeed = new Vector3(0, 0, GetMoveSpeed().X * 0.85f);
+                RotationSpeed = new Vector3(0, 0, GetMoveSpeedOverride().X * 0.85f);
             }
             base.Update();
         }

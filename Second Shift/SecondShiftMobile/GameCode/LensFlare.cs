@@ -88,10 +88,10 @@ namespace SecondShiftMobile
                 Global.Effects.CurrentTechnique.Passes[0].Apply();*/
                 foreach (var flare in data)
                 {
-                    Vector3 pos = new Vector3(0, 0, Global.Camera.View.Z);
-                    pos.X = MyMath.Between(zPos.X, Global.Camera.View.X, flare.Distance);
-                    pos.Y = MyMath.Between(zPos.Y, Global.Camera.View.Y, flare.Distance);
-                    Global.Drawer.Draw(flare.Texture, Techniques.Normal, pos, flare.Color * Alpha * flare.Alpha, flare.Texture.Texture.GetCenter().ToVector3(), Vector3.Zero, (Scale * flare.Scale).ToVector3(1), BlendState.Additive, DepthSortingType.Top);
+                    Vector3 pos = new Vector3(0, 0, Pos.Z);
+                    pos.X = MyMath.Between(Pos.X, Global.Camera.View.X + (Global.Camera.LookDirection.X * 50000), flare.Distance);
+                    pos.Y = MyMath.Between(Pos.Y, Global.Camera.View.Y + (Global.Camera.LookDirection.Y * 50000), flare.Distance);
+                    Global.Drawer.Draw(flare.Texture, Techniques.Normal, pos, flare.Color * Alpha * flare.Alpha, flare.Texture.Texture.GetCenter().ToVector3(), Vector3.Zero, (Scale * flare.Scale / zFactor).ToVector3(1), BlendState.Additive, DepthSortingType.Top);
                 }
             }
         }

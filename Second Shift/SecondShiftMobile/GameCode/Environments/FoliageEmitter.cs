@@ -130,9 +130,9 @@ namespace SecondShiftMobile.Environments
                 Remove();
             }
         }
-        public override Vector3 GetMoveSpeed()
+        public override Vector3 GetMoveSpeedOverride()
         {
-            return base.GetMoveSpeed() + windSpeed;
+            return base.GetMoveSpeedOverride() + windSpeed;
         }
         public override void ParallelUpdate()
         {

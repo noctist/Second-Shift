@@ -15,6 +15,7 @@ namespace SecondShiftMobile.Enemies
         public HomingMissle(Game1 Doc, float X, float Y, float Z)
             : base(Doc, Doc.LoadTex("Rytard Missle"), X, Y, Z)
         {
+            Texture.Width = Texture.Height = 100;
             Origin = new Vector2(13, 51);
             sm = new SmokeEmitter(Doc, X, Y, Z)
             {
@@ -92,7 +93,6 @@ namespace SecondShiftMobile.Enemies
                     var att = new Attack(0, 0, 0)
                         {
                             Power = 50,
-                            KnockBack = true
                         };
                     Rectangle r = BoundingBox;
                     player.Attacked(att, this, BoundingBox, Rectangle.Intersect(BoundingBox, player.BoundingBox));

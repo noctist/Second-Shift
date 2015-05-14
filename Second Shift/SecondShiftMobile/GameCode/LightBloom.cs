@@ -173,11 +173,12 @@ namespace SecondShiftMobile
                     case LightBloomCategory.Sun:
                         Global.Effects.Parameters["depthMaskDepthStart"].SetValue(Global.Effects.GetDepthValue(Pos.Z - (Texture.Width * Scale.X)));
                         Global.Effects.Parameters["depthMaskDepthEnd"].SetValue(Global.Effects.GetDepthValue(Pos.Z));
-                
+                        //Global.Effects.Parameters["depthMaskDepthStart"].SetValue(0.0f);
+                        //Global.Effects.Parameters["depthMaskDepthEnd"].SetValue(0.1f);
                         break;
                 }
-                Global.Effects.Parameters["depthMaskDepthStart"].SetValue(Global.Effects.GetDepthValue(Pos.Z - (Texture.Width * Scale.X * 0.5f)));
-                Global.Effects.Parameters["depthMaskDepthEnd"].SetValue(Global.Effects.GetDepthValue(Pos.Z + (Texture.Width * Scale.X * 0.5f)));
+                //Global.Effects.Parameters["depthMaskDepthStart"].SetValue(Global.Effects.GetDepthValue(Pos.Z - (Texture.Width * Scale.X * 0.5f)));
+                //Global.Effects.Parameters["depthMaskDepthEnd"].SetValue(Global.Effects.GetDepthValue(Pos.Z + (Texture.Width * Scale.X * 0.5f)));
                 //Global.Effects.Parameters["depthMaskTexStart"].SetValue(new Vector2(0.5f, 0));
                 //Global.Effects.Parameters["depthMaskTexEnd"].SetValue(new Vector2(1, 0.5f));
                 Global.Effects.MatrixTransform = Matrix.CreateOrthographicOffCenter(0, Texture.Width, Texture.Height, 0, 0, 1);
@@ -195,7 +196,7 @@ namespace SecondShiftMobile
             }
             if (float.IsNaN(overlayScaleTarget))
                 overlayScaleTarget = overlayScale;
-            overlayScale += ((float)Math.Pow(overlayScaleTarget, 0.1) - overlayScale) * 0.3f;
+            overlayScale += ((float)Math.Pow(overlayScaleTarget, 0.1) - overlayScale) * 0.05f;
             if (float.IsNaN(overlayScale))
                 overlayScale = 1;
             overlayScale = MathHelper.Clamp(overlayScale, 0, OverlayScale);
@@ -432,6 +433,8 @@ namespace SecondShiftMobile
             //Global.Output = blackAl;
             // Draw black circle
             doc.GraphicsDevice.BlendState = BlendState.AlphaBlend;
+            //doc.DrawSprite(renTarg, new Vector3(40, 40, 0), Color.White, 0, Vector2.Zero, new Vector2(0.1f), spriteEffect);
+            //return;
             doc.DrawSprite(Texture.Texture, Vector3.Zero, Color.Black * Alpha * BlackCircleAlpha * (blackAl),  spriteEffect);
 
             doc.GraphicsDevice.BlendState = BlendState; ;

@@ -609,3 +609,50 @@ C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\Wind
 C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Sound\Music\Oden Store.xnb
 C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Carrot\BackAttack.xnb
 C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Carrot\UpAttack.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Carrot\AirKick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Enemies\Samurai\Dash.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Enemies\Samurai\DashStab.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Enemies\Samurai\Run.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Enemies\Samurai\Stab.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Enemies\Samurai\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Match\NormalCombo.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Match\Stand.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Cutscenes\MatchScene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Cutscenes\Network Scene.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\HitEffects\Blunt.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Levels\MatchStage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Levels\Network Stage.xml
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\ScreenOverlay.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Sound\Effects\mediumkick.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Sound\Effects\spin.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Sound\Effects\swordhit.xnb
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Sound\Music\Sanji to Usopp.wma
+C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Sound\Music\Sanji to Usopp.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Cutscenes\MatchScene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Cutscenes\Network Scene.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Levels\MatchStage.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Levels\Network Stage.xml
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Carrot\AirKick.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Carrot\BackAttack.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Carrot\Combo.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Carrot\Dash.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Carrot\DashPunch.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Carrot\FightingStance.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Carrot\RunSprite_Trans.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Carrot\Standing.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Carrot\UpAttack.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Enemies\Samurai\Dash.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Enemies\Samurai\DashStab.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Enemies\Samurai\Run.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Enemies\Samurai\Stab.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Enemies\Samurai\Stand.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Match\NormalCombo.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Characters\Match\Stand.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Environment\City\Buildings.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\HitEffects\Blunt.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\ScreenOverlay.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Sound\Effects\mediumkick.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Sound\Effects\spin.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Sound\Effects\swordhit.xnb
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Sound\Music\Sanji to Usopp.wma
+C:\Users\Christopher\Dropbox\Second Shift\SecondShiftMobile\SecondShiftMobile\bin\WindowsPhone\ARM\Release\Content\Sound\Music\Sanji to Usopp.xnb

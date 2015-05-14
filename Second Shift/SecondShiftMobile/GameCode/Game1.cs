@@ -35,7 +35,7 @@ namespace SecondShiftMobile
                 return resolution;
             }
         }
-        Texture2D joystickTex;
+        Texture2D joystickTex, screenOverlay;
         GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
         Texture2D skySprite;
@@ -137,6 +137,15 @@ namespace SecondShiftMobile
             window = (System.Windows.Forms.Form)System.Windows.Forms.Form.FromHandle(Global.Game.Window.Handle);
 #endif
             NetworkManager.Logged += NetworkManager_Logged;
+            NetworkManager.PeerConnected += NetworkManager_PeerConnected;
+        }
+
+        void NetworkManager_PeerConnected(object sender, EventArgs e)
+        {
+            for (int i = 0; i < numObj; i++)
+            {
+                objArray[i].PeerConnected();
+            }
         }
         protected override void OnExiting(object sender, EventArgs args)
         {
@@ -146,7 +155,7 @@ namespace SecondShiftMobile
         void NetworkManager_Logged(object sender, NetworkLoggedEventArgs e)
         {
             networkLogs.Add(e.Log);
-            if (networkLogs.Count > 5)
+            if (networkLogs.Count > 10)
                 networkLogs.RemoveAt(0);
         }
 
@@ -197,6 +206,33 @@ namespace SecondShiftMobile
             }
             return null;
         }
+
+        public Obj FindObjectByNetworkId(string Id)
+        {
+            /*if (objectNames.ContainsKey(Name))
+                return objectNames[Name];
+            else*/
+            {
+                for (int i = 0; i < numObj; i++)
+                {
+                    var o = objArray[i];
+                    if (o != null && o.NetworkID == Id)
+                    {
+                        try
+                        {
+                            //objectNames.Add(Name, o);
+                        }
+                        catch
+                        {
+
+                        }
+                        return o;
+                    }
+                }
+            }
+            return null;
+        }
+
         public T FindObject<T>() where T : Obj
         {
             Type t;
@@ -326,6 +362,7 @@ namespace SecondShiftMobile
             Global.Effects = new Effects(effect);
             Global.Effects.Parameters["cameraLookDirectionW"].SetValue(Camera.LookDirectionW);
             Global.Drawer = new EffectsDrawer(Global.Effects);
+            screenOverlay = LoadTex("ScreenOverlay");
 #if PC
             Global.Effects.Quality = Quality.Medium;
             IsMouseVisible = true;
@@ -340,7 +377,7 @@ namespace SecondShiftMobile
             Graphics.ToggleFullscreen();
 #endif
             graphics.ApplyChanges();
-            SetResolution(Resolutions.R480p, 16, 9, 1, 4, false);
+            SetResolution(Resolutions.R720p, 16, 9, 1, 4, false);
 #if DEBUG
             var cb = new CutsceneBuilder();
             cb.Show();
@@ -352,9 +389,9 @@ namespace SecondShiftMobile
             SetResolution(Resolutions.R360p, 16, 9, 2f, 4, false);
 #endif
 #if !PC
-            NetworkManager.BeginListening("192.168.1.101");      
+            //NetworkManager.ConnectTo("192.168.1.101");      
 #endif
-            var cut = Cutscene.Load("Flat Floor Scene");
+            var cut = Cutscene.Load("MatchScene");
             Global.Cutscene = cut;
             /*Global.Camera.SetLookDirection(new Vector2(1, -0f), 1);
             Obj obj = new Obj(this, LoadTex("Thing"), 100, 0, 0);
@@ -541,11 +578,11 @@ namespace SecondShiftMobile
                 }
                 if (Controls.GetKey(Keys.B) == ControlState.Released)
                 {
-                    NetworkManager.ConnectTo("129.21.75.77");
+                    NetworkManager.ConnectTo("192.168.1.103");
                 }
                 if (Controls.GetKey(Keys.M) == ControlState.Released)
                 {
-                    NetworkManager.Send(new SocketMessage() { Message = "hello!", Command = "woo!", ObjectId = "id" });
+                    NetworkManager.Send(new SocketMessage() { Info = new URLConstructor("Hello?Test=Tested"), NetworkId = "21b324" });
                 }
 #if DEBUG
                 if (Controls.GetKey(Keys.Tab) == ControlState.Pressed)
@@ -897,6 +934,10 @@ namespace SecondShiftMobile
             }
             return textures;
         }
+        public TextureFrame[] LoadStickAnimation(string path, int frames)
+        {
+            return LoadAtlasAnimation(path, Vector2.Zero, new Vector2(506, 415), frames, TextureDirection.Horizontal);
+        }
         public TextureFrame[] LoadAtlasAnimation(string path, Vector2 originFrame, Vector2 frameSize, int frames, TextureDirection dir, int loop)
         {
             Texture2D tex = LoadTex(path);
@@ -986,6 +1027,7 @@ namespace SecondShiftMobile
             
             spriteBatch.End();
             return;*/
+            //Global.Effects.DepthMap = depthTarget;
             bool batch = batchSprites && !LevelBuilder.Active && !drawSecondShift;
             
             //batch = true;
@@ -1097,10 +1139,6 @@ namespace SecondShiftMobile
                                 SpriteEnd();
                                 SpriteBegin(SpriteSortMode.Immediate, objArray[i].BlendState, SamplerState.LinearWrap, depth, rast);
                             }*/
-                            objArray[i].DrawSecondShift();
-                            //if (!(objArray[i] is LensFlare))
-                            objArray[i].Draw();
-
                             if (LevelBuilder.Active)
                             {
                                 if (LevelBuilder.ShowBoundingBoxes)
@@ -1110,6 +1148,11 @@ namespace SecondShiftMobile
                                     objArray[i].SelectedDraw();
                                 }
                             }
+                            objArray[i].DrawSecondShift();
+                            //if (!(objArray[i] is LensFlare))
+                            objArray[i].Draw();
+
+                            
                             lastObj = objArray[i];
                         }
                     }
@@ -1170,6 +1213,7 @@ namespace SecondShiftMobile
                         GraphicsDevice.Clear(Color.Transparent);
                         Global.Effects.CurrentTechnique.Passes[1].Apply();
                         spriteBatch.Draw(blurTargetX, new Rectangle(0, 0, (int)Global.ScreenSize.X, (int)Global.ScreenSize.Y), null, Color.White);
+                        Global.Effects.DepthMap = depthTarget;
                     }
                     if ((Global.Effects.Blooming || objBlooming) && Global.Effects.Quality > Quality.VeryLow)
                     {
@@ -1180,7 +1224,7 @@ namespace SecondShiftMobile
 
                         GraphicsDevice.SetRenderTarget(bloomTargetX);
                         GraphicsDevice.Clear(Color.Transparent);
-                        Global.Effects.DepthMap = depthTarget;
+                        //Global.Effects.DepthMap = depthTarget;
                         Global.Effects.CurrentTechnique.Passes[0].Apply();
                         spriteBatch.Draw(screenTarget, new Rectangle(0, 0, (int)Global.ScreenSize.X, (int)Global.ScreenSize.Y), null, Color.White);
                         GraphicsDevice.SetRenderTarget(bloomTargetY);
@@ -1190,7 +1234,6 @@ namespace SecondShiftMobile
                         spriteBatch.Draw(bloomTargetX, new Rectangle(0, 0, (int)Global.ScreenSize.X, (int)Global.ScreenSize.Y), null, Color.White);
 
                     }
-
                     GraphicsDevice.SetRenderTarget(finalTarget);
                     Global.Effects.MatrixTransform = Matrix.CreateOrthographicOffCenter(0, Global.ScreenSize.X, Global.ScreenSize.Y, 0, 0, 1);
 
@@ -1252,7 +1295,7 @@ namespace SecondShiftMobile
 
 #endif
 
-            Global.Effects.DepthMap = depthTarget;
+            //Global.Effects.DepthMap = depthTarget2;
             if (distort && Global.Effects.Quality > Quality.VeryLow)
                 Global.Effects.Technique = Techniques.Distortion;
             else Global.Effects.Technique = Techniques.ScreenFinal;
@@ -1267,6 +1310,7 @@ namespace SecondShiftMobile
             foreach (var pass in Global.Effects.CurrentTechnique.Passes)
             {
                 pass.Apply();
+                spriteBatch.Draw(screenOverlay, new Rectangle(0, 0, (int)Global.ScreenSize.X, (int)Global.ScreenSize.Y), Color.White * 0.3f);
                 if (Global.HUDObj != null)
                     Global.HUDObj.DrawHUD(new Vector2(0, 0), 1);
 
@@ -1296,9 +1340,16 @@ namespace SecondShiftMobile
                         s = ats(s, "Bloom enabled");
                     s = ats(s, "\nNetwork Logs: ");
                     {
-                        foreach (var log in networkLogs)
+                        try
                         {
-                            s = ats(s, log);
+                            foreach (var log in networkLogs)
+                            {
+                                s = ats(s, log);
+                            }
+                        }
+                        catch
+                        {
+
                         }
                     }
 

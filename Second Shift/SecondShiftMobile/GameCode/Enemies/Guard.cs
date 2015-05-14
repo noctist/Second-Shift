@@ -19,7 +19,7 @@ namespace SecondShiftMobile.Enemies
             : base(Doc, Doc.LoadTex("Characters/Enemies/Guard/Stand"), x, y, z)
         {
             Faction = SecondShiftMobile.Faction.Evil;
-            health = maxHealth = 80;
+            health = maxHealth = 100;
             StandSprite = Texture;
             RunAnimation = Doc.LoadAnimation("Characters/Enemies/Guard/Run", "run", 0, 3);
             topSpeed = 9;
@@ -32,8 +32,8 @@ namespace SecondShiftMobile.Enemies
                 WaitTime = 60,
                 TimeOut = 60,
                 HitBox = new Rectangle(80, 52, 47, 70),
-                KnockBack = false
             });
+            AddCombo(normalCombo);
             ChangeCurrentCombo(normalCombo);
             Active = true;
             DashGroundSprite = Doc.LoadTex("Characters/Enemies/Guard/Dash");
@@ -43,12 +43,12 @@ namespace SecondShiftMobile.Enemies
             Bevel = true;
         }
         Rectangle recIntersection = Rectangle.Empty;
-        public override bool Attacked(Attack attack, Obj obj, Rectangle AttackBox, Rectangle intersection)
+        protected override bool AttackedOverride(Attack attack, Obj obj, Rectangle AttackBox, Rectangle intersection)
         {
             recIntersection = intersection;
 
             attackWaitTimer += attack.Power;
-            return base.Attacked(attack, obj, AttackBox, intersection);
+            return base.AttackedOverride(attack, obj, AttackBox, intersection);
         }
         protected override void Die(Attack attack, Obj obj, Rectangle intersection)
         {
@@ -77,96 +77,99 @@ namespace SecondShiftMobile.Enemies
         }
         public override void Update()
         {
-            if (player == null || !player.Active || player.RemoveCalled)
+            if (!IsNetworkControlled)
             {
-                var objs = doc.FindObjects<CombatObj>();
-                var dist = float.MaxValue;
-                foreach (var o in objs)
+                if (player == null || !player.Active || player.RemoveCalled || (player.Pos - Pos).Length() > 200)
                 {
-                    if (o != this && o.Faction != SecondShiftMobile.Faction.Evil)
+                    var objs = doc.FindObjects<CombatObj>();
+                    var dist = float.MaxValue;
+                    foreach (var o in objs)
                     {
-                        var tDist = (o.Pos - Pos).Length();
-                        if (tDist < dist)
+                        if (o != this && o.Faction != SecondShiftMobile.Faction.Evil)
                         {
-                            dist = tDist;
-                            player = o;
+                            var tDist = (o.Pos - Pos).Length();
+                            if (tDist < dist)
+                            {
+                                dist = tDist;
+                                player = o;
+                            }
                         }
                     }
                 }
-            }
-            else
-            {
-                if (Math.Abs(player.Pos.X - Pos.X) < 1500 && Math.Abs(player.Pos.Y - Pos.Y) < 400 && OnTheGround)
+                if (player != null)
                 {
-                    if (Math.Abs(player.Pos.X - Pos.X) < 140 && Math.Abs(player.Pos.X - Pos.X) > 30 && player.AttackState == SecondShiftMobile.AttackState.Starting && AttackState < AttackState.Hitting && !Dashing && !IsHurt)
+                    if (Math.Abs(player.Pos.X - Pos.X) < 1500 && Math.Abs(player.Pos.Y - Pos.Y) < 400 && OnTheGround)
                     {
-                        int r = rand.Next(6);
-                        if (r == 0)
+                        if (Math.Abs(player.Pos.X - Pos.X) < 140 && Math.Abs(player.Pos.X - Pos.X) > 30 && player.AttackState == SecondShiftMobile.AttackState.Starting && AttackState < AttackState.Hitting && !Dashing && !IsHurt)
                         {
-                            r = rand.Next(2);
-                            if (player.Pos.X > Pos.X)
+                            int r = rand.Next(6);
+                            if (r == 0)
                             {
-                                if (r == 0)
+                                r = rand.Next(2);
+                                if (player.Pos.X > Pos.X)
                                 {
-                                    DashLeft(20);
+                                    if (r == 0)
+                                    {
+                                        DashLeft(20);
+                                    }
+                                    else
+                                    {
+                                        DashRight(20);
+                                    }
                                 }
                                 else
                                 {
-                                    DashRight(20);
+                                    if (r == 0)
+                                    {
+                                        DashRight(20);
+                                    }
+                                    else
+                                    {
+                                        DashLeft(20);
+                                    }
                                 }
+                                EndAttack();
                             }
-                            else 
+                            else if (r == 1)
                             {
-                                if (r == 0)
-                                {
-                                    DashRight(20);
-                                }
-                                else
-                                {
-                                    DashLeft(20);
-                                }
+                                //Jump(15);
                             }
-                            EndAttack();
                         }
-                        else if (r == 1)
+                        if (!Dashing)
                         {
-                            //Jump(15);
-                        }
-                    }
-                    if (!Dashing)
-                    {
-                        if (Math.Min(Math.Abs(player.BoundingBox.X - BoundingBox.Right), Math.Abs(player.BoundingBox.Right - BoundingBox.Left)) > 65)
-                        {
-                            if (player.Pos.X > Pos.X)
-                                MoveRight();
-                            else if (player.Pos.X < Pos.X)
-                                MoveLeft();
-                        }
-                        /*if (Math.Abs(player.Pos.X - Pos.X) < 50)
-                        {
-                            if (player.Pos.X > Pos.X)
-                                MoveLeft();
-                            else if (player.Pos.X < Pos.X)
-                                MoveRight();
-                        }*/
-                    }
-                    if (player.Pos.Y < Pos.Y - 100 && !Attacking)
-                        Jump(10);
-                    if (Math.Min(Math.Abs(player.BoundingBox.X - BoundingBox.Right), Math.Abs(player.BoundingBox.Right - BoundingBox.Left)) < 65 && OnTheGround && !Dashing)
-                    {
-                        attackWaitTimer += PlaySpeed;
-                        if (attackWaitTimer > maxAttackWaitTimer)
-                        {
-                            if (Speed.X < 1)
+                            if (Math.Min(Math.Abs(player.BoundingBox.X - BoundingBox.Right), Math.Abs(player.BoundingBox.Right - BoundingBox.Left)) > 65)
                             {
                                 if (player.Pos.X > Pos.X)
-                                    speedMul = 1;
+                                    MoveRight();
                                 else if (player.Pos.X < Pos.X)
-                                    speedMul = -1;
+                                    MoveLeft();
                             }
-                            NextAttack();
-                            attackWaitTimer = 0;
-                            maxAttackWaitTimer = MyMath.RandomRange(15, 60, rand);
+                            /*if (Math.Abs(player.Pos.X - Pos.X) < 50)
+                            {
+                                if (player.Pos.X > Pos.X)
+                                    MoveLeft();
+                                else if (player.Pos.X < Pos.X)
+                                    MoveRight();
+                            }*/
+                        }
+                        if (player.Pos.Y < Pos.Y - 100 && !Attacking)
+                            Jump(20);
+                        if (Math.Min(Math.Abs(player.BoundingBox.X - BoundingBox.Right), Math.Abs(player.BoundingBox.Right - BoundingBox.Left)) < 65 && OnTheGround && !Dashing)
+                        {
+                            attackWaitTimer += PlaySpeed;
+                            if (attackWaitTimer > maxAttackWaitTimer)
+                            {
+                                if (Speed.X < 1)
+                                {
+                                    if (player.Pos.X > Pos.X)
+                                        speedMul = 1;
+                                    else if (player.Pos.X < Pos.X)
+                                        speedMul = -1;
+                                }
+                                NextAttack();
+                                attackWaitTimer = 0;
+                                maxAttackWaitTimer = MyMath.RandomRange(15, 60, rand);
+                            }
                         }
                     }
                 }
@@ -180,7 +183,7 @@ namespace SecondShiftMobile.Enemies
                 switch (State)
                 {
                     case PlatformerState.Running:
-                        Framespeed = speed2 * RunFramespeedMultiplier;
+                        Framespeed = Math.Abs(GetMoveSpeed().X) * RunFramespeedMultiplier;
                         break;
                     default:
                         Framespeed = 1;

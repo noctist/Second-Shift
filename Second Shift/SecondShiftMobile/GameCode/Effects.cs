@@ -530,6 +530,7 @@ namespace SecondShiftMobile
                 Parameters["bloom"].SetValue(bloom);
                 Parameters["blurStart"].SetValue(MyMath.BetweenValue(-NearZPlane, -FarZPlane, Depth));
                 Parameters["blurEnd"].SetValue(MyMath.BetweenValue(-NearZPlane, -FarZPlane, Depth + DepthRange));
+
             }
             catch (Exception ex)
             {

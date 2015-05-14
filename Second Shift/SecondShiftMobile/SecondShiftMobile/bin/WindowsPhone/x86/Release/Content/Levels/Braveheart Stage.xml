@@ -22,7 +22,7 @@
   </Object>
   <Object X="28416" Y="-28416" Z="92000" Name="" Type="SecondShiftMobile.Sun">
     <Property Name="Scale" Info="A single float representing scale">1000</Property>
-    <Property Name="BloomWidth" Info="The width of the bloom effect">40</Property>
+    <Property Name="BloomWidth" Info="The width of the bloom effect">160</Property>
     <Property Name="BloomIntensity" Info="The intensity of the bloom effect">1</Property>
     <Property Name="ZoomScale" Info="The scale of the zoom effect">3.5</Property>
   </Object>

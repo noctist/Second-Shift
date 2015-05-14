@@ -15,7 +15,7 @@ namespace SecondShiftMobile.Behaviours
         }
         public override void Update(Obj o)
         {
-            base.Update(o);
+            //base.Update(o);
             if (o.PreviousPos != Vector3.Zero)
             {
                 Vector2 currPos, lastPos;

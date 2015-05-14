@@ -572,8 +572,10 @@ namespace SecondShiftMobile.Cutscenes
     {
         public string Property;
         public Type Type;
+        public List<String> AutoCompleteStrings;
         public ActionContract(string property, Type type)
         {
+            AutoCompleteStrings = new List<string>();
             Property = property;
             Type = type;
         }
@@ -791,7 +793,16 @@ namespace SecondShiftMobile.Cutscenes
         public override List<ActionContract> GetContracts()
         {
             var cons = base.GetContracts();
-            cons.Add(new ActionContract("SongName", typeof(string)));
+            List<string> songs = new List<string>();
+            var files = Directory.GetFiles("Content/Sound/Music", "*.xnb");
+            foreach (var f in files)
+            {
+                if (f.Contains(".xnb"))
+                {
+                    songs.Add(Path.GetFileName(f).Replace(".xnb", "").Trim());
+                }
+            }
+            cons.Add(new ActionContract("SongName", typeof(string)) { AutoCompleteStrings = songs });
             cons.Add(new ActionContract("State", typeof(CutsceneMusicState)));
             cons.Add(new ActionContract("Loop", typeof(CutsceneMusicLoopState)));
             return cons;

@@ -4,9 +4,19 @@
     <FadeType>FadeOut</FadeType>
     <Frames />
   </Action>
+  <Action AutoExecute="true" Type="SetLookDirection" Name="" Animated="true">
+    <Time />
+    <LookDirection>0, 1</LookDirection>
+    <FrameDuration>10</FrameDuration>
+    <EndPower />
+    <StartPower />
+  </Action>
   <Action AutoExecute="true" Type="LoadLevel" ClearObjects="true" Name="">
     <Time />
     <LevelName>TestCity</LevelName>
+  </Action>
+  <Action AutoExecute="true" Type="ResetCamera" Name="">
+    <Time />
   </Action>
   <Action AutoExecute="true" Type="SetObjectProperty" Name="">
     <Time />
@@ -87,6 +97,13 @@
     <Blur>0.015</Blur>
     <Speed>0.05</Speed>
     <StartBlur>0</StartBlur>
+  </Action>
+  <Action AutoExecute="true" Type="SetLookDirection" Name="" Animated="true">
+    <Time />
+    <LookDirection />
+    <FrameDuration>800</FrameDuration>
+    <EndPower>5</EndPower>
+    <StartPower>5</StartPower>
   </Action>
   <Action AutoExecute="true" Type="SetObjectProperty" Name="" Static="true">
     <Time />

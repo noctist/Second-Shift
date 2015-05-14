@@ -40,7 +40,7 @@ namespace SecondShiftMobile.Behaviours
                 o.Remove();
             }
             o.Alpha = alpha;
-            base.Update(o);
+            //base.Update(o);
         }
     }
 }

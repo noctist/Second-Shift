@@ -567,7 +567,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sun.xnb</Output>
-      <Time>2015-02-14T14:59:52-05:00</Time>
+      <Time>2015-05-10T23:38:29.2326879-04:00</Time>
     </Item>
     <Item>
       <Source>TestLightPole.png</Source>
@@ -787,9 +787,12 @@
       <Name>Rytard Missle</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
       <Options>None</Options>
       <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Rytard Missle.xnb</Output>
-      <Time>2014-05-15T00:22:45-04:00</Time>
+      <Time>2015-03-12T17:40:28-04:00</Time>
     </Item>
     <Item>
       <Source>Rytard Ship.png</Source>
@@ -1557,13 +1560,121 @@
       <Time>2015-02-02T22:13:44-05:00</Time>
     </Item>
     <Item>
+      <Source>Characters\Carrot\UpAttack.png</Source>
+      <Name>Characters\Carrot\UpAttack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Carrot\UpAttack.xnb</Output>
+      <Time>2015-02-07T01:35:01-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Carrot\BackAttack.png</Source>
+      <Name>Characters\Carrot\BackAttack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Carrot\BackAttack.xnb</Output>
+      <Time>2015-02-07T16:32:55-05:00</Time>
+    </Item>
+    <Item>
+      <Source>ScreenOverlay.png</Source>
+      <Name>ScreenOverlay</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\ScreenOverlay.xnb</Output>
+      <Time>2015-03-12T17:18:22-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Carrot\AirKick.png</Source>
+      <Name>Characters\Carrot\AirKick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Carrot\AirKick.xnb</Output>
+      <Time>2015-04-07T02:12:04-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Samurai\Stand.png</Source>
+      <Name>Characters\Enemies\Samurai\Stand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\Stand.xnb</Output>
+      <Time>2015-04-27T02:23:26-04:00</Time>
+    </Item>
+    <Item>
+      <Source>HitEffects\Blunt.png</Source>
+      <Name>HitEffects\Blunt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\HitEffects\Blunt.xnb</Output>
+      <Time>2015-04-27T00:55:40-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Samurai\Run.png</Source>
+      <Name>Characters\Enemies\Samurai\Run</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\Run.xnb</Output>
+      <Time>2015-04-27T02:24:51-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Samurai\Stab.png</Source>
+      <Name>Characters\Enemies\Samurai\Stab</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\Stab.xnb</Output>
+      <Time>2015-04-27T02:45:34-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Samurai\Dash.png</Source>
+      <Name>Characters\Enemies\Samurai\Dash</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\Dash.xnb</Output>
+      <Time>2015-04-28T00:04:08-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Enemies\Samurai\DashStab.png</Source>
+      <Name>Characters\Enemies\Samurai\DashStab</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Enemies\Samurai\DashStab.xnb</Output>
+      <Time>2015-04-28T00:08:24-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Match\Stand.png</Source>
+      <Name>Characters\Match\Stand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Match\Stand.xnb</Output>
+      <Time>2015-05-03T17:17:27-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\Match\NormalCombo.png</Source>
+      <Name>Characters\Match\NormalCombo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Match\NormalCombo.xnb</Output>
+      <Time>2015-05-03T18:08:36-04:00</Time>
+    </Item>
+    <Item>
       <Source>SpriteFont1.spritefont</Source>
       <Name>SpriteFont1</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\SpriteFont1.xnb</Output>
-      <Time>2013-11-09T19:28:10-05:00</Time>
+      <Time>2015-02-26T13:53:18.2426122-05:00</Time>
     </Item>
     <Item>
       <Source>SpriteFont2.spritefont</Source>
@@ -1661,6 +1772,16 @@
       <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Music\Oden Store.xnb</Output>
       <Extra>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Music\Oden Store.wma</Extra>
       <Time>2014-11-08T14:06:33-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Music\Sanji to Usopp.mp3</Source>
+      <Name>Sound\Music\Sanji to Usopp</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Music\Sanji to Usopp.xnb</Output>
+      <Extra>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Music\Sanji to Usopp.wma</Extra>
+      <Time>2015-02-16T21:04:25.9725133-05:00</Time>
     </Item>
     <Item>
       <Source>Sound\Effects\WallJump.wav</Source>
@@ -1816,13 +1937,40 @@
       <Time>2015-01-27T00:30:21-05:00</Time>
     </Item>
     <Item>
+      <Source>Sound\Effects\mediumkick.wav</Source>
+      <Name>Sound\Effects\mediumkick</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Effects\mediumkick.xnb</Output>
+      <Time>2015-05-03T21:52:02.3427344-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\swordhit.wav</Source>
+      <Name>Sound\Effects\swordhit</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Effects\swordhit.xnb</Output>
+      <Time>2015-05-03T22:02:20.9276234-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Effects\spin.wav</Source>
+      <Name>Sound\Effects\spin</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Sound\Effects\spin.xnb</Output>
+      <Time>2015-05-03T22:07:31.2485054-04:00</Time>
+    </Item>
+    <Item>
       <Source>C:\Users\Chris\Dropbox\Second Shift\SecondShiftMobile\SecondShiftContent\SecondShiftContentContent\Shaders.fx</Source>
       <Name>Shaders</Name>
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Shaders.xnb</Output>
-      <Time>2015-02-14T14:47:49.639012-05:00</Time>
+      <Time>2015-04-21T18:08:59-04:00</Time>
     </Item>
     <Item>
       <Source>Miscellaneous\About.xml</Source>
@@ -1832,24 +1980,6 @@
       <Options>None</Options>
       <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Miscellaneous\About.xnb</Output>
       <Time>2014-09-07T17:54:35-04:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\Carrot\UpAttack.png</Source>
-      <Name>Characters\Carrot\UpAttack</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Carrot\UpAttack.xnb</Output>
-      <Time>2015-02-07T01:35:01-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Characters\Carrot\BackAttack.png</Source>
-      <Name>Characters\Carrot\BackAttack</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Chris\Dropbox\Second Shift\SecondShiftPC\SecondShiftPC\SecondShiftPC\bin\x86\Release\Content\Characters\Carrot\BackAttack.xnb</Output>
-      <Time>2015-02-07T16:32:55-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
